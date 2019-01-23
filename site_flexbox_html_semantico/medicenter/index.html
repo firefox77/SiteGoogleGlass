@@ -4,6 +4,20 @@
 	<meta name="viewport" content="width=device-width, user-scalable=0">
 
 	<link rel="stylesheet" type="text/css" href="assets/css/template.css">
+
+	<script type="text/javascript">
+		window.onload = function(){
+			document.querySelector(".menuMobile").addEventListener("click", function(){
+				if (document.querySelector(".menu nav ul").style.display == 'flex'){
+					document.querySelector(".menu nav ul").style.display = 'none';
+				}else{
+					document.querySelector(".menu nav ul").style.display = 'flex';
+				}
+			});
+		};
+	</script>
+
+
 		<title>MediCenter</title>
 	</head>
 	<body>
@@ -14,6 +28,11 @@
 				</div>
 				<div class="menu">
 					<nav>
+						<div class="menuMobile">
+							<div class="mm_line"></div>
+							<div class="mm_line"></div>
+							<div class="mm_line"></div>
+						</div>
 						<ul>
 							<li class="active"><a href="">Home</a></li>
 							<li><a href="">Home</a></li>
@@ -51,17 +70,7 @@
 					</div>
 					<div class="banner3">
 						<div class="banner_title">Opeing hours</div>
-						<div class="monday">
-							Monday -Friday <span>08:00-17:00</span>		
-						</div>
 						
-						<div class="saturday">				
-							Sunday 08:00-17:00			
-						</div>
-
-						<div class="sunday">				
-							Sunday 08:00-17:00			
-						</div>				
 					</div>					
 				</div>			
 			</div>			
@@ -152,21 +161,77 @@
 					<div class="widget">
 						<div class="widget_title">
 							<div class="widget_title_text">Deparments</div>
-							<div class="widget_title_bar"></div>					
-							...
+							<div class="widget_title_bar"></div>		
 						</div>
-						<div class="widget_body">
-							
+						<div class="widget_body flex">
+							<section class="departments">
+                  <a href="">
+                      <div class="news_thumbnail">
+                          <img src="assets/images/depa.png" />
+                      </div>
+                  </a>
+              </section>
+              <section class="departments">
+                  <a href="">
+                      <div class="news_thumbnail">
+                          <img src="assets/images/depa.png" />
+                      </div>
+                  </a>
+              </section>
+              <section class="departments">
+                  <a href="">
+                      <div class="news_thumbnail">
+                          <img src="assets/images/depa.png" />
+                      </div>
+                  </a>
+              </section>
+              <section class="departments">
+                  <a href="">
+                      <div class="news_thumbnail">
+                          <img src="assets/images/depa.png" />
+                      </div>
+                  </a>
+              </section>
+              <section class="departments">
+                  <a href="">
+                      <div class="news_thumbnail">
+                          <img src="assets/images/depa.png" />
+                      </div>
+                  </a>
+              </section>
+              <section class="departments">
+                  <a href="">
+                      <div class="news_thumbnail">
+                          <img src="assets/images/depa.png" />
+                      </div>
+                  </a>
+              </section>							
 						</div>						
 					</div>
 					<div class="widget">
 						<div class="widget_title">
 							<div class="widget_title_text">Make An Appoinment</div>
-							<div class="widget_title_bar"></div>
-							...					
+							<div class="widget_title_bar"></div>		
 						</div>
 						<div class="widget_body">
-							
+								<div class="make_title">
+	                  Lorem ipsum dolor sit amat, Lorem ipsum dolor sit amat Lorem ipsum dolor.
+	              </div>
+	              <div class="make_info first_make_info">
+	                  <div class="icon"><img src="assets/images/phone.png" /></div>
+	                  <div class="icon_text">by phone: <strong>1-800-643-4300</strong></div>
+	              </div>
+	              <div class="make_info">
+	                  <div class="icon"><img src="assets/images/mail.png" /></div>
+	                  <div class="icon_text">by e-mail: <a href="mailto:medicenter@mail.com">medicenter@mail.com</a></div>
+	              </div>
+	              <div class="make_info">
+	                <div class="icon">
+	                 	<img src="assets/images/page.png" />
+	                </div>
+	                <div class="icon_text">or <a href="">fill in the form</a> on our contact page</div>
+	              </div>
+              </div>							
 						</div>						
 					</div>
 				</aside>
@@ -176,13 +241,44 @@
 			<div class="container flexColumn">
 				<div class="footer_menu">
 					<div class="fm_1">
+						<a href="">
+							<div class="footer_box_title">
+								Health Insurance
+							</div>							
+							<div class="footer_box_desc">
+								<div>Here in medicenter we have individual</div>
+								<div class="icon_flecha">
+									<img src="assets/images/flecha.png">
+								</div>								
+							</div>
+						</a>
 						
 					</div>
 					<div class="fm_2">
-						...
+						<a href="">
+							<div class="footer_box_title">
+								Medical Records
+							</div>							
+							<div class="footer_box_desc">
+								<div>Here in medicenter we have individual</div>
+                <div class="icon_flecha">
+                	<img src="assets/images/flecha.png"/>
+                </div>								
+							</div>
+						</a>
 					</div>
 					<div class="fm_3">
-						...
+						<a href="">
+							<div class="footer_box_title">
+								Online Billing
+              </div>
+              <div class="footer_box_desc">
+                <div>Here in medicenter we have individual</div>
+                <div class="icon_flecha">
+                  <img src="assets/images/flecha.png" />
+                </div>
+              </div>							
+						</a>
 					</div>
 				</div>
 				<div class="footer_area">
@@ -190,11 +286,41 @@
 						<div class="widget">
 							<div class="widget_title">
 								<div class="widget_title_text">Medicenter Clinic</div>
-								<div class="widget_title_bar"></div>
-								...					
+								<div class="widget_title_bar"></div>		
 							</div>
 							<div class="widget_body">
-								
+								<div class="medicenter_text">
+                    Mauris adipiscing mauris fringilla turpis interdum sed pulvinar nisi malesuada individual.
+                </div>
+                <div class="medicenter_contact_title">
+                    Medicenter Clinic
+                </div>
+                <div class="medicenter_cols">
+                    <div>
+                        33 Farlane Street<br />
+                        Keilor East<br />
+                        VIC 30,33, Australia
+                    </div>
+                    <div>
+                        +123 655 655<br />
+                        +123 755 755<br />
+                        medicenter@mail.com
+                    </div>
+                </div>
+                <div class="medicenter_icons">
+                  <div class="medicenter_icons_space">
+                     <img src="assets/images/icon.jpg" />
+                  </div>
+                  <div class="medicenter_icons_space">
+                     <img src="assets/images/icon.jpg" />
+                  </div>
+                  <div class="medicenter_icons_space">
+                     <img src="assets/images/icon.jpg" />
+                  </div>
+                  <div class="medicenter_icons_space">
+                     <img src="assets/images/icon.jpg" />
+                  </div>
+                </div>								
 							</div>						
 						</div>
 					</div>
@@ -202,11 +328,48 @@
 						<div class="widget">
 							<div class="widget_title">
 								<div class="widget_title_text">Latest Posts</div>
-								<div class="widget_title_bar"></div>
-								...					
+								<div class="widget_title_bar"></div>	
 							</div>
 							<div class="widget_body">
-								
+								<div class="lasted_post">
+                  <div class="lasted_title">
+                    <div class="flecha_title">
+                      <img src="assets/images/flecha.png" />
+                    </div>
+                    <div>
+                        Mauris adipiscing mauris fringilla turpis interdum pulvinar nisi malesuada.
+                        <div class="lasted_post_date">
+                        	6 years ago
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="lasted_post">
+                  <div class="lasted_title">
+                    <div class="flecha_title">
+                      <img src="assets/images/flecha.png" />
+                    </div>
+                    <div>
+                        Mauris adipiscing mauris fringilla turpis interdum pulvinar nisi malesuada.
+                        <div class="lasted_post_date">
+                        	6 years ago
+                        </div>
+                    </div>
+                  </div>
+                </div>	
+                <div class="lasted_post">
+                  <div class="lasted_title">
+                    <div class="flecha_title">
+                      <img src="assets/images/flecha.png" />
+                    </div>
+                    <div>
+                        Mauris adipiscing mauris fringilla turpis interdum pulvinar nisi malesuada.
+                        <div class="lasted_post_date">
+                        	6 years ago
+                        </div>
+                    </div>
+                  </div>
+                </div>							
 							</div>						
 						</div>
 					</div>
@@ -214,11 +377,48 @@
 						<div class="widget">
 							<div class="widget_title">
 								<div class="widget_title_text">Latest Tweets</div>
-								<div class="widget_title_bar"></div>
-								...					
+								<div class="widget_title_bar"></div>	
 							</div>
 							<div class="widget_body">
-								
+								<div class="lasted_post">
+                  <div class="lasted_title">
+                    <div class="flecha_title">
+                      <img src="assets/images/flecha.png" />
+                    </div>
+                    <div>
+                        Mauris adipiscing mauris fringilla turpis interdum pulvinar nisi malesuada.
+                        <div class="lasted_post_date">
+                        	6 years ago
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="lasted_post">
+                  <div class="lasted_title">
+                    <div class="flecha_title">
+                      <img src="assets/images/flecha.png" />
+                    </div>
+                    <div>
+                        Mauris adipiscing mauris fringilla turpis interdum pulvinar nisi malesuada.
+                        <div class="lasted_post_date">
+                        	6 years ago
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="lasted_post">
+                  <div class="lasted_title">
+                    <div class="flecha_title">
+                      <img src="assets/images/flecha.png" />
+                    </div>
+                    <div>
+                        Mauris adipiscing mauris fringilla turpis interdum pulvinar nisi malesuada.
+                        <div class="lasted_post_date">
+                        	6 years ago
+                        </div>
+                    </div>
+                  </div>
+                </div>
 							</div>						
 						</div>
 					</div>					
