@@ -113,9 +113,36 @@ hgroup h3{
 	display: flex;
 	flex-direction: row-reverse;	
 }
-.banner_t3 .t3{
+.t3{
 	width: 350px;
 	margin-top: 180px;
-	margin-right: 110px;
+	margin-right: 153px;
 	color: #fff;
+}
+#fazemos{
+	display: flex;
+	background-color: #e1e1e1;
+}
+.fazemos_titulo{
+	display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+.fazemos_titulo h1,
+.fazemos_titulo h3{
+ 	font-weight: bold;
+	color: #4d4848;
+}
+.fazemos_titulo h3{
+	font-size: 20px;
+}
+#fazemos hgroup{
+	display: flex;
+	font-weight: bold;
+	color: #4d4848;
+}
+.img_column,
+.title_column h3 {
+	display: flex;
+	justify-content: center;
 }
