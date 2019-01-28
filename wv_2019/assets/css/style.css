@@ -1,0 +1,121 @@
+@charset "utf-8";
+* {
+	font-family: Arial;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+header{
+	display: flex;
+	justify-content: center;
+	height: 87px;
+	background-color: #000;
+}
+.container{
+	display: flex;
+	justify-content: space-between;
+	width: 1650px !important;			
+	font-weight: bold;
+}
+.container span{
+	color: #c9f500; 	
+}
+.menu{	
+	display: flex;
+	align-items: center;	
+}
+nav ul,
+nav li{
+	list-style: none;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;	
+}
+nav ul{
+	display: flex;
+}
+nav a {
+	display: block;
+	padding: 15px;
+	text-decoration: none !important;
+	text-transform: uppercase;
+	color: #fff;
+}
+nav .active a,
+nav a:hover {
+	/*background-color: #39aae1;*/
+	color: #c9f500;  
+}
+.phones a:hover{
+	color: #c9f500; 
+}
+.phones{
+	display: flex;
+	justify-content: center;	
+}
+.phones ul{
+	display: flex;
+	align-items: center;		
+}
+.phones ul,
+.phones li{	
+	list-style: none;
+	margin: 0;
+	padding: 2px;
+}
+.phones a {
+	display: block;
+	text-transform: uppercase;
+	color: #fff;
+	text-decoration: none !important;	
+}
+#banner{
+	display: flex;
+	background-image: url('../images/fundo.fw.png');
+	justify-content: center;
+	background-position: center;
+	background-size: cover;
+}
+.column{
+	flex-direction: column;
+}
+.banner_logo{
+	display: flex;
+	padding-top: 70px;
+	margin-left: 165px;
+}
+.banner_logo img{
+	height: 135px;
+}
+.banner_textos{
+	display: flex;
+	align-items: flex-end;
+	margin-top: 70px;
+	margin-left: 165px;	
+	color: #fff;
+}
+hgroup{
+	display: flex;
+	align-items: flex-end;	
+}
+hgroup h1,
+h3{
+	font-weight: bold;
+}
+hgroup h1{
+	font-size: 45px;
+}
+hgroup h3{
+	margin-left: 85px;
+}
+.banner_t3{
+	display: flex;
+	flex-direction: row-reverse;	
+}
+.banner_t3 .t3{
+	width: 350px;
+	margin-top: 180px;
+	margin-right: 110px;
+	color: #fff;
+}
