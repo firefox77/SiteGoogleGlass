@@ -1,0 +1,43 @@
+@keyframes position1{0% {top: 0px; left: 50px;} 100% {top:300px; left: 800px;}}
+@keyframes position2{0% {top: 0px; left: 100px;} 100% {top:300px; left: 800px;}}
+@keyframes position3{0% {top: 0px; left: 150px;} 100% {top:300px; left: 800px;}}
+@keyframes position4{0% {top: 0px; left: 200px;} 100% {top:300px; left: 800px;}}
+@keyframes position5{0% {top: 0px; left: 250px;} 100% {top:300px; left: 800px;}}
+@keyframes position6{0% {top: 0px; left: 300px;} 100% {top:300px; left: 800px;}}
+@keyframes position7{0% {top: 0px; left: 350px;} 100% {top:300px; left: 800px;}}
+@keyframes position8{0% {top: 0px; left: 400x;} 100% {top:300px; left: 800px;}}
+@keyframes position9{0% {top: 0px; left: 450px;} 100% {top:300px; left: 800px;}}
+@keyframes position10{0% {top: 0px; left:460px;} 100% {top:300px; left: 800px;}}
+
+body{
+          background: url('terra.jpg') no-repeat;
+     }
+
+          .bola {
+          	width: 100px;
+             position: absolute;
+             
+             animation-duration: 6s;  
+          }
+       .ponto {
+          width: 150px;
+          height: 150px;
+          background-color: #333;
+          float: right;
+          color: #fff; 
+          text-align: center;
+          font-family: arial;
+          font-size: 60pt;
+          line-height: 150px;
+       } 
+
+/* body{
+	background-image: url()
+}
+.bola{
+	width: 50px;
+	height: 50px;
+	background-color: #000;
+	border-radius: 25px;
+	position: absolute;
+}		 */
