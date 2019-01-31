@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, user-scalable=0">
+    <meta name="viewport" content="width=device-width, user-scalable=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
@@ -85,58 +85,29 @@
           <h3>Nossa especialidade é cuidar para que a sua empresa e as suas ideias aconteçam, transformem e apareçam.</h3>          
         </div>
         <div class="fazemos_colunas">          
-          <div class="col-sm-3 cols">
-            <div class="img_column">
-              <img src="assets/images/cel.fw.png">
-            </div>
-            <div class="title_column">
-              <h3>Por que um aplicativo Social e Mobile?</h3>
-            </div>
-            <div class="fazemos_texto_column">
-              <p class="txt_servicos">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum </p>
-              <button type="button" class="btn btn-info">Leia Mais</button> 
-            </div>   
-                     
+          <div class="col-sm-3 cols">            
+            <img src="assets/images/cel.fw.png">         
+            <h3>Por que um aplicativo Social e Mobile?</h3>          
+            <p class="txt_servicos">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum </p>
+            <button type="button" class="btn btn-info">Leia Mais</button>                      
           </div>
-          <div class="col-sm-3 cols">
-            <div class="img_column">
-              <img src="assets/images/monitor.fw.png">
-            </div>
-            <div class="title_column">
-              <h3>Sistemas Web</h3>                  
-            </div>
-            <div class="fazemos_texto_column">
-              <p class="txt_servicos">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum </p>   
-
-              <button type="button" class="btn btn-info">Leia Mais</button> 
-            </div>  
-                    
+          <div class="col-sm-3 cols">            
+            <img src="assets/images/monitor.fw.png">        
+            <h3>Sistemas Web</h3>           
+            <p class="txt_servicos">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum </p>   
+            <button type="button" class="btn btn-info">Leia Mais</button>                    
           </div>
-          <div class="col-sm-3 cols">
-            <div class="img_column">
-              <img src="assets/images/device.fw.png">
-            </div>
-            <div class="title_column">
-              <h3>Criação de Websites</h3>
-            </div>
-            <div class="fazemos_texto_column">          <p class="txt_servicos">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum </p>
-
-            <button type="button" class="btn btn-info">Leia Mais</button> 
-            </div>
-                      
-          </div>  
-          <div class="col-sm-3 cols">
-            <div class="img_column">
-              <img src="assets/images/lupa.fw.png">
-            </div>
-            <div class="title_column">
-              <h3>Marketing de Conversão</h3>
-            </div>
-            <div class="fazemos_texto_column">
-              <p class="txt_servicos">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum </p>
-
-               <button type="button" class="btn btn-info">Leia Mais</button> 
-            </div>                      
+          <div class="col-sm-3 cols">            
+            <img src="assets/images/device.fw.png">           
+            <h3>Criação de Websites</h3>            
+            <p class="txt_servicos">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum </p>
+            <button type="button" class="btn btn-info">Leia Mais</button>                     
+          </div>            
+          <div class="col-sm-3 cols">                   
+            <img src="assets/images/lupa.fw.png">     
+            <h3>Marketing de Conversão</h3>    
+            <p class="txt_servicos">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum </p>
+            <button type="button" class="btn btn-info">Leia Mais</button>                                
           </div>              
         </div>                 
       </div>           
