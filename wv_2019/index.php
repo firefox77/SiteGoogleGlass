@@ -109,9 +109,216 @@
             <p class="txt_servicos">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum </p>
             <button type="button" class="btn btn-info">Leia Mais</button>                                
           </div>              
-        </div>                 
+        </div>                       
       </div>           
     </section>
+    <section id="geral">
+      <div class="container">
+        <section>
+          <div class="widget">
+            <div class="widget_title">
+              <div class="widget_title_text">
+                <h3>Clientes</h3>
+              </div>
+              <!-- <div class="widget_title_bar"></div>                -->
+            </div>
+            <div class="widget_body flex">
+              <article>
+                <img src="assets/images/clientes/cliente_psdc.fw.png" class="img-responsive">
+              </article>
+              <article>
+                <img src="assets/images/clientes/cli_flex.fw.png" class="img-responsive"> 
+              </article>
+              <article>
+                <img src="assets/images/clientes/cli_grunase.fw.png" class="img-responsive">
+              </article>
+              <article>
+                <img src="assets/images/clientes/cli_mega.fw.png" class="img-responsive">
+              </article>
+              <article>
+                <img src="assets/images/clientes/cli_pag.fw.png" class="img-responsive">
+              </article>
+              <article>
+                <img src="assets/images/clientes/cli_vm.fw.png" class="img-responsive">
+              </article>
+              <article>
+                <img src="assets/images/clientes/cli_nerve.fw.png" class="img-responsive">
+              </article>
+              <article>
+                <img src="assets/images/clientes/cli_confirp.fw.png" class="img-responsive">
+              </article>
+              <article>
+                <img src="assets/images/clientes/cli_dinner.fw.png" class="img-responsive">
+              </article>
+              <article>
+                <img src="assets/images/clientes/cli_arrekade.fw.png" class="img-responsive">
+              </article>
+              <article>
+                <img src="assets/images/clientes/cli_be.fw.png" class="img-responsive">
+              </article>
+              <article>
+                <img src="assets/images/clientes/cli_coca.fw.png" class="img-responsive">
+              </article>
+              <article>
+                <img src="assets/images/clientes/cli_sin.fw.png" class="img-responsive">
+              </article>
+              <article>
+                <img src="assets/images/clientes/cli_gama.fw.png" class="img-responsive">
+              </article>
+              <article>
+                <img src="assets/images/clientes/cli_veridiana.fw.png" class="img-responsive">
+              </article>
+            </div>   
+          </div>
+          <div class="widget" style="background-color: #e6e7e8;">
+            <div class="widget_title">
+              <div class="widget_title_text">
+                <h3>Nossos Produtos</h3>
+              </div>
+              <!-- <div class="widget_title_bar"></div>                -->
+            </div>
+            <div class="widget_body flex">
+              <article>
+                <img src="assets/images/clientes/cliente_psdc.fw.png" class="img-responsive">
+              </article>
+              <article>
+                <img src="assets/images/clientes/cli_flex.fw.png" class="img-responsive"> 
+              </article>
+              <article>
+                <img src="assets/images/clientes/cli_grunase.fw.png" class="img-responsive">
+              </article>
+              <article>
+                <img src="assets/images/clientes/cli_mega.fw.png" class="img-responsive">
+              </article>
+              <article>
+                <img src="assets/images/clientes/cli_pag.fw.png" class="img-responsive">
+              </article>
+              <article>
+                <img src="assets/images/clientes/cli_vm.fw.png" class="img-responsive">
+              </article>
+              <article>
+                <img src="assets/images/clientes/cli_nerve.fw.png" class="img-responsive">
+              </article>
+              <article>
+                <img src="assets/images/clientes/cli_confirp.fw.png" class="img-responsive">
+              </article>
+              <article>
+                <img src="assets/images/clientes/cli_dinner.fw.png" class="img-responsive">
+              </article>
+              <article>
+                <img src="assets/images/clientes/cli_arrekade.fw.png" class="img-responsive">
+              </article>
+              <article>
+                <img src="assets/images/clientes/cli_be.fw.png" class="img-responsive">
+              </article>
+              <article>
+                <img src="assets/images/clientes/cli_coca.fw.png" class="img-responsive">
+              </article>
+              <article>
+                <img src="assets/images/clientes/cli_sin.fw.png" class="img-responsive">
+              </article>
+              <article>
+                <img src="assets/images/clientes/cli_gama.fw.png" class="img-responsive">
+              </article>
+              <article>
+                <img src="assets/images/clientes/cli_veridiana.fw.png" class="img-responsive">
+              </article>
+            </div>   
+          </div>
+          <div class="widget">
+            <div class="widget_title">
+              <div class="widget_title_text">
+                <h3>Agências Parceiras</h3>
+              </div>
+              <!-- <div class="widget_title_bar"></div>                -->
+            </div>
+            <div class="widget_body flex">
+              <article>
+                <img src="assets/images/clientes/cliente_psdc.fw.png" class="img-responsive">
+              </article>
+              <article>
+                <img src="assets/images/clientes/cli_flex.fw.png" class="img-responsive"> 
+              </article>
+              <article>
+                <img src="assets/images/clientes/cli_grunase.fw.png" class="img-responsive">
+              </article>
+              <article>
+                <img src="assets/images/clientes/cli_mega.fw.png" class="img-responsive">
+              </article>
+              <article>
+                <img src="assets/images/clientes/cli_pag.fw.png" class="img-responsive">
+              </article>
+              <article>
+                <img src="assets/images/clientes/cli_vm.fw.png" class="img-responsive">
+              </article>
+              <article>
+                <img src="assets/images/clientes/cli_nerve.fw.png" class="img-responsive">
+              </article>
+              <article>
+                <img src="assets/images/clientes/cli_confirp.fw.png" class="img-responsive">
+              </article>
+              <article>
+                <img src="assets/images/clientes/cli_dinner.fw.png" class="img-responsive">
+              </article>
+              <article>
+                <img src="assets/images/clientes/cli_arrekade.fw.png" class="img-responsive">
+              </article>
+              <article>
+                <img src="assets/images/clientes/cli_be.fw.png" class="img-responsive">
+              </article>
+              <article>
+                <img src="assets/images/clientes/cli_coca.fw.png" class="img-responsive">
+              </article>
+              <article>
+                <img src="assets/images/clientes/cli_sin.fw.png" class="img-responsive">
+              </article>
+              <article>
+                <img src="assets/images/clientes/cli_gama.fw.png" class="img-responsive">
+              </article>
+              <article>
+                <img src="assets/images/clientes/cli_veridiana.fw.png" class="img-responsive">
+              </article>
+            </div>   
+          </div>                                       
+        </section>        
+      </div>
+      <aside>
+        <div class="widget">
+          <div class="widget_title">
+            <div class="widget_title_img">
+              <img src="assets/images/new_wv.fw.png">
+            </div>
+            <!-- <div class="widget_title_bar"></div>     -->
+          </div>
+          <div class="widget_body_sidebar">
+            <section class="departments">
+              <p>Por que devo apostar no Let's Work?
+              Por: Selva salerno em 30/03/2017 em 
+              Agência Interativa</p>
+
+              <p>O Let's Work é um aplicativo criado pela WV_Todoz Agência Interativa que viu no reconhecimento facial uma das vantagens que [...]</p>
+            </section>
+            <section class="departments">
+              <p>Por que devo apostar no Let's Work?
+              Por: Selva salerno em 30/03/2017 em 
+              Agência Interativa</p>
+
+              <p>O Let's Work é um aplicativo criado pela WV_Todoz Agência Interativa que viu no reconhecimento facial uma das vantagens que [...]</p>
+            </section>
+            <section class="departments">
+              <p>Por que devo apostar no Let's Work?
+              Por: Selva salerno em 30/03/2017 em 
+              Agência Interativa</p>
+
+              <p>O Let's Work é um aplicativo criado pela WV_Todoz Agência Interativa que viu no reconhecimento facial uma das vantagens que [...]</p>
+            </section>
+          </div>
+        </div>         
+      </aside>               
+    </section>
+   
+    
+
           
     <!-- Bootstrap core JavaScript
     ================================================== -->

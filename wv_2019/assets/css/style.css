@@ -17,6 +17,7 @@ header{
 	justify-content: space-between;
 	width: 1650px !important;			
 	font-weight: bold;
+	padding: 0;
 }
 .container span{
 	color: #c9f500; 	
@@ -123,6 +124,8 @@ hgroup h3{
 #fazemos{
 	display: flex;
 	background-color: #e1e1e1;
+	height: 583px;
+	border: 1px solid purple;
 }
 .fazemos_titulo{
 	display: flex;
@@ -179,4 +182,123 @@ hgroup h3{
 }
 .fazemos_texto_column p{
 	margin-bottom: 50px;
+}
+#geral{
+	display: flex;
+	justify-content: center;	
+}
+#geral section{
+	flex: 2;
+}
+#geral aside{
+	flex: 1;
+	background-color: #f1f9fb;
+}
+.widget_body{
+	display: flex;	
+	flex-wrap: wrap;
+}
+.widget_body_sidebar{
+	display: flex;
+	flex-direction: column;
+}
+.widget_body article{
+	display: grid;
+	justify-content: center;
+	height: auto;
+	border: 1px solid green;	
+	margin: 10px;
+    padding: 10px;
+}
+
+.widget_title{
+	display: flex;
+	justify-content: center;
+}
+.widget_title_text{
+	color: #797575;
+}
+.widget_title{
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.widget_title_img{
+	/* color: #000;
+	font-size: 21px;
+	font-weight: bold; */
+	width: 420px;
+    height: auto;
+    padding: 20px;
+}
+.widget_title_img img{
+	width: 100%;
+}
+.widget_title_bar{
+	width: 50px;
+	height: 2px;
+	background-color: #36a9e1;
+	margin-top: 10px;
+}
+/* .flex{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	border: 1px solid green;
+} */
+article{
+	flex: 1;
+	min-width: 213px; 
+	margin-right: 20px;
+}
+article a{
+	text-decoration: none;
+}
+/* article .news_data{
+	display: flex;
+} */
+
+/* article .news_comments{
+	background-color: #39aae1;
+	color: #fff;
+	font-size: 12px;
+	padding: 10px; 
+} */
+/* article .news_thumbnail{
+	margin-top: 30px;
+} */
+/* article .news_thumbnail img{
+	width: 100%;
+	height: auto;
+
+} */
+/* article .news_title{
+	margin-top: 25px;
+	margin-bottom: 25px;
+	color: #000;
+	font-size: 23px;	
+} */
+/* article .news_resume{
+	color: #5c5c5c;
+	line-height: 20px;
+	font-size: 14px;
+	margin-bottom: 30px;
+} */
+section .departments {
+    /* flex:1;
+    min-width:100px;
+    margin-right:20px; */
+    padding: 30px;
+}
+
+section .departments a {
+    text-decoration: none;
+}
+
+section .departments .news_thumbnail {
+    margin-top:15px;
+}
+
+section .departments .news_thumbnail img {
+    width:100%;
+    height:auto;
 }
