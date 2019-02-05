@@ -86,24 +86,24 @@
         </div>
         <div class="fazemos_colunas">          
           <div class="col-sm-3 cols">            
-            <img src="assets/images/cel.fw.png">         
+            <img src="assets/images/cel.fw.png" class="img-responsive">         
             <h3>Por que um aplicativo Social e Mobile?</h3>          
             <p class="txt_servicos">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum </p>
             <button type="button" class="btn btn-info">Leia Mais</button>                      
           </div>
           <div class="col-sm-3 cols">            
-            <img src="assets/images/monitor.fw.png">        
+            <img src="assets/images/monitor.fw.png" class="img-responsive">        
             <h3>Sistemas Web</h3>           
             <p class="txt_servicos">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum </p>   
             <button type="button" class="btn btn-info">Leia Mais</button>                    
           </div>
           <div class="col-sm-3 cols">            
-            <img src="assets/images/device.fw.png">           
+            <img src="assets/images/device.fw.png" class="img-responsive">           
             <h3>Criação de Websites</h3>            
             <p class="txt_servicos">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum </p>
             <button type="button" class="btn btn-info">Leia Mais</button>                     
           </div>            
-          <div class="col-sm-3 cols">                   
+          <div class="col-sm-3 cols" style="border-right: none;">                   
             <img src="assets/images/lupa.fw.png">     
             <h3>Marketing de Conversão</h3>    
             <p class="txt_servicos">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum </p>
@@ -115,9 +115,9 @@
     <section id="geral">
       <div class="container">
         <section>
-          <div class="widget">
+          <div class="widget clientes">
             <div class="widget_title">
-              <div class="widget_title_text">
+              <div class="widget_title_text cli">
                 <h3>Clientes</h3>
               </div>
               <!-- <div class="widget_title_bar"></div>                -->
@@ -312,6 +312,48 @@
 
               <p>O Let's Work é um aplicativo criado pela WV_Todoz Agência Interativa que viu no reconhecimento facial uma das vantagens que [...]</p>
             </section>
+            <section class="departments">
+              <p>Por que devo apostar no Let's Work?
+              Por: Selva salerno em 30/03/2017 em 
+              Agência Interativa</p>
+
+              <p>O Let's Work é um aplicativo criado pela WV_Todoz Agência Interativa que viu no reconhecimento facial uma das vantagens que [...]</p>
+            </section>
+            <section class="departments">
+              <p>Por que devo apostar no Let's Work?
+              Por: Selva salerno em 30/03/2017 em 
+              Agência Interativa</p>
+
+              <p>O Let's Work é um aplicativo criado pela WV_Todoz Agência Interativa que viu no reconhecimento facial uma das vantagens que [...]</p>
+            </section>
+            <section class="departments">
+              <p>Por que devo apostar no Let's Work?
+              Por: Selva salerno em 30/03/2017 em 
+              Agência Interativa</p>
+
+              <p>O Let's Work é um aplicativo criado pela WV_Todoz Agência Interativa que viu no reconhecimento facial uma das vantagens que [...]</p>
+            </section>
+            <section class="departments">
+              <p>Por que devo apostar no Let's Work?
+              Por: Selva salerno em 30/03/2017 em 
+              Agência Interativa</p>
+
+              <p>O Let's Work é um aplicativo criado pela WV_Todoz Agência Interativa que viu no reconhecimento facial uma das vantagens que [...]</p>
+            </section>
+            <section class="departments">
+              <p>Por que devo apostar no Let's Work?
+              Por: Selva salerno em 30/03/2017 em 
+              Agência Interativa</p>
+
+              <p>O Let's Work é um aplicativo criado pela WV_Todoz Agência Interativa que viu no reconhecimento facial uma das vantagens que [...]</p>
+            </section>
+            <section class="departments">
+              <p>Por que devo apostar no Let's Work?
+              Por: Selva salerno em 30/03/2017 em 
+              Agência Interativa</p>
+
+              <p>O Let's Work é um aplicativo criado pela WV_Todoz Agência Interativa que viu no reconhecimento facial uma das vantagens que [...]</p>
+            </section>           
           </div>
         </div>         
       </aside>               

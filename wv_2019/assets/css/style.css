@@ -103,6 +103,7 @@ hgroup{
 hgroup h1,
 h3{
 	font-weight: bold;
+	height: 50px;
 }
 hgroup h1{
 	font-size: 45px;
@@ -124,13 +125,16 @@ hgroup h3{
 #fazemos{
 	display: flex;
 	background-color: #e1e1e1;
-	height: 583px;
-	border: 1px solid purple;
+	height: 611px;
+	/* border: 3px solid red; */
 }
 .fazemos_titulo{
 	display: flex;
     flex-direction: column;
     margin-left: 40px;
+    height: 147px;
+    /* border: 3px solid purple; */
+
 }
 .fazemos_titulo h1,
 .fazemos_titulo h3{
@@ -155,23 +159,27 @@ hgroup h3{
 	display: flex;
     /* flex-direction: column; */
     align-items: center;
-    border: 1px solid green;
-    padding: 20px;
+    /* border: 3px solid green; */
+    padding: 27px;
 }
 .cols{
 	display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    border: 1px solid #000;
+    border-right: 1px solid #9e9e9e;
     margin: 10px;
-    padding: 10px;    
+    padding: 10px;
+    max-height: 408px;    
 }
-.cols h3{
+.cols img{
+	max-height: 100px;
+}
+/* .cols h3{
 	display: flex;
 	align-items: center;
 	min-height: 111px;
-}
+} */
 /* .title_column{
 	text-align: center;
 	color: #4d4848;
@@ -193,6 +201,20 @@ hgroup h3{
 #geral aside{
 	flex: 1;
 	background-color: #f1f9fb;
+	border-left: 2px solid #c2c1c0;
+	/* border: 1px solid red; */
+}
+#geral aside,
+.widget_title_img,
+.departments{
+	border-bottom: 2px solid #b5bbbd !important;
+}
+/* .widget{
+	padding-left: 30px;
+} */
+.clientes{
+	height: 582px;
+    /* border: 3px solid green; */
 }
 .widget_body{
 	display: flex;	
@@ -205,10 +227,10 @@ hgroup h3{
 .widget_body article{
 	display: grid;
 	justify-content: center;
-	height: auto;
-	border: 1px solid green;	
-	margin: 10px;
-    padding: 10px;
+	height: 90px;
+	margin-left: 20px;
+	/* border: 1px solid green;	 */
+	
 }
 
 .widget_title{
@@ -220,7 +242,7 @@ hgroup h3{
 }
 .widget_title{
 	margin-top: 30px;
-	margin-bottom: 20px;
+/* 	margin-bottom: 20px; */
 }
 .widget_title_img{
 	/* color: #000;
@@ -229,6 +251,7 @@ hgroup h3{
 	width: 420px;
     height: auto;
     padding: 20px;
+    border-bottom: 2px solid #b5bbbd;
 }
 .widget_title_img img{
 	width: 100%;
@@ -247,11 +270,16 @@ hgroup h3{
 } */
 article{
 	flex: 1;
+	justify-content: center;
 	min-width: 213px; 
 	margin-right: 20px;
+	/* border: 1px solid orange; */
 }
 article a{
 	text-decoration: none;
+}
+article img{
+	height: 80px;
 }
 /* article .news_data{
 	display: flex;
@@ -288,6 +316,7 @@ section .departments {
     min-width:100px;
     margin-right:20px; */
     padding: 30px;
+    border-bottom: 1px solid #b5bbbd;
 }
 
 section .departments a {
