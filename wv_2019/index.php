@@ -170,7 +170,7 @@
               </article>
             </div>   
           </div>
-          <div class="widget" style="background-color: #e6e7e8;">
+          <div class="widget nossos_produtos">
             <div class="widget_title">
               <div class="widget_title_text">
                 <h3>Nossos Produtos</h3>
@@ -225,7 +225,7 @@
               </article>
             </div>   
           </div>
-          <div class="widget">
+          <div class="widget parceiras">
             <div class="widget_title">
               <div class="widget_title_text">
                 <h3>Agências Parceiras</h3>
@@ -353,11 +353,45 @@
               Agência Interativa</p>
 
               <p>O Let's Work é um aplicativo criado pela WV_Todoz Agência Interativa que viu no reconhecimento facial uma das vantagens que [...]</p>
-            </section>           
+            </section>                       
           </div>
         </div>         
       </aside>               
     </section>
+    <section id="equipe">
+       ...      
+    </section>
+    <footer>
+      <div cass="container">
+        <div class="foot_title">
+          UM POR TODOZ E TODOZ POR UM
+        </div>
+        <div class="foot_cols">
+          <div class="form">
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              </div>
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>            
+          </div>
+          <div class="maps">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.5292540297796!2d-46.69140918526471!3d-23.621209969689712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce50bf655b5503%3A0x197c55a990cd1880!2sAv.+Morumbi%2C+8435+-+Santo+Amaro%2C+S%C3%A3o+Paulo+-+SP%2C+04703-003!5e0!3m2!1spt-BR!2sbr!4v1549474173684" width="600" height="450" frameborder="0" style="border:0" allowfullscreen>              
+            </iframe>            
+          </div>          
+        </div>
+      </div>
+    </footer>
    
     
 

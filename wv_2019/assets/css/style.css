@@ -216,6 +216,14 @@ hgroup h3{
 	height: 582px;
     /* border: 3px solid green; */
 }
+.nossos_produtos{	
+	background-color: #e6e7e8;
+	border: 3px solid #e6e7e8;
+}
+.nossos_produtos,
+.parceiras{
+	height: 611px;
+}
 .widget_body{
 	display: flex;	
 	flex-wrap: wrap;
@@ -330,4 +338,17 @@ section .departments .news_thumbnail {
 section .departments .news_thumbnail img {
     width:100%;
     height:auto;
+}
+footer{
+	background-image: url('../images/fundo_footer.fw.png');
+	background-position: center;
+	background-size: cover;
+}
+.foot_title{
+	display: flex;
+	justify-content: center;
+	color: #fff;
+}
+.foot_cols{
+	display: flex;
 }
