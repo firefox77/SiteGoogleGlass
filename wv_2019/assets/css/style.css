@@ -79,7 +79,7 @@ nav a:hover {
 	background-size: cover;
 }
 .column{
-	flex-direction: column;
+	flex-direction: column;	
 }
 .banner_logo{
 	display: flex;
@@ -339,6 +339,10 @@ section .departments .news_thumbnail img {
     width:100%;
     height:auto;
 }
+.equipe{
+	max-width: 1350px !important;
+}
+
 footer{
 	background-image: url('../images/fundo_footer.fw.png');
 	background-position: center;
