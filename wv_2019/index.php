@@ -33,6 +33,7 @@
   </head>
 
   <body>
+    <!--site modelo https://grainandmortar.com/about/-->
     <header>
       <div class="container">
         <div class="menu">
@@ -358,84 +359,47 @@
         </div>         
       </aside>                
     </section>
+    
 
-    <section id="equipe">
-      <div class="container column equipe">
-        <div class="team-title"> 
-          <header class="section-header">
-            <span class="section-sub-title">Group Together</span>            
-            <h2 class="section-title">Our Team</h2>
-            <p class="section-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-          </header>
-        </div>
-        <div class="section-content-wrapper wow fadeInUp">
-          <div class="team-wrapper">
-            <ul class="clearfix">
-              <li class="team-box-item">
-                <div  class="team-image-container">
-                  <figure>
-                    <img src="https://demo.accesspressthemes.com/parallaxsome/wp-content/uploads/2016/11/team-3-230x316.jpg">
-                  </figure>
-                  <div class="team-info-wrapper">
-                    <div vclass="team-info-hover">
-                      <h4 class="team-name">Matt Williams</h4>
-                      <span></span>
-                      <div class="team-bio">
-                        <p>In pri eius ocurreret, no regione conclusionemque vis. Legere nominavi consequat ut per, no vis veniam decore denique</p>                        
-                      </div>                      
-                    </div>                    
-                  </div>                  
-                </div></li>              
-              <li class="team-box-item">
-                <div  class="team-image-container">
-                  <figure>
-                    <img src="https://demo.accesspressthemes.com/parallaxsome/wp-content/uploads/2016/11/team-3-230x316.jpg">
-                  </figure>
-                  <div class="team-info-wrapper">
-                    <div vclass="team-info-hover">
-                      <h4 class="team-name">Matt Williams</h4>
-                      <span></span>
-                      <div class="team-bio">
-                        <p>In pri eius ocurreret, no regione conclusionemque vis. Legere nominavi consequat ut per, no vis veniam decore denique</p>                        
-                      </div>                      
-                    </div>                    
-                  </div>                  
-                </div></li>
-              <li class="team-box-item">
-                <div  class="team-image-container">
-                  <figure>
-                    <img src="https://demo.accesspressthemes.com/parallaxsome/wp-content/uploads/2016/11/team-3-230x316.jpg">
-                  </figure>
-                  <div class="team-info-wrapper">
-                    <div vclass="team-info-hover">
-                      <h4 class="team-name">Matt Williams</h4>
-                      <span></span>
-                      <div class="team-bio">
-                        <p>In pri eius ocurreret, no regione conclusionemque vis. Legere nominavi consequat ut per, no vis veniam decore denique</p>                        
-                      </div>                      
-                    </div>                    
-                  </div>                  
-                </div></li>              
-              <li class="team-box-item">
-                <div  class="team-image-container">
-                  <figure>
-                    <img src="https://demo.accesspressthemes.com/parallaxsome/wp-content/uploads/2016/11/team-3-230x316.jpg">
-                  </figure>
-                  <div class="team-info-wrapper">
-                    <div vclass="team-info-hover">
-                      <h4 class="team-name">Matt Williams</h4>
-                      <span></span>
-                      <div class="team-bio">
-                        <p>In pri eius ocurreret, no regione conclusionemque vis. Legere nominavi consequat ut per, no vis veniam decore denique</p>                        
-                      </div>                      
-                    </div>                    
-                  </div>                  
-                </div></li>                   
-            </ul>            
-          </div>          
-        </div>        
-      </div>       
-    </section>         
+    <section id="equipe" class="page-list Array" style="background-color: orange;">
+      <div class="container one-third padding">
+        <a href="#" class="column anim delay-400 team-preview ajax"> 
+          <div class="employee-info-overlay"> 
+            <div class="content"> 
+              <p class="h3">Cynthia Akao</p> 
+              <p class="h6">Partner &amp; Operations Director</p> 
+            </div> 
+          </div> 
+          <div class="preview-image anim delay-500"> 
+            <div class="image"> 
+              <figure id="8882" class="progressive_image totally-loaded" style="max-width:800px;" itemtype="http://schema.org/ImageObject">
+                <div class="aspect_ratio_placeholder" style="max-width:800px;">
+                    <div class="aspect_ratio_fill" style="padding-bottom:100%;"></div>
+                  <div class="progressiveMedia is-imageLoaded" style="max-width:800px;">
+                    <img src="https://grainandmortar.com/wp-content/uploads/2015/09/new-kristin-76x76.jpg" class="low-quality-image" style="max-width:800px;" itemscope="contentUrl" content="">
+                    <picture src="/wp-content/uploads/2015/09/new-kristin-640x640.jpg">
+                      <source srcset="/wp-content/uploads/2015/09/new-kristin.jpg" media="(min-width:1023px), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)">
+                      <source srcset="/wp-content/uploads/2015/09/new-kristin.jpg" media="(min-width:1023px)">
+                      <source srcset="/wp-content/uploads/2015/09/new-kristin.jpg" media="(max-width:640px), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)">
+                      <source srcset="/wp-content/uploads/2015/09/new-kristin-640x640.jpg" media="(max-width:640px)">
+                      <img srcset="/wp-content/uploads/2015/09/new-kristin-640x640.jpg" alt="…">
+                    </picture>
+                    <noscript>
+                      <img class="progressiveMedia-noscript js-progressiveMedia-inner" src="/wp-content/uploads/2015/09/new-kristin.jpg" data-action="zoom"/>
+                    </noscript>
+                  </div>
+                </div>
+              </figure>
+            </div>
+          </div> 
+          <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="800" height="800">
+        </a>       
+      </div>         
+    </section>
+
+
+
+
     <footer>
       <div cass="container">
         <div class="foot_title">

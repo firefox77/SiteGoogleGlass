@@ -1,4 +1,5 @@
 <?php 
- 	include 'contato.class.php';
+include ('contato.class.php');
 
-	$contato = new Contato();
+$contato = new Contato();
+
