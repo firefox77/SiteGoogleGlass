@@ -3,17 +3,17 @@ class contato {
 	
 	private $pdo;
 
-	public function __construct(){	
-		$this->pdo = new PDO("mysql:dbname=crudoo;host=localhost", "root", "senha");		
+	public function __construct(){
+		$this->pdo = new PDO("mysql:dbname=crudoo;host=localhost", "root", "senha");
+		/*$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);*/
 	}
-
-	
+			
 	//Create
 	public function adicionar($email, $nome = ''){
 		// 1 passo = verificar se o email já existe no sistema
 		// 2 passo = adicionar
 
-		if($this->existeEmail($email) == true){
+		if($this->existeEmail($email) == false){
 			$sql = "INSERT INTO contatos (nome, email) VALUES (:nome, :email)";
 			$sql = $this->pdo->prepare($sql);
 			$sql->bindValue(':nome', $nome);
@@ -24,8 +24,7 @@ class contato {
 		}else{
 			return false;
 		}
-	}
-	
+	}	
 	//Read
 	public function getNome($email){
 		$sql = "SELECT nome FROM contatos WHERE email = :email";
@@ -51,7 +50,6 @@ class contato {
 			return array();
 		}
 	}
-
 	//UPDATE
 	public function editar($nome, $email){
 		if($this->existeEmail($email) == true){
@@ -67,7 +65,13 @@ class contato {
 		}
 	}
 	//DELETE
-	public function excluir($id){
+	public function excluirPeloEmail($email){
+		$sql = "DELETE FROM contatos WHERE email = :email";
+		$sql = $this->pdo->prepare($sql);
+		$sql->bindValue(':email', $email);
+		$sql->execute();		
+	}
+	public function excluirPeloId($id){
 		$sql = "DELETE FROM contatos WHERE id = :id";
 		$sql = $this->pdo->prepare($sql);
 		$sql->bindValue(':id', $id);
