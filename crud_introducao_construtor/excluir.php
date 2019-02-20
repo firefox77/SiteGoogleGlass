@@ -9,4 +9,3 @@ if(!empty($_GET['id'])){
 	$contato->excluirPeloId($id);
 }
 header("Location: index.php");
-

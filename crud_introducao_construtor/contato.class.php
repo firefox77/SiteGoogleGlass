@@ -4,8 +4,7 @@ class contato {
 	private $pdo;
 
 	public function __construct(){
-		$this->pdo = new PDO("mysql:dbname=crudoo;host=localhost", "root", "senha");
-		/*$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);*/
+		$this->pdo = new PDO("mysql:dbname=crudoo;host=localhost", "root", "senha");		
 	}
 			
 	//Create
@@ -21,9 +20,9 @@ class contato {
 			$sql->execute();
 
 			return true;
-		}else{
-			return false;
-		}
+		} else {
+			return false;			
+		} 
 	}	
 	//Read
 	public function getNome($email){
