@@ -14,7 +14,7 @@ export default class Motels extends Component {
                     <View style={{ flex: 1 }}>
                         <View style={{position: "relative"}}>
                             <Image style={ styles.image } resizeMode="cover" source={{uri: 'https://www.flexmoteis.com.br/wp-content/uploads/2015/11/73b3f92f2f96a977f87b41d78caf5062.jpg'}} />
-                            /*<Text style={ styles.suiteName }>Suite Luxo com Hidro</Text>*/
+                            /*<Text style={styles.suiteName }>Suite Luxo com Hidro</Text>*/
                         </View>
                         
                         <View style={ styles.captionContainer }>
