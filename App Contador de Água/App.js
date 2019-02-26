@@ -37,10 +37,11 @@ export default class ContadorAgua extends Component{
     let s = this.state;
     s.consumido = 0;
     s.pct = 0;
+    s.status = "ruim! :(";
     this.setState(s);  
 
   }
-
+  
   render() {
     return (
       
@@ -64,12 +65,14 @@ export default class ContadorAgua extends Component{
             <View style= {styles.pctArea}>
               <Text style = {styles.pctText}>{this.state.pct}</Text>
             </View>
-            <View style = {styles.btnArea}>
-              <Button title="Beber 200ml" onPress={this.addCopo} />              
-            </View>
-            <View style = {styles.btnAreaReset}>
-              <Button title="Reset" onPress={this.resetar} />
-            </View>
+            
+              <View style = {styles.btnArea}>
+                <Button title="Beber 200ml" onPress={this.addCopo} />              
+              </View>
+              <View style = {styles.btnAreaReset}>
+                <Button title="Reset" onPress={this.resetar} />
+              </View>
+                     
           </View>
         </ImageBackground>
       </View>
@@ -120,5 +123,10 @@ const styles = StyleSheet.create({
     btnAreaReset:{
       marginTop:30,
       alignItems:'center',  
+    },
+    areaButtons:{
+      flex:1,      
+      justifyContent:'center',
+      flexDirection:'row'
     }
 }); 
