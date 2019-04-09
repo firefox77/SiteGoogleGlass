@@ -1,0 +1,32 @@
+Armazenar valores dentro de variveis
+
+Digite no console do navegador
+
+Para definir uma variavel em js se inicia com var e finaliza com ;
+Definição e cração de variável
+
+variavel
+ nome
+valor
+ Tiago
+
+ var  nome = Tiago
+ 	nome = Tiago
+-----------------------------------
+x=10
+Depois 
+x+1
+O resultado será 
+11
+-----------------------------------
+Outro exemplo
+x + y = 20
+-----------------------------------
+
+Outro possibilidade:
+
+Digite no console:
+alert("Meu nome é: "+nome);
+
+alert("O valor de x é: "+x);
+alert("Ovalor de y é: "+y);
