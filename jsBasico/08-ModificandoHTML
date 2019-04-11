@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Pagina de Teste</title>
+		<meta charset="utf-8">
+		<script type="text/javascript" src="script.js"></script>
+	</head>
+	<body>	
+		<div id="area">Alguma coisa...</div>
+		<br/><br/>
+		<button onclick="this.innerHTML = prompt('Qual o nome do botão?');">Fazer a Ação</button>		
+	</body>
+</html>
