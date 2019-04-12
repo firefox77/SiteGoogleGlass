@@ -1,0 +1,16 @@
+indexOf retorna -1 quando ele não acha o item na lista e retorna 0	quando encontra.
+
+Ao utilizar o IndexOf com if precisa ser como no exemplo a seguir:
+	if(lista.indexOf("feijão") > -1){
+		alert("Tem na Lista");
+	}else{
+		alert("Não tem na lista");
+	}
+
+	é possível verificar essas informações no console do browser.
+
+Para transformar todos os itens de um Array em string
+ lista.join(",");
+
+Para inserir itens novos no seu Array
+ lista.push();
