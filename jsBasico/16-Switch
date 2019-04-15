@@ -1,0 +1,19 @@
+O Switch apesar de ser uma ferramenta bastante importante no js é pouco utilizado.
+
+Exemplo.
+	x = prompt("Qual é o número?");
+
+	switch(x){
+		case "0":
+			alert("X é o 0");
+			break;
+		case "1":
+			alert("X é o 1");
+			break;
+		case "2":
+			alert("X é o 2");
+			break;
+		default:
+			alert("Ninguém foi satisfeito!");
+			break;
+	}

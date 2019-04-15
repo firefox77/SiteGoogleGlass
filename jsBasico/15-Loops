@@ -1,0 +1,22 @@
+Loop While, que quer dizer enquanto.
+
+	Exemplo.
+		var x = 0;
+
+		document.write("Iniciando o Loop...<br/><br/>");
+
+		while(x < 10){
+			document.write("Numero: "+x+"<br/>");
+
+			x++;
+		}
+
+		document.write("<br/>Finalizando o Loop...<br/>");
+
+------------------------------------------------------------
+
+Loop For obs. No for eu defino a variavel, determino a condição, auto incremento, depois jogo na tela
+
+	for(x = 0; x < 10; x++){
+		document.write("Numero "+x+"<br/>");
+	}

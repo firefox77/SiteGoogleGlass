@@ -1,0 +1,19 @@
+var nome = "Tiago";
+
+O if funciona verificando se alguma coisa é verdadeira. Se for verdadeira, ele roda um bloco de código, cas contrário ele roda outro bloco de código ou não roda nada.
+
+exemplo. 
+	if(nome == "Tiago"){
+		alert("Esse é o meu nome!");	
+	}else{
+		alert("Esse não é meu nome!");
+	}
+
+Outro exemplo.
+	var x = 10;
+	if(x <= 10 ){
+		alert("Número digitado é menor que 5!")
+
+	}ele{
+
+	}
