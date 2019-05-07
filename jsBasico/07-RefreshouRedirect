@@ -1,6 +1,6 @@
 Quando quero atualizar minha pagina, na verdade o js manda para a mesma pagina, e por isso que ele atualiza a pagina. 
 
-o comando window.location.href = 'http://www.google.com.br';(teste para direcionar para uma pagina esterna)
+o comando window.location.href = 'http://www.google.com.br';(teste para direcionar para uma pagina externa)
 
 window.location.href = window.location.href;
 (serve para atualizar a pagina. Ele redireciona para a própria pagina.)

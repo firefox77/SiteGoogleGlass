@@ -1,0 +1,24 @@
+Eventos de formulário:
+
+eventos especificos para formulários
+
+<form method="POST">
+	<input type="text" name="nome" /><br/> <br/>
+
+	<select name="cidade">
+		<option>São Paulo</option>
+		<option>Rio de Janeiro</option>
+		<option>Belo Horizonte</option>
+		<option>Recife</option>
+	</select><br/><br/>
+
+	<input type="submit" value="Enviar">
+</form>
+
+
+
+eventos:
+
+onfocus="focou()" 
+onblur="desfocou()"
+onsubmit="return false" (para bloquear envio)

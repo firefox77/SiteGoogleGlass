@@ -1,0 +1,15 @@
+function apertouTecla(event){
+	console.log("APERTOU ALGUMA TECLA: "+event.keyCode);
+
+}
+function apertouTecla(event){
+	if(event.shiftKey == true){
+		console.log("Apertou alguma tecla com shift...");
+	}	
+}
+
+function apertouTecla(event){
+	if(event.shiftkey == true && event.keycode == 69){
+		console.log("Apertou SHIFT + E");
+	}
+}

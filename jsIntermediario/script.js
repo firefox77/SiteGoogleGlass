@@ -112,20 +112,85 @@ function resetar(){
 
 	var r = Math.floor(Math.random() * 100);
 	document.getElementById("n1").innerHTML = r;	
+}
+------------------------------------------
+*/
+
+
+/*Eventos de teclado
+
+	function apertouMouse(){
+		console.log("APERTOU O MOUSE!");
+	}
+	function soltouMouse(){
+		console.log("SOLTOU O MOUSE!");
+	}
+	function mouseEmCima(){
+		console.log("MOUSE PASSOU POR CIMA!");
+	}
+	function mouseSaiuDeCima(){
+		console.log("MOUSE SAIU DE CIMA");
+	}
+	function moveuMouse(){
+		console.log("MOUSE FOI MOVIDO");
+	}
+	function clicou(){
+		console.log("CLICOU!");
+	}
+	function botaoDireito(){
+		console.log("BOTAO DIREITO");
+
+		return false;
+	}
+	function cliqueDuplo(){
+		console.log("CLICOU DUAS VEZES...");
+	}
+------------------------------------------
+*/
+
+/*Eventos de teclado
+	function apertouTecla(event){
+		if(event.shiftKey == true){
+			console.log("Apertou alguma tecla com shift...");
+		}	
+	}
+
+	function apertouTecla(event){
+		if(event.shiftkey == true && event.keycode == 69){
+			console.log("Apertou SHIFT + E");
+		}
+	}
+------------------------------------------
+*/
+
+/*Eventos de Página:
+
+
+function carregou(){
+	alert("Pagina carregada");
+}
+-------------------------------------------
+*/
+
+/*function mudouOpcao(objeto){
+	console.log("Selecionou :"+objeto.value);
+}
+function focou(){
+	console.log("Fcou no campo 1");
+}
+function desfocou(){
+	console.log("Desfocou do campo1");
 }*/
 
-function apertouMouse(){
-	console.log("APERTOU O MOUSE!");
+function addBola(){
+	var bola = document.createElement("div","borda");
+	bola.setAttribute("class","container-fluid bola");
+
+	var p1 = Math.floor(Math.random() * 500);
+	var p2 = Math.floor(Math.random() * 400);
+	bola.setAttribute("style", "left:"+p1+"px;top:"+p2+"px;");
+	bola.setAttribute("onclick", "estourar()");
+
+	document.body.appendChild(bola);
 }
-function soltouMouse(){
-	console.log("SOLTOU O MOUSE!");
-}
-function mouseEmCima(){
-	console.log("MOUSE PASSOU POR CIMA!");
-}
-function mouseSaiuDeCima(){
-	console.log("MOUSE SAIU DE CIMA");
-}
-function moveuMouse(){
-	console.log("MOUSE FOI MOVIDO");
-}
+
