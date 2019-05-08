@@ -1,0 +1,37 @@
+<style>
+	.bola{
+		width: 50px;
+		height: 50px;
+		background-color: #000000;
+		border: 1px solid red;
+		border-radius: 25px;
+		position: absolute;
+	}
+</style>
+
+<body>
+
+</body>
+
+-------------------------------------
+JS
+
+function addBola(){
+	var bola = document.createElement("div",);
+	bola.setAttribute("class","bola");
+
+	var p1 = Math.floor(Math.random() * 500); (largura)
+	var p2 = Math.floor(Math.random() * 400); (altura)
+	bola.setAttribute("style", "left:"+p1+"px;top:"+p2+"px;");
+	bola.setAttribute("onclick", "estourar()");
+
+	document.body.appendChild(bola);
+}
+
+a função Math.floor() serve para exiber números inteiros. A redonda para menos.
+
+a função Math.random() * algum número, no exemplo 500, serve para exibir números aleatórios.
+
+juntando as duas a sintaxe fica assim:
+   
+   Math.floor(Math.random() * 500);

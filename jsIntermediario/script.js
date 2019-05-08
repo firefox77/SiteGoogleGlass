@@ -183,14 +183,18 @@ function desfocou(){
 }*/
 
 function addBola(){
-	var bola = document.createElement("div","borda");
-	bola.setAttribute("class","container-fluid bola");
-
+	var bola = document.createElement("div",);
+	bola.setAttribute("class","bola");
 	var p1 = Math.floor(Math.random() * 500);
-	var p2 = Math.floor(Math.random() * 400);
-	bola.setAttribute("style", "left:"+p1+"px;top:"+p2+"px;");
-	bola.setAttribute("onclick", "estourar()");
+	var p2 = Math.floor(Math.random() * 350);
+	bola.setAttribute("style", "left:"+p1+"px; top:"+p2+"px;");
+	bola.setAttribute("onclick", "estourar(this)");
 
-	document.body.appendChild(bola);
+	document.body.appendChild(bola); //add elemento na tela
 }
-
+function estourar(elemento){
+	document.body.removeChild(elemento); //remove o elemento da tela
+}
+/*function iniciar(){
+	setInterval(addBola, 1000);
+}*/
