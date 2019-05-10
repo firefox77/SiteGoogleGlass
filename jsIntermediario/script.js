@@ -185,15 +185,19 @@ function desfocou(){
 function addBola(){
 	var bola = document.createElement("div",);
 	bola.setAttribute("class","bola");
-	var p1 = Math.floor(Math.random() * 500);
-	var p2 = Math.floor(Math.random() * 350);
-	bola.setAttribute("style", "left:"+p1+"px; top:"+p2+"px;");
-	bola.setAttribute("onclick", "estourar(this)");
+	var p1 = Math.floor(Math.random() * 1300);
+	var p2 = Math.floor(Math.random() * 420);
+	var idCor = Math.floor(Math.random() * 6);
+	var hd = ["green", "black", "orange", "blue", "pink", "red"]; //cor hexa decimal
+	var cor = hd[idCor];
+	bola.setAttribute("style", "left:"+p1+"px; top:"+p2+"px; background-color:"+cor);
+	bola.setAttribute("onmousemove", "estourar(this)");
 
 	document.body.appendChild(bola); //add elemento na tela
 }
 function estourar(elemento){
 	document.body.removeChild(elemento); //remove o elemento da tela
+	document.getElementById('placar').innerHTML++;
 }
 /*function iniciar(){
 	setInterval(addBola, 1000);

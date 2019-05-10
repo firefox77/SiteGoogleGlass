@@ -7,6 +7,19 @@
 		border-radius: 25px;
 		position: absolute;
 	}
+	#placar{
+		width: 70px;
+		height: 30px;
+		background: lightblue;
+		font-size: 20px;
+		text-align: center;
+		line-height: 30px;
+		border-radius: 5px;
+		position: fixed;
+		top: 0;
+		right: 0;
+		z-index: 999999;
+	}
 </style>
 
 <body>
@@ -26,9 +39,10 @@ function addBola(){
 	bola.setAttribute("onclick", "estourar()");
 
 	document.body.appendChild(bola);
+	document.getElementById('placar').innerHTML++;
 }
 
-a função Math.floor() serve para exiber números inteiros. A redonda para menos.
+a função Math.floor() serve para exiber números inteiros. Arredonda para menos.
 
 a função Math.random() * algum número, no exemplo 500, serve para exibir números aleatórios.
 

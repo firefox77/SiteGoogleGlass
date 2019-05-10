@@ -26,3 +26,24 @@ function botaoDireito(){
 function cliqueDuplo(){
 	console.log("CLICOU DUAS VEZES...");
 }
+
+
+onclick - O evento ocorre quando o usuário clica em um elemento
+
+oncontextmenu -	O evento ocorre quando o usuário clica com o direito em um elemento para abrir um menu de contexto
+
+ondblclick - O evento ocorre quando o usuário clica duas vezes em um elemento
+
+onmousedown - O evento ocorre quando o usuário pressiona um botão do mouse sobre um elemento
+
+onmouseenter - O evento ocorre quando o ponteiro é movido para um elemento
+
+onmouseleave - O evento ocorre quando o ponteiro é movido para fora de um elemento
+
+onmousemove - O evento ocorre quando o ponteiro se move enquanto está sobre um elemento
+
+onmouseover - O evento ocorre quando o ponteiro é movido para um elemento, ou em um de seus filhos
+
+onmouseout - O evento ocorre quando o usuário move o ponteiro do mouse para fora de um elemento, ou fora de um de seus filhos
+
+onmouseup -	O evento ocorre quando o usuário solta o botão do mouse sobre um elemento
