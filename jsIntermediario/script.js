@@ -199,6 +199,6 @@ function estourar(elemento){
 	document.body.removeChild(elemento); //remove o elemento da tela
 	document.getElementById('placar').innerHTML++;
 }
-/*function iniciar(){
+function iniciar(){
 	setInterval(addBola, 1000);
-}*/
+}
