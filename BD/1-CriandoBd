@@ -1,0 +1,7 @@
+O que é banco de dados?
+
+- MySQL(mais popular)
+- 3306 porta de banco de dados.
+
+
+CREATE DATABASE teste321; (forma de criar bd pelo sql)

@@ -182,7 +182,7 @@ function desfocou(){
 	console.log("Desfocou do campo1");
 }*/
 
-function addBola(){
+/*function addBola(){
 	var bola = document.createElement("div",);
 	bola.setAttribute("class","bola");
 	var p1 = Math.floor(Math.random() * 1300);
@@ -201,4 +201,17 @@ function estourar(elemento){
 }
 function iniciar(){
 	setInterval(addBola, 1000);
+}*/
+
+function validar(){
+
+	var valor = document.getElementById("numero").value;
+
+	if(valor.length > 2){
+		alert("Você digitou numero com mais de 2 algarismos!");
+		return false;
+	}else{
+		return true;
+	}
+
 }
