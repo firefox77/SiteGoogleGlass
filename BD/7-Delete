@@ -1,0 +1,7 @@
+Sintaxe:
+
+Exemplos;
+
+DELETE FROM usuarios WHERE id = '3';
+
+DELETE FROM usuarios WHERE email = 'cicrano@gmail.com';
