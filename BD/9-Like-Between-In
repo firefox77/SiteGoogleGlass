@@ -1,0 +1,25 @@
+Sintaxe:
+
+SELECT * FROM usuarios WHERE nome LIKE 'Boni%';
+Leitura(Selecione todos os campos em usuarios onde nome começar com Boni)
+
+O simbolo de porcentagem %, serve como um coringa que me ajuda a saber o que pode vir antes ou depois da porcentagem.
+
+Exemplos:
+
+Like:
+   Boni% - não sei o que vem depois de Boni
+   %Boni% - não sei o que vem antes e depois de Boni.
+
+-----------------------------------------------------------------------
+Between:
+
+SELECT * FROM usuarios WHERE data_nascimento BETWEEN '1984-08-01' AND '1985-09-12'
+
+Leitura(selecionar todos os campos em usuarios onde data de nascimento esteja entre 1984-08-01 e 1985-09-12)
+
+-----------------------------------------------------------------------  
+
+IN:
+
+SELECT * FROM usuarios WHERE id IN (1,3,4,10,120)
