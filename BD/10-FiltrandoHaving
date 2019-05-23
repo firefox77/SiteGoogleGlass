@@ -1,0 +1,7 @@
+SELECT * FROM usuarios WHERE id = '6'; (modo aprendido)
+ No Where o filtro é feito na hora do processamento  
+
+SELECT *, (id+10) as soma FROM usuarios HAVING soma < 15
+  No having o filtro é feito após o processamento.
+
+O having é usado em poucas ocasiões
