@@ -1,3 +1,9 @@
 O GroupBy funciona quando vc quer contabilizar algumas coisas
 
 ex. Quero saber quantas pessoas tem em cada faixa salarial
+
+Uma das formas de saber seria como no exemplo asseguir:
+
+	SELECT COUNT(*) as contagem FROM usuarios WHERE faixa_salarial = '1';
+
+O GROUPBY faz com que consigamos todas essas informações em lougar só, numa consulta só.

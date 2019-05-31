@@ -1,0 +1,18 @@
+Primeiro tipo de relação:
+	1:N (mais comum)
+    	Ex. Uma categoria pode ter varios, muitos produtos.
+
+
+Segundo tipo de relação:
+	1:1
+    	Ex. Um registro de uma tabela esta diretamente relacionado a um registro de outra tabela e vice versa. 
+
+   		A relação é tanto da direta para esquerde e vice versa
+
+Terceiro tipo de relação:
+	N:N (menos cumum de)
+
+
+No banco de dados teste criei uma tabela chamada faixas e nessa tabela inclui duas colunas. Uma com o ID e a outra com o nome de titulo.
+
+Então essa tabela passa a se relacionar com a tabela usuarios 

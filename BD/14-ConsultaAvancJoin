@@ -1,0 +1,11 @@
+Existem basicamente 3 tipos de JOIN
+
+Inner Join
+Left Join
+Right Join
+
+INNER JOIN só exibe os resultados com sucesso. (mais usado)
+
+LEFT JOIN exibe os resultados independente se com sucesso ou não. Ele prioriza os resultados dos usuários da tabela esquerda. Independente da relação ter sido feita ou não. (mais usado)
+
+RIGHT JOIN LEFT JOIN exibe os resultados independente se com sucesso ou não. Ele prioriza os resultados dos usuários da direita. Independente da relação ter sido feita ou não. (pouco usado)
