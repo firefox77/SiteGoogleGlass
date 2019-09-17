@@ -20,57 +20,118 @@
     	body{
     		background: url(assets/imgs/bg.png) repeat;
     	}    	
-    	.container{
-    		display: flex;  
-    		flex-direction: column;  		
-    		/* background: #dcdcdc; */
-    		max-width: 1140px;
-    		    /*margin: auto; */    
-    	}
-    	#topoheader{    		
+    	
+    	#topoheader{
+    		display: flex;
+    		flex-direction: row;
+    		width: 100%;
+    		max-width: 1098px;    		
     		position: relative;
     		background: url(assets/imgs/topo.png) no-repeat;
-    		background-position: 510px 0px;
+    		background-position: 513px 7px;
+    		background-size: 50%; 
+    		/* background: orange; */
+    		margin: auto;     		
     	} 
     	.logo{
     		margin-top: 23px;
-    		width: 485px;
+    		width: 465px;
     		height: auto;
     	}
     	.logo img{
     		filter: invert(10%);
     		box-shadow: 0px 0px 5px #000;
     	}
-    	#meio{
-    		background-color: #ffffff;    		
+    	#busca{
+    		flex: 2;
+    		margin-top: 0px;
     	}
     	.teste{
     		color: #fffff;
     	}
+    	.teste_busca{
+    		padding: 0px;
+		    margin: 0px;
+		    margin-top: 155px;    		
+    	}
+    	.navbar-form{
+    		margin-right: 0px;
+    	}
+    	.containerint{
+    		width: 100%;
+    		max-width: 1098px;
+    		margin: auto;
+    		/* display: flex;  
+    			flex-direction: column;  	 */	
+    		/* background: #dcdcdc; */
+    		/* max-width: 1140px;   */  		
+    	}
+    	.slideshow{
+    		width: 100%;    		    					
+    	}
+
+    	.slideshowint{
+    		width: 100%;
+    		max-width: 1098px;
+    		background: #999;    		
+    		min-height: 428px;
+    	}
+    	#meio{
+    		background: #ffffff;
+    		width: 100%;  
+    		max-width: 1098px;
+    		margin: auto;
+    		padding: 5px;    		
+    	}    	
+    	.menu{
+    		margin-bottom: 5px;
+
+    	}
+    	.menuint{
+    	  		height: 45px;    		
+    	  		background: #e8d100;    		 
+    	  	}  	
+
+    	/* @media only screen and (max-width: 1218px){
+    		#topoheader, .container{
+    			max-width: 890px;
+    		}    		
+    	} */
 
     </style>
   </head>
-  <body>  	
-  	<div class="container">  		
-  		<div id="topoheader" class="row">  			
-  			<div class="logo">
-  				<a><img src="assets/imgs/logo_jovem.jpg" class="img-responsive"></a>
-  			</div>
-  			<div id="busca" style="margin-top: -50px;">
-  				<form class="navbar-form pull-right" action="https://www.democraciacristajovem.org.br/" role="search" id="search">
-                    <div class="input-group">
-                        <input type="text" class="form-control" alue="" name="s" id="srch-term">
-                        <div class="input-group-btn">
-                            <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
-                        </div>
-                    </div>
-                </form>  				
-  			</div>  			
-  		</div>
-  		<div id="meio" class="row teste">
-  			AQUI VAI O CONTEUDO
-  		</div>
-  	</div>   
+  <body>  	 	
+		<div id="topoheader" class="row">  			
+			<div class="logo">
+				<a><img src="assets/imgs/logo_jovem.jpg" class="img-responsive"></a>
+			</div>
+			<div id="busca">
+				<form class="navbar-form pull-right teste_busca" action="https://www.democraciacristajovem.org.br/" role="search" id="search">
+	            <div class="input-group">
+	                <input type="text" class="form-control" alue="" name="s" id="srch-term">
+	                <div class="input-group-btn">
+	                    <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+	                </div>
+	            </div>
+	        </form>  				
+			</div>  			
+		</div>  		
+		<div class="container">
+			<div class="containerint">
+				<div id="meio" class="row">
+					<div class="menu">
+						<div class="menuint">
+							MENU
+						</div>
+					</div>
+					<div class="slideshow">
+						<div class="slideshowint">
+						
+						</div>
+					</div>					
+				</div>
+			</div>			  		
+		</div>   
 
     <!-- jQuery (obrigatório para plugins JavaScript do Bootstrap) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
