@@ -5,6 +5,7 @@
 	src:url("../fonts/bubblegum-sans-regular.otf");
 }
 body{
+	font-family: arial, sans-serif;
 	margin: 0;
 	padding: 0;
 	background-color: #dddddd;
@@ -17,11 +18,18 @@ div#interface{
 	background-color: #fff;
 	margin: auto;
 	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
-	padding: 10px;
+	padding: 10px;	
 }
 p{
 	text-align: justify;
-	text-indent: 50px;
+	/*text-indent: 50px;*/
+}
+a {
+	color: #606060;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
 }
 header#cabecalho{
 	border-bottom: 1px solid #606060;
@@ -47,6 +55,7 @@ header#cabecalho img#icone{
 	position: absolute;
 	left: 920px;
 	top: 60px;
+	z-index: 1;
 }
 
 /* Formataçãop de imagens com legendas */
@@ -111,16 +120,102 @@ nav#menu a:hover{
 	color: #fff;
 }
 section#corpo{
+	width: 500px;
+	border-right: 1px solid #606060;
+	padding-right: 15px;    
+}
+article#noticia-principal h2{
+	font-size: 13pt;
+	color: #606060;
+	background-color: #dddddd;
+	padding: 5px 0px 5px 10px;
+	margin: 10px 0px 10px 0px;
+}
+header#cabecalho-artigo h1{
+	font-family: 'FonteLogo', sans-serif;
+	font-size: 20pt;
+	color: #606060;
+	margin-top: 0px;
+	margin-bottom: 0;
+}
+.direita{
+	text-align: right;
+}
+header#cabecalho-artigo h2{
+	font-size: 16pt;
+	color: #cecece;
+	background-color: #fff;
+	margin: 0px;
+}
+header#cabecalho-artigo h3{
+	font-size: 12pt;
+	color: #606060; 
+}
+table#tabelaspec{	
+	width: 431px;		
+	border: 1px solid #606060;
+	border-spacing: 0px;
+	margin: auto;
+}
+table#tabelaspec td{	
+	border: 1px solid #606060;
+	padding: 10px;
+	text-align: center;
+	vertical-align: middle; 
+}
+table#tabelaspec td.ce{
+	color: #ffffff;
+	background-color: #606060;
+	vertical-align: top;
+	font-weight: bold;
+}
+table#tabelaspec td.cd{
+	background-color: #cececece;
+}
+table#tabelaspec caption{
+	color: #888888;
+	font-size: 13pt;
+	font-weight: bold;
+}
+table#tabelaspec caption span{
 	display: block;
-	float: left;
-	width: 400px;
-}
-aside#lateral{
-	display: block;	
 	float: right;
-	width: 400px;
+	color: #000;
+	font-size: 8pt;
+	margin-top: 10px;
 }
-/* PAREI NA AULA 18*/
+aside#lateral{	
+    width: 350px;   
+    position: absolute;
+    right: 190px;
+    top: 176px;
+    background-color: #dddddd;	
+    padding: 10px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,.5);
+}
+aside#lateral h1{
+	font-family: 'FonteLogo', sans-serif;
+	font-size: 20pt;
+	color: #606060;
+	margin-top: 0px;
+}
+aside#lateral h2{
+	background-color: #606060;
+	font-size: 13pt;
+	color: #ffffff;
+	padding: 5px
+
+}
+footer#rodape{
+	display: flex;
+	justify-content: center;	
+	border-top: 1px solid #606060;	
+}
+footer#rodape p{
+	text-align: center;
+}
+
+/* PAREI NA AULA 23*/
 /*.menu_nav{
 	display: flex;
 	flex-direction: row;
