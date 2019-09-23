@@ -187,7 +187,8 @@ table#tabelaspec caption span{
 aside#lateral{	
     width: 350px;   
     position: absolute;
-    right: 190px;
+    /* right: 190px; */
+    right: 225px;
     top: 176px;
     background-color: #dddddd;	
     padding: 10px;
@@ -221,3 +222,4 @@ footer#rodape p{
 	flex-direction: row;
 	align-items: center;
 }*/
+

@@ -1,14 +1,34 @@
-Google Glass
-A revolução do Google está chegando
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=0">
+		<title>Tudo Sobre o Google Glass</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<script src="assets/js/funcoes.js"></script>
+	</head>
+	
+	<body>
+		<div id="interface">				
+			<header id="cabecalho">
+				<hgroup>
+					<h1>Google Glass</h1>
+					<h2>A revolução do Google está chegando</h2>
+				</hgroup>
 
-[AQUI ENTRA UMA FOTO]
+				<img id="icone" src="assets/images/glass-oculos-preto-peq.png">
 
-Menu Principal
-- Home
-- Especificações
-- Fotos
-- Multimídia
-- Fale conosco
+				<nav id="menu">
+					<h1>Menu Principal</h1>
+					<ul class="menu_nav">
+						<li onmouseover="mudaFoto('assets/images/home.png')" onmouseout="mudaFoto('assets/images/fotos.png')"><a href="index.html">Home</a></li>
+						<li onmouseover="mudaFoto('assets/images/especificacoes.png')" onmouseout="mudaFoto('assets/images/fotos.png')"><a href="specs.html">Especificações</a></li>
+						<li onmouseover="mudaFoto('assets/images/fotos.png')" onmouseout="mudaFoto('assets/images/fotos.png')"><a href="fotos.html">Fotos</a></li>
+						<li onmouseover="mudaFoto('assets/images/multimidia.png')" onmouseout="mudaFoto('assets/images/fotos.png')"><a href="multimidia.html">Multimídia</a></li>
+						<li onmouseover="mudaFoto('assets/images/contato.png')" onmouseout="mudaFoto('assets/images/fotos.png')"><a href="fale-conosco.html">Fale conosco</a></li>						
+					</ul>					
+				</nav>
+			</header>
 
 Glass > Fotos
 Galeria de Imagens do Google Glass
@@ -24,6 +44,11 @@ Veja na nossa galeria de fotos várias belas imagens que mostram algumas das pri
 - Vários tipos de lente
 - Informações importantes
 
-Copyright 2013 - by Gustavo Guanabara
-
-Facebook | Twitter
+<footer id="rodape">
+				<p>Copyright &copy 013 - by Gustavo Guanabar<br/>
+				<a href="http://facebook.com/cursosemvideo" target="_blank">Facebook</a> | 
+				<a href="http://twitter.com/cursosemvideo" target="_blank">Twitter</a></p>
+			</footer>
+		</div>
+	</body>
+</html>
