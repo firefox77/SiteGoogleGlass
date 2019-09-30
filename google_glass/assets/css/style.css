@@ -20,7 +20,8 @@ div#interface{
 	/* display: flex; */
 	/* flex-direction: column; */
 	height: 100%;
-	max-width: 815px;
+	/* max-width: 815px; */
+	max-width: 1030px;
 	background-color: #fff;
 	margin: auto;
 	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
@@ -63,7 +64,9 @@ header#cabecalho h2{
 }
 header#cabecalho img#icone{
 	position: absolute;
-    left: 745px;
+    /* left: 745px; */   
+    /* left: 915px; */ 
+    left: 1022px;
     top: 68px;
     z-index: 1;
 }
@@ -96,17 +99,18 @@ figure.foto-legenda:hover figcaption{
 
 /*Formatação do Menu*/
 
-nav#menu{
+/* nav#menu{
 	display: flex;
 	flex-direction: column;	
-}
+} */
 nav#menu ul{
 	display: flex;	
 	list-style: none;
 	text-transform: uppercase;
 	position: absolute;
 	top: -20px;
-	left: 325px;
+	/* left: 325px; */
+	left: 590px;
 }
 nav#menu li{	
 	background-color: #dddddd;
