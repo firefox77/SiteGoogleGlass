@@ -23,7 +23,7 @@
 define('DB_NAME', 'suporte');
 
 /** Usuário do banco de dados MySQL */
-define('DB_USER', 'root');
+define('DB_USER', 'wvtodoz');
 
 /** Senha do banco de dados MySQL */
 define('DB_PASSWORD', 'senha');
