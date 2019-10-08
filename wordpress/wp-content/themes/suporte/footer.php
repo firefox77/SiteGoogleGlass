@@ -302,7 +302,7 @@
   <!-- Custom scripts for this template -->
   <script src="js/freelancer.min.js"></script>
 
-<?php wp_footer(); ?>
+  <?php wp_footer(); ?>
 </body>
 
 </html>

@@ -23,7 +23,7 @@
 define('DB_NAME', 'suporte');
 
 /** Usuário do banco de dados MySQL */
-define('DB_USER', 'wvtodoz');
+define('DB_USER', 'root');
 
 /** Senha do banco de dados MySQL */
 define('DB_PASSWORD', 'senha');
@@ -36,6 +36,8 @@ define('DB_CHARSET', 'utf8');
 
 /** O tipo de Collate do banco de dados. Não altere isso se tiver dúvidas. */
 define('DB_COLLATE', '');
+
+define('FS_METHOD','direct');
 
 /**#@+
  * Chaves únicas de autenticação e salts.
@@ -83,6 +85,7 @@ $table_prefix = 'wp_';
  * @link https://codex.wordpress.org/pt-br:Depura%C3%A7%C3%A3o_no_WordPress
  */
 define('WP_DEBUG', false);
+
 
 /* Isto é tudo, pode parar de editar! :) */
 

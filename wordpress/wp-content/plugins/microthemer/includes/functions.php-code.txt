@@ -1,0 +1,38 @@
+/* Begin Microthemer Code */
+if (!defined('MT_IS_ACTIVE')) {
+	function add_microthemer_css() {
+		$p = get_option('preferences_themer_loader');
+		$mtv = '?mtv=' . (!empty($p['version']) ? $p['version'] : 1);
+		$mts = '?mts=' . (!empty($p['num_saves']) ? $p['num_saves'] : 0);
+		if (!empty($p['g_fonts_used'])){
+			$google_url = !empty($p['g_url_with_subsets']) ? $p['g_url_with_subsets']
+            : !empty($p['gfont_subset']) ? $p['g_url'].$p['gfont_subset'] : $p['g_url'];
+			$h = 'microthemer_g_font'; wp_register_style($h, $google_url, false); wp_enqueue_style($h);
+		}
+		$r = content_url() . '/micro-themes/'; $css_min = !empty($p['minify_css']) ? 'min.' : '';
+		$h = 'microthemer'; wp_register_style($h, $r.$css_min.'active-styles.css'.$mts); wp_enqueue_style($h);
+		global $is_IE; if ($is_IE) {
+			global $wp_styles; foreach ($p['ie_css']as $key => $cond){
+				if (!empty($key)) {
+					$h = 'tvr_ie_'.$key; wp_register_style($h, $r.$css_min.'ie-'.$key.'.css'.$mts); wp_enqueue_style($h);
+					$wp_styles->add_data($h, 'conditional', $cond);
+				}
+			}
+		}
+		if (!empty($p['load_js'])) {
+			$h = 'mt_user_js'; wp_register_script($h, $r.'active-scripts.js'.$mts); wp_enqueue_script($h);
+		} if (!empty($p['active_events'])) {
+			$h = 'mt_animation_events'; wp_register_script($h, $r.'animation-events.js'.$mtv, array('jquery')); wp_enqueue_script($h);
+			wp_localize_script( $h, 'MT_Events_Data', json_decode($p['active_events']) );
+		}
+	}
+	function add_microthemer_body_classes($classes){
+		global $post; if (isset($post)) {
+			$classes[] = 'mt-'.$post->ID; $classes[] = 'mt-'.$post->post_type.'-'.$post->post_name;
+		}
+		return $classes;
+	}
+	add_action('wp_enqueue_scripts', 'add_microthemer_css', 999999);
+	add_filter( 'body_class', 'add_microthemer_body_classes');
+}
+/* End Microthemer Code */
