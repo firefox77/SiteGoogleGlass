@@ -28,11 +28,11 @@
         </div>
 
         <!-- Footer About Text -->
-        <div class="col-lg-4">
+        <!-- <div class="col-lg-4">
           <h4 class="text-uppercase mb-4">About Freelancer</h4>
           <p class="lead mb-0">Freelance is a free to use, MIT licensed Bootstrap theme created by
             <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
-        </div>
+        </div> -->
 
       </div>
     </div>
