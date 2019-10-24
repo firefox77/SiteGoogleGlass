@@ -102,7 +102,7 @@
     <div class="container">
 
       <!-- Contact Section Heading -->
-      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">RAMAIS</h2>
+      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">RAMAISs</h2>
 
       <!-- Icon Divider -->
       <div class="divider-custom">
@@ -112,7 +112,7 @@
         </div>
         <div class="divider-custom-line"></div>
       </div>
-
+<?php the_content(); ?>
       <!-- Contact Section Form -->
       <div class="row">
         <table class="table table-dark" align="center" style="width: 300px;">
@@ -138,6 +138,11 @@
               <th scope="row">3</th>
               <td>Adriano</td>
               <td>23</td>              
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Denis</td>
+              <td>25</td>              
             </tr>
             <tr>
               <th scope="row">4</th>

@@ -115,7 +115,7 @@
 
       <!-- Contact Section Form -->
       <div class="row">
-        <table class="table table-dark" align="center" style="width: 100%;">
+        <table class="table table-dark" style="width: 100%;">
           <thead>
             <tr>
               <th scope="col">#</th>
@@ -139,10 +139,25 @@
               <td>Adriano</td>
               <td>23</td>              
             </tr>
+             <tr>
+              <th scope="row">3</th>
+              <td>Vazio</td>
+              <td>24</td>              
+            </tr>
+             <tr>
+              <th scope="row">3</th>
+              <td>Denis</td>
+              <td>25</td>              
+            </tr>
             <tr>
               <th scope="row">4</th>
               <td>Cynthia</td>
               <td>26</td>              
+            </tr>
+             <tr>
+              <th scope="row">3</th>
+              <td>Limely</td>
+              <td>27</td>              
             </tr>
           </tbody>
         </table>        

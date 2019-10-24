@@ -23,7 +23,7 @@
     <!-- Navigation -->
 
     <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
-      <img id="icone" src="<?php echo get_stylesheet_directory_uri(); ?>" style="position: absolute; right: 120px; top: 60px;">
+      <img id="icone" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/portfolio/ramal.png" style="position: absolute; right: 120px; top: 60px;">
       <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">Suporte <font style="color: #c0f500;">WV</font></a>
         <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,14 +32,14 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item mx-0 mx-lg-1">
+            <li onmouseover="tiraFoto()" class="nav-item mx-0 mx-lg-1">
               <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Facíleme</a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
               <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">Let'sWork</a>
             </li>
-            <li onmouseover="mudaFoto('/assets/img/portfolio/ramal.png')" onmouseout="tiraFoto()" class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">RAMAIS</a>
+            <li onmouseover="mudaFoto('<?php echo get_stylesheet_directory_uri(); ?>/assets/img/portfolio/ramal.png')" onclick="mudaFoto('<?php echo get_stylesheet_directory_uri(); ?>/assets/img/portfolio/ramal.png'" class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">RAMAIS</a>            
             </li>
           </ul>
         </div>
