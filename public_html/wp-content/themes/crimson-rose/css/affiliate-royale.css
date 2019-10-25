@@ -1,0 +1,162 @@
+/*
+Affiliate Royale styling
+*/
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+#master .affroy_signup_form {
+  margin-bottom: 0;
+}
+
+#master .affroy_signup_form td label {
+  margin: 0;
+}
+
+#master #wafp-dash-wrapper {
+  color: #6d686c;
+}
+
+#master #wafp-dash-wrapper .clippy {
+  display: none;
+}
+
+#master #wafp-stats-graph {
+  margin-bottom: 2em;
+}
+
+#master .wafp-stats-table {
+  border-width: 2px;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-color: #ececec;
+}
+
+#master .wafp-stats-table th {
+  background-color: #f7f7f7;
+  color: #6d686c !important;
+  text-align: left !important;
+}
+
+#master .wafp-stats-table thead th {
+  font-size: 12px;
+  font-size: 0.75rem;
+}
+
+#master .wafp-stats-table th,
+#master .wafp-stats-table td {
+  border-color: #ececec;
+  padding: 20px 5px !important;
+  border-width: 2px;
+  border-left-width: 0;
+  border-right-width: 0;
+}
+
+#master ul.wafp-nav-bar {
+  display: table;
+  width: 100%;
+  margin-bottom: 2em;
+  border-bottom: 2px solid #ececec;
+}
+
+#master ul.wafp-nav-bar > li {
+  display: table-cell;
+  text-align: center;
+}
+
+#master ul.wafp-nav-bar > li.wafp-nav-active {
+  border: 2px solid #ececec;
+  border-bottom-width: 0;
+  position: relative;
+}
+
+#master ul.wafp-nav-bar > li.wafp-nav-active:after {
+  content: " ";
+  position: absolute;
+  bottom: -2px;
+  height: 2px;
+  background-color: #ffffff;
+  left: 0;
+  right: 0;
+}
+
+#master ul.wafp-nav-bar > li a {
+  padding: 1em 0.5em;
+  text-align: center;
+  display: inline-block;
+  font-weight: normal;
+}
+
+#master ul.wafp-link-list {
+  padding: 0;
+}
+
+#master ul.wafp-link-list > li {
+  margin-bottom: 3em;
+  padding-bottom: 3em;
+  border-bottom: 2px solid #ececec;
+}
+
+#master ul.wafp-link-list > li > div {
+  margin-bottom: 0.7em;
+}
+
+#master ul.wafp-link-list > li > *:last-child {
+  margin-bottom: 0;
+}
+
+#master ul.wafp-link-list > li:first-child {
+  padding-top: 3em;
+  border-top: 2px solid #ececec;
+}
+
+#master ul.wafp-link-list > li:last-child {
+  border-bottom-width: 0;
+}
+
+@media screen and (max-width: 700px) {
+  #master ul.wafp-nav-bar {
+    display: block;
+    width: 100%;
+  }
+  #master ul.wafp-nav-bar li {
+    display: block;
+    text-align: center;
+    border-top: 2px solid #ececec;
+    border-right: 2px solid #ececec;
+  }
+  #master ul.wafp-nav-bar li.wafp-nav-active {
+    border-top: 2px solid #ececec;
+    border-right-width: 0;
+    border-left-width: 0;
+    border-bottom-width: 0;
+  }
+  #master ul.wafp-nav-bar li.wafp-nav-active:after {
+    content: "";
+    display: none;
+  }
+  #master ul.wafp-nav-bar li a {
+    display: block;
+    text-decoration: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #master .wafp-stats-table tr:nth-child(2n) {
+    background-color: #f7f7f7;
+  }
+  #master .wafp-stats-table thead th {
+    font-size: 16px;
+    font-size: 1rem;
+  }
+  #master .wafp-stats-table th,
+  #master .wafp-stats-table td {
+    display: block;
+    text-align: center !important;
+    width: 100%;
+    min-height: 72px;
+    border-top-width: 0;
+  }
+}
+
+/*# sourceMappingURL=affiliate-royale.css.map */

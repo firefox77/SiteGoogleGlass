@@ -1,0 +1,417 @@
+.#{$prefix} {
+    @extend %noSelect;
+    font-size: 0;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+    .#{$prefix}-count {
+        display: none;
+        margin-left: 12px;
+    }
+
+    .#{$prefix}-item,
+    .#{$prefix}-count {
+        font-size: $fontSizeDefault;
+        vertical-align: middle;
+    }
+}
+// ===================================================
+// --               hare item
+// ===================================================
+.#{$prefix}-default .#{$prefix}-item,
+.#{$prefix}-square .#{$prefix}-item,
+.#{$prefix}-rounded .#{$prefix}-item {
+    .#{$prefix}-btn { box-shadow: none; }
+}
+
+.#{$prefix}-square-plus {
+    .#{$prefix}-item {
+        margin-right: 5px;
+    }
+}
+
+// ===================================================
+// --       Position fixed mobile - body fix
+// ===================================================
+@media ( max-width: $tablet ) {
+    .#{$prefix}-position-fixed-active {
+        margin-bottom: 44px;
+    }
+}
+
+// ===================================================
+// --          Items position fixed left
+// ===================================================
+.#{$prefix}-fixed {
+    position: fixed;
+    top: 20%;
+    z-index: 999;
+
+    &:not(.#{$prefix}-default) {
+        .#{$prefix}-item .#{$prefix}-counts {
+            width: 48px;
+        }
+    }
+
+    .#{$prefix}-item {
+        display: table;
+        margin-bottom: 0;
+        margin-right: 0;
+
+        .#{$prefix}-button {
+            @extend %brightness;
+            @extend %transitionAll;
+            height: 48px;
+            width: 48px;
+        }
+
+        @media ( max-width: $tablet ) {
+            .#{$prefix}-default,
+            .#{$prefix}-button {
+                height: 44px;
+            }
+        }
+
+        .#{$prefix}-button,
+        .#{$prefix}-default,
+        .#{$prefix}-counts {
+            border-radius: initial;
+            display: table;
+            text-align: center;
+        }
+
+        .#{$prefix}-button span {
+            display: none;
+        }
+
+        .#{$prefix}-count {
+            display: none;
+        }
+
+        .#{$prefix}-button i,
+        .#{$prefix}-default i {
+            display: table-cell;
+        }
+
+        .#{$prefix}-layout-default {
+            background-color: $colorWhite;
+            background: $colorWhite;
+        }
+
+        .#{$prefix}-default {
+            border-radius: 100%;
+            margin: 3px 0 0 2px;
+
+            i {
+                font-size: 20px;
+                height: 40px;
+                width: 40px;
+            }
+
+            &:hover i {
+                color: $colorWhite;
+            }
+        }
+    }
+
+    &.#{$prefix}-default .#{$prefix}-counts {
+        background: transparent;
+
+        span {
+            display: block;
+            font-size: 14px;
+            text-transform: uppercase;
+
+            &:first-child {
+                position: relative;
+                top: 8px;
+            }
+
+            &:last-child {
+                font-size: 8px;
+            }
+        }
+    };
+
+    .#{$prefix}-toggle {
+        @extend %transitionAll;
+        @extend %icon;
+        color: #383838;
+        cursor: pointer;
+        display: none;
+        float: left;
+        font-size: 20px;
+        font-weight: bold;
+        left: 10px;
+        margin: 0;
+        padding: 4px;
+        position: relative;
+        text-align: center;
+        top: 4px;
+    }
+
+    .#{$prefix}-toggle-active {
+        background: #a5a5a5;
+        color: #cecece;
+        left: 0;
+        width: 25px;
+    }
+
+    div[data-element="buttons"] {
+        @extend %transitionAll;
+    }
+
+    @media ( min-width: $tablet ) {
+        .#{$prefix}-button:hover {
+            text-decoration: none;
+        }
+
+        &:hover .#{$prefix}-toggle,
+        .#{$prefix}-toggle-active {
+            display: inline-block;
+        }
+    }
+}
+
+.#{$prefix}-fixed-left .#{$prefix}-item {
+    margin-left: 0;
+}
+
+.#{$prefix}-fixed-right .#{$prefix}-item {
+    margin-left: auto;
+}
+
+.#{$prefix}-fixed-left {
+    left: 0;
+
+    .#{$prefix}-buttons-hide {
+        transform: translateX( -100% );
+    }
+
+    .#{$prefix}-toggle:not(.#{$prefix}-icon-right):before {
+        @extend .#{$prefix}-icon-angle-double-left:before;
+    }
+
+    .#{$prefix}-icon-right {
+        padding: 0 5px;
+
+        &:before {
+            @extend .#{$prefix}-icon-angle-double-right:before;
+        }
+    }
+
+    .#{$prefix}-item {
+        text-align: left;
+    }
+
+    &.#{$prefix}-default .#{$prefix}-counts {
+        margin-left: 5px;
+    }
+
+    .#{$prefix}-toggle-active {
+        border-bottom-right-radius: 4px;
+        border-top-right-radius: 4px;
+    }
+}
+
+.#{$prefix}-fixed-right {
+    right: 0;
+
+    .#{$prefix}-buttons-hide {
+        transform: translateX( 100% );
+    }
+
+    .#{$prefix}-toggle {
+        float: right;
+        left: initial;
+        right: 10px;
+    }
+
+    .#{$prefix}-toggle:not(.#{$prefix}-icon-right):before {
+        @extend .#{$prefix}-icon-angle-double-right:before;
+    }
+
+    .#{$prefix}-icon-right {
+        right: 0;
+        padding: 0 5px;
+
+        &:before {
+            @extend .#{$prefix}-icon-angle-double-left:before;
+        }
+    }
+
+    .#{$prefix}-item {
+        text-align: right;
+    }
+
+    &.#{$prefix}-default .#{$prefix}-counts {
+        margin-right: 5px;
+    }
+
+    .#{$prefix}-toggle-active {
+        border-bottom-left-radius: 4px;
+        border-top-left-radius: 4px;
+    }
+}
+
+.#{$prefix}-fixed {
+    @media ( min-width: $tablet ) {
+        .#{$prefix}-button:hover {
+            box-shadow: none;
+            width: 60px;
+        }
+    }
+}
+
+.#{$prefix}-counts {
+    background: #E3E3E3;
+    color: #757575;
+    font-weight: bold;
+    text-align: center;
+}
+
+.#{$prefix}-total-share {
+    span {
+        font-family: Arial;
+        font-size: 13px;
+    }
+}
+// ===================================================
+// --                  MOBILE
+// ===================================================
+@media ( min-width: $tablet ) {
+    .#{$prefix} {
+        .#{$prefix}-viber {
+            display: none;
+        }
+
+        .#{$prefix}-count {
+            display: inline-block;
+        }
+    }
+}
+
+@media only screen and (min-device-width : $tablet) and (max-device-width : $desktop)  {
+    .#{$prefix} {
+        .#{$prefix}-viber {
+            display: inline-block;
+        }
+    }
+
+    .#{$prefix}-fixed {
+        .#{$prefix}-viber {
+            display: table-cell;
+        }
+     }
+}
+
+@media ( max-width: $mobile ) {
+    .#{$prefix}-item .#{$prefix}-btn span {
+        display: none;
+    }
+}
+
+.#{$prefix}-square-plus {
+
+    .#{$prefix}-total-share {
+        color: #8c8c8c;
+        font-weight: 700;
+        margin: 0 15px 0 0;
+        line-height: 1.5;
+        position: relative;
+
+        .#{$prefix}-shares-count {
+            line-height: .5;
+            text-align: center;
+        }
+
+        .#{$prefix}-shares-text {
+            font-size: 12px;
+
+            &:before {
+                content: attr(data-title);
+            }
+        }
+
+        .#{$prefix}-pipe {
+            font-size: 30px;
+            font-weight: normal;
+            position: absolute;
+            right: -5px;
+            top: -14px;
+            width: 1px;
+
+            &:before {
+                content: attr(data-pipe);
+            }
+        }
+    }
+
+     @media ( max-width: $mobile ) {
+        .#{$prefix}-total-share {
+            display: none;
+        }
+    }
+}
+//===================================================
+// --        Layout Fixed left Mobile
+//===================================================
+@media ( max-width: $tablet ) {
+    .#{$prefix}-fixed {
+        bottom: 0;
+        display: table;
+        left: initial;
+        margin: 0;
+        padding: 0;
+        top: initial;
+        width: 100%;
+
+        .#{$prefix}-fixed-left-container,
+        .#{$prefix}-fixed-right-container {
+            display: table;
+            table-layout: fixed;
+            width: 100%;
+        }
+
+        .#{$prefix}-item {
+            display: table-cell;
+            height: auto;
+            width: auto;
+
+            .#{$prefix}-button {
+                width: 100%;
+            }
+
+            .#{$prefix}-default {
+                border-radius: initial;
+                margin: 0;
+                text-align: center;
+                width: 100%;
+            }
+
+            &:first-child {
+                float: none;
+            }
+        }
+
+        .#{$prefix}-toggle,
+        .#{$prefix}-total-share { display: none; }
+    }
+
+    .#{$prefix} .#{$prefix}-printer {
+        display: none;
+    }
+}
+
+.#{$prefix}-rounded,
+.#{$prefix}-square {
+    .#{$prefix}-item .#{$prefix}-button {
+        color: #555;
+    }
+}
+#post-entry .#{$prefix} {
+    .#{$prefix}-link,
+    .#{$prefix}-button {
+        color: #fff;
+    }
+}

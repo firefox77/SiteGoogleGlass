@@ -1,0 +1,600 @@
+----------02-11-2019 @ 20:09:15----------
+Array
+(
+    [callback] => query_related_themes
+)
+Array
+(
+    [action] => lp_query_items
+    [nonce] => def9ccf9e3
+    [0] => Array
+        (
+            [callback] => query_free_addons
+        )
+
+)
+
+
+=> file      :/home/storage/8/16/82/divulgamaisdanca1/public_html/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------02-11-2019 @ 20:09:13----------
+Array
+(
+    [callback] => query_premium_addons
+)
+Array
+(
+    [action] => lp_query_items
+    [nonce] => def9ccf9e3
+    [0] => Array
+        (
+            [callback] => query_free_addons
+        )
+
+)
+
+
+=> file      :/home/storage/8/16/82/divulgamaisdanca1/public_html/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------02-11-2019 @ 20:09:11----------
+Array
+(
+    [callback] => query_free_addons
+)
+Array
+(
+    [action] => lp_query_items
+    [nonce] => def9ccf9e3
+    [0] => Array
+        (
+            [callback] => query_free_addons
+        )
+
+)
+
+
+=> file      :/home/storage/8/16/82/divulgamaisdanca1/public_html/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------01-30-2019 @ 23:47:02----------
+Array
+(
+    [callback] => query_related_themes
+)
+Array
+(
+    [action] => lp_query_items
+    [nonce] => 65b4c296e6
+    [0] => Array
+        (
+            [callback] => query_free_addons
+        )
+
+)
+
+
+=> file      :/home/storage/8/16/82/divulgamaisdanca1/public_html/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------01-30-2019 @ 23:47:01----------
+Array
+(
+    [callback] => query_premium_addons
+)
+Array
+(
+    [action] => lp_query_items
+    [nonce] => 65b4c296e6
+    [0] => Array
+        (
+            [callback] => query_free_addons
+        )
+
+)
+
+
+=> file      :/home/storage/8/16/82/divulgamaisdanca1/public_html/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------01-30-2019 @ 23:46:59----------
+Array
+(
+    [callback] => query_free_addons
+)
+Array
+(
+    [action] => lp_query_items
+    [nonce] => 65b4c296e6
+    [0] => Array
+        (
+            [callback] => query_free_addons
+        )
+
+)
+
+
+=> file      :/home/storage/8/16/82/divulgamaisdanca1/public_html/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------01-16-2019 @ 13:21:21----------
+Array
+(
+    [callback] => query_related_themes
+)
+Array
+(
+    [action] => lp_query_items
+    [nonce] => 00b3292b36
+    [0] => Array
+        (
+            [callback] => query_free_addons
+        )
+
+)
+
+
+=> file      :/home/storage/8/16/82/divulgamaisdanca1/public_html/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------01-16-2019 @ 13:21:20----------
+Array
+(
+    [callback] => query_premium_addons
+)
+Array
+(
+    [action] => lp_query_items
+    [nonce] => 00b3292b36
+    [0] => Array
+        (
+            [callback] => query_free_addons
+        )
+
+)
+
+
+=> file      :/home/storage/8/16/82/divulgamaisdanca1/public_html/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------01-16-2019 @ 13:21:18----------
+Array
+(
+    [callback] => query_free_addons
+)
+Array
+(
+    [action] => lp_query_items
+    [nonce] => 00b3292b36
+    [0] => Array
+        (
+            [callback] => query_free_addons
+        )
+
+)
+
+
+=> file      :/home/storage/8/16/82/divulgamaisdanca1/public_html/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------01-15-2019 @ 16:43:52----------
+Array
+(
+    [callback] => query_related_themes
+)
+Array
+(
+    [action] => lp_query_items
+    [nonce] => 6d4dd4f043
+    [0] => Array
+        (
+            [callback] => query_free_addons
+        )
+
+)
+
+
+=> file      :/home/storage/8/16/82/divulgamaisdanca1/public_html/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------01-15-2019 @ 16:43:50----------
+Array
+(
+    [callback] => query_premium_addons
+)
+Array
+(
+    [action] => lp_query_items
+    [nonce] => 6d4dd4f043
+    [0] => Array
+        (
+            [callback] => query_free_addons
+        )
+
+)
+
+
+=> file      :/home/storage/8/16/82/divulgamaisdanca1/public_html/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------01-15-2019 @ 16:43:46----------
+Array
+(
+    [callback] => query_free_addons
+)
+Array
+(
+    [action] => lp_query_items
+    [nonce] => 6d4dd4f043
+    [0] => Array
+        (
+            [callback] => query_free_addons
+        )
+
+)
+
+
+=> file      :/home/storage/8/16/82/divulgamaisdanca1/public_html/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------01-14-2019 @ 14:47:15----------
+Array
+(
+    [callback] => query_related_themes
+)
+Array
+(
+    [action] => lp_query_items
+    [nonce] => 65908b77a0
+    [0] => Array
+        (
+            [callback] => query_free_addons
+        )
+
+)
+
+
+=> file      :/home/storage/8/16/82/divulgamaisdanca1/public_html/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------01-14-2019 @ 14:47:14----------
+Array
+(
+    [callback] => query_premium_addons
+)
+Array
+(
+    [action] => lp_query_items
+    [nonce] => 65908b77a0
+    [0] => Array
+        (
+            [callback] => query_free_addons
+        )
+
+)
+
+
+=> file      :/home/storage/8/16/82/divulgamaisdanca1/public_html/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------01-14-2019 @ 14:47:12----------
+Array
+(
+    [callback] => query_free_addons
+)
+Array
+(
+    [action] => lp_query_items
+    [nonce] => 65908b77a0
+    [0] => Array
+        (
+            [callback] => query_free_addons
+        )
+
+)
+
+
+=> file      :/home/storage/8/16/82/divulgamaisdanca1/public_html/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------01-12-2019 @ 21:26:13----------
+Array
+(
+    [callback] => query_related_themes
+)
+Array
+(
+    [action] => lp_query_items
+    [nonce] => e67c81cb56
+    [0] => Array
+        (
+            [callback] => query_free_addons
+        )
+
+)
+
+
+=> file      :/home/storage/8/16/82/divulgamaisdanca1/public_html/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------01-12-2019 @ 21:26:12----------
+Array
+(
+    [callback] => query_premium_addons
+)
+Array
+(
+    [action] => lp_query_items
+    [nonce] => e67c81cb56
+    [0] => Array
+        (
+            [callback] => query_free_addons
+        )
+
+)
+
+
+=> file      :/home/storage/8/16/82/divulgamaisdanca1/public_html/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------01-12-2019 @ 21:26:10----------
+Array
+(
+    [callback] => query_free_addons
+)
+Array
+(
+    [action] => lp_query_items
+    [nonce] => e67c81cb56
+    [0] => Array
+        (
+            [callback] => query_free_addons
+        )
+
+)
+
+
+=> file      :/home/storage/8/16/82/divulgamaisdanca1/public_html/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------01-11-2019 @ 13:57:02----------
+Array
+(
+    [callback] => query_related_themes
+)
+Array
+(
+    [action] => lp_query_items
+    [nonce] => 002cf435fc
+    [0] => Array
+        (
+            [callback] => query_free_addons
+        )
+
+)
+
+
+=> file      :/home/storage/8/16/82/divulgamaisdanca1/public_html/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------01-11-2019 @ 13:57:01----------
+Array
+(
+    [callback] => query_premium_addons
+)
+Array
+(
+    [action] => lp_query_items
+    [nonce] => 002cf435fc
+    [0] => Array
+        (
+            [callback] => query_free_addons
+        )
+
+)
+
+
+=> file      :/home/storage/8/16/82/divulgamaisdanca1/public_html/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------01-11-2019 @ 13:56:59----------
+Array
+(
+    [callback] => query_free_addons
+)
+Array
+(
+    [action] => lp_query_items
+    [nonce] => 002cf435fc
+    [0] => Array
+        (
+            [callback] => query_free_addons
+        )
+
+)
+
+
+=> file      :/home/storage/8/16/82/divulgamaisdanca1/public_html/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------01-10-2019 @ 17:27:23----------
+Array
+(
+    [callback] => query_related_themes
+)
+Array
+(
+    [action] => lp_query_items
+    [nonce] => cd4639cfc4
+    [0] => Array
+        (
+            [callback] => query_premium_addons
+        )
+
+)
+
+
+=> file      :/home/storage/8/16/82/divulgamaisdanca1/public_html/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------01-10-2019 @ 17:27:22----------
+Array
+(
+    [callback] => query_related_themes
+)
+Array
+(
+    [action] => lp_query_items
+    [nonce] => cd4639cfc4
+    [0] => Array
+        (
+            [callback] => query_free_addons
+        )
+
+)
+
+
+=> file      :/home/storage/8/16/82/divulgamaisdanca1/public_html/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------01-10-2019 @ 17:27:21----------
+Array
+(
+    [callback] => query_premium_addons
+)
+Array
+(
+    [action] => lp_query_items
+    [nonce] => cd4639cfc4
+    [0] => Array
+        (
+            [callback] => query_free_addons
+        )
+
+)
+
+
+=> file      :/home/storage/8/16/82/divulgamaisdanca1/public_html/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+
+----------01-10-2019 @ 17:27:21----------
+Array
+(
+    [callback] => query_premium_addons
+)
+Array
+(
+    [action] => lp_query_items
+    [nonce] => cd4639cfc4
+    [0] => Array
+        (
+            [callback] => query_premium_addons
+        )
+
+)
+
+
+=> file      :/home/storage/8/16/82/divulgamaisdanca1/public_html/wp-content/plugins/learnpress/inc/abstracts/abstract-background-process.php
+=> line      :115
+=> function  :add
+=> class     :LP_Debug
+-----------------------------------------
+
+

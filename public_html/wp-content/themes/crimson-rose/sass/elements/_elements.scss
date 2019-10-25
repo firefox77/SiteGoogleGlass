@@ -1,0 +1,68 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after { /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+	box-sizing: inherit;
+}
+
+body {
+	background: $color__background-body; /* Fallback for when there is no custom background color defined. */
+}
+
+html, body {
+	overflow-x: hidden;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: "";
+}
+
+blockquote,
+q {
+	position: relative;
+	quotes: "" "";
+}
+
+blockquote:before {
+	position: absolute;
+	top: -26px;
+	left: -60px;
+	@include rem('font-size',$font__quote_size);
+	content: "\0201C";
+}
+
+@media (max-width: 959px) {
+	blockquote:before {
+		top: -20px;
+		left: -40px;
+		@include rem('font-size',floor(0.875 * $font__quote_size));
+	}
+}
+
+.wp-block-separator,
+hr {
+	background-color: $color__border;
+	border: 0;
+	height: 2px;
+	margin-bottom: 1.5em;
+	max-width: none;
+}
+
+img {
+	height: auto; /* Make sure images are scaled correctly. */
+	max-width: 100%; /* Adhere to container width. */
+}
+
+figure {
+	margin: 2em 0; /* Extra wide images within figure tags don't overflow the content area. */
+}
+
+.genericons-neue {
+	font-size: inherit;
+}

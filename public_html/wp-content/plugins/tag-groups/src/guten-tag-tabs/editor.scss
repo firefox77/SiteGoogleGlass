@@ -1,0 +1,66 @@
+/**
+* #.# Editor Styles
+*
+* CSS for just Backend enqueued after style.scss
+* which makes it higher in priority.
+*/
+
+@keyframes pulse {
+  0% {
+    background-color: #ffffff;
+  }
+  50% {
+    background-color: #cccccc;
+  }
+
+  100% {
+    background-color: #ffffff;
+  }
+}
+
+.chatty-mango-help-icon {
+  margin-left: 5px;
+}
+
+.chatt-mango-inspector-control {
+  .blocks-plain-text {
+    margin-bottom: 10px;
+  }
+
+  .editor-plain-text {
+    border: 1px solid #666;
+    background: #EEE;
+    padding: 1px;
+    margin-bottom: 10px;
+  }
+
+  .Select-control {
+    margin-bottom: 10px;
+  }
+}
+
+.chatty-mango-editor {
+  .cm-gutenberg.dashicons-before::before {
+    line-height: 30px;
+    margin-right: 5px;
+  }
+
+  clear: both;
+}
+
+.chatty-mango-help-transform {
+  // border: 1px solid #999;
+  background-color: #edeff0;
+  padding: 7px;
+}
+
+.chatty-mango-editor {
+      font-size: 16px;
+      font-family: arial, helvetica;
+      line-height: 1.5em;
+}
+
+.chatty-mango-editor h3 {
+      font-size: 20px;
+      font-family: arial, helvetica;
+}

@@ -1,0 +1,52 @@
+.#{$prefix}-description {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.#{$prefix}-admin-notice {
+
+	.notice-dismiss {
+		top: 9px;
+
+		&:before {
+			color: #c00;
+		}
+
+		&:hover:before {
+			color: #b4b9be;
+		}
+	}
+
+	p strong {
+	    color: #555;
+	    text-decoration: underline;
+	}
+}
+.#{$prefix}-layout-options {
+
+	.description {
+		font-size: 11px;
+	}
+}
+
+.#{$prefix}-tr-hide {
+	display: none;
+}
+
+.#{$prefix}-info-error {
+	background-color: #f2dede;
+	border-color: #ebccd1;
+	border-radius: 2px;
+	border: 1px solid transparent;
+	color: #a94442;
+	display: inline-block;
+	margin-bottom: 12px;
+	padding: 6px 0;
+	text-indent: 5px;
+	width: 100%;
+}
+
+.extra-settings-wrap .#{$prefix}-info-error {
+	display: none;
+	font-weight: bold;
+}

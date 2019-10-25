@@ -1,0 +1,47 @@
+table {
+	margin: 0 0 2em;
+	width: 100%;
+
+	th {
+		@include rem('font-size',$font__medium-size);
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+}
+.comment-content,
+.entry-content {
+	> table {
+		border-top: 2px solid $color__border;
+
+		thead th {
+			background-color: $color__lightest-gray;
+		}
+
+		th,
+		td {
+			padding: 20px 12px;
+			border-bottom: 2px solid $color__border;
+			text-align: left;
+		}
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.comment-content,
+	.entry-content {
+		> table {
+			tr:nth-child(2n) {
+				background-color: $color__lightest-gray;
+			}
+			th {
+			}
+			th,
+			td {
+				display: block;
+				text-align:center;
+				width: 100%;
+				min-height: $table__cell-height;
+			}
+		}
+	}
+}

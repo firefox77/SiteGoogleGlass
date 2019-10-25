@@ -1,0 +1,14 @@
+cat_id,cat_name,cat_slug,cat_posttype,cat_parent,cat_schema,cat_description,cat_top_description,cat_image,cat_icon
+4,"Academias de Dança",academia-de-danca,gd_place,,,,,,http://divulgamaisdanca.com.br/wp-content/uploads/2018/05/Feature.png
+5,"Escolas de Dança",escolas,gd_place,,,,,http://divulgamaisdanca.com.br/wp-content/uploads/2018/05/Feature.png,
+6,Hoteis,hoteis,gd_place,,,,,,http://divulgamaisdanca.com.br/wp-content/uploads/2018/05/Hotels.png
+7,Restaurantes,restaurantes,gd_place,,,,,,http://divulgamaisdanca.com.br/wp-content/uploads/2018/05/Restaurants.png
+9,Workshop,workshop,gd_place,,,,,,http://divulgamaisdanca.com.br/wp-content/uploads/2018/05/Feature.png
+10,Videos,videos,gd_place,,,,,,http://divulgamaisdanca.com.br/wp-content/uploads/2018/05/Videos.png
+11,"Festivais de Dança",festivais-de-danca,gd_place,,,,,,http://divulgamaisdanca.com.br/wp-content/uploads/2018/05/Feature.png
+21,Attractions,attractions,gd_place,,,,,,http://divulgamaisdanca.com.br/wp-content/uploads/2018/05/Attractions-1.png
+22,Hotels,hotels,gd_place,,,,,,http://divulgamaisdanca.com.br/wp-content/uploads/2018/05/Hotels-1.png
+23,Restaurants,restaurants,gd_place,,,,,,http://divulgamaisdanca.com.br/wp-content/uploads/2018/05/Restaurants-1.png
+24,"Food Nightlife",food-nightlife,gd_place,,,,,,http://divulgamaisdanca.com.br/wp-content/uploads/2018/05/Food_Nightlife-1.png
+25,Festival,festival,gd_place,,,,,,http://divulgamaisdanca.com.br/wp-content/uploads/2018/05/Festival-1.png
+26,Feature,feature,gd_place,,,,,,http://divulgamaisdanca.com.br/wp-content/uploads/2018/05/Feature-1.png

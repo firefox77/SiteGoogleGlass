@@ -1,0 +1,30 @@
+.#{$prefix}-count {
+    background: #ededed;
+    border-radius: 3px;
+    border: 0;
+    font-family: Arial;
+    font-size: 14px;
+    padding: 0 5px;
+    position: relative;
+    text-align: center;
+
+    &:after {
+        border-color: transparent #ededed transparent transparent;
+        border-style: solid;
+        border-width: 10px;
+        content: '';
+        margin-top: -10px;
+        position: absolute;
+        right: 100%;
+        top: 50%;
+    }
+}
+
+##{$prefix}-container-fixed,
+.#{$prefix} .#{$prefix}-item,
+##{$prefix}-container-square-plus {
+
+    .#{$prefix}-hide {
+        display: none;
+    }
+}

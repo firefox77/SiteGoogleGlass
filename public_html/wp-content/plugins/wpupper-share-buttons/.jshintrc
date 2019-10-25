@@ -1,0 +1,22 @@
+{
+	"laxcomma" : true,
+	"latedef"  : true,
+	"browser"  : true,
+	"eqnull"   : true,
+	"curly"    : true,
+	"undef"    : true,
+	"noarg"    : true,
+	"immed"    : true,
+	"expr"     : true,
+	"sub"      : true,
+	"globals"  : {
+		"Handlebars" : true,
+		"CodeMirror" : true,
+		"console"    : true,
+		"jQuery"     : true,
+		"Toastr"     : true,
+		"WPUSB"      : true,
+		"hljs"       : true,
+		"$"          : true
+	}
+}

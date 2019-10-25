@@ -1,0 +1,52 @@
+.#{$prefix}-menu {
+    border: 0;
+    margin-top: 15px;
+    position: relative;
+    top: -3px;
+    width: 100%;
+
+	ul {
+		font-size: 0;
+		margin: 0;
+		padding: 0;
+	}
+
+	li {
+		@extend %transitionAll;
+		background-color: #fff;
+		border-color: #e2e2e2;
+		border-radius: 3px;
+		border-style: solid;
+		border-width: 1px;
+		display: inline-block;
+		font-size: 12px;
+		line-height: 1em;
+		margin: 0 5px -1px 0;
+		position: relative;
+
+		&.active,
+		&:hover {
+			background-color: $btnColor;
+			border-color: $btnColor;
+
+			a {
+				color: #fff;
+			}
+		}
+	}
+
+	a {
+		box-shadow: none;
+		color: #777;
+		display: block;
+		font-weight: bold;
+		padding: 12px 25px;
+		text-decoration: none;
+	}
+}
+
+.#{$prefix}-settings-wrap .#{$prefix}-menu {
+    display: inline-block;
+    top: 30px;
+    width: auto;
+}

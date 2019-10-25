@@ -1,0 +1,102 @@
+#master .h1,
+#master .h2,
+#master .h3,
+#master .h4,
+#master .h5,
+#master .h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	clear: both;
+	margin: 0;
+	font-weight: bold;
+	line-height: $font__line-height-heading;
+	letter-spacing: 0.07em;
+	-ms-word-wrap: break-word;
+	word-wrap: break-word;
+}
+
+#master .h1,
+h1 {
+	@include rem('font-size',$font__h1-size);
+	font-weight: normal;
+	margin: 50px 0 30px;
+}
+
+#master .h2,
+h2 {
+	@include rem('font-size',$font__h2-size);
+	margin: 50px 0 30px;
+}
+
+#master .h3,
+h3 {
+	@include rem('font-size',$font__h3-size);
+	margin: 50px 0 30px;
+}
+
+#master .h4,
+h4 {
+	@include rem('font-size',$font__h4-size);
+	margin: 50px 0 30px;
+}
+
+#master .h5,
+h5 {
+	@include rem('font-size',$font__h5-size);
+	text-transform: uppercase;
+	margin: 30px 0 20px;
+}
+
+#master .h6,
+h6 {
+	@include rem('font-size',$font__h6-size);
+	text-transform: uppercase;
+	margin: 30px 0 20px;
+}
+
+#master .h1,
+#master .h2,
+#master .h3,
+#master .h4,
+#master .h5,
+#master .h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	&,
+	a:active,
+	a:focus,
+	a:visited,
+	a {
+		color: $color__text-heading;
+	}
+}
+
+@media screen and (min-width: ($size__menu-collapse-width + 1) ) {
+	#master .h1,
+	h1 {
+		// @include rem('font-size',($font__h1-size+7));
+	}
+
+	#master .h2,
+	h2 {
+		// @include rem('font-size',($font__h1-size+6));
+	}
+
+	#master .h3,
+	h3 {
+		// @include rem('font-size',($font__h1-size+4));
+	}
+
+	#master .h4,
+	h4 {
+		// @include rem('font-size',($font__h1-size+3));
+	}
+}

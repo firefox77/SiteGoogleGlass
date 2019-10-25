@@ -1,0 +1,93 @@
+body {
+	background: $color__background-body;
+}
+
+.widgetized-page .site-content .content-widget,
+.site-boundary-no-padding,
+.site-boundary {
+	@include rem('max-width', $size__site-container);
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	@include rem('padding-left', 40px);
+	@include rem('padding-right', 40px);
+}
+
+.site-boundary-no-padding {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#master #tab-description,
+#master #tab-reviews,
+.comments-area .comments-title,
+.comments-area .comment-list,
+.comments-area .comment-respond,
+body:not(.single-post) .entry-footer,
+.entry-author,
+.entry-header,
+#master .entry-content {
+	@include rem('max-width', $size__content-container);
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+#master .display-fullwidth {
+	.site-main,
+	.entry-content {
+		max-width: none;
+	}
+
+	& #master .entry-content > h1 {
+		@include rem('max-width', $size__content-container);
+	}
+}
+
+#master body.display-fullwidth:not(.single-post) .entry-footer {
+	max-width: none;
+}
+
+#master .widgetized-page {
+	.site-content .full-width-bar,
+	.site-content > .site-boundary {
+		max-width: none;
+		margin: 0;
+		display: block;
+		padding: 0;
+	}
+}
+
+.site-padding {
+	@include rem('padding-left', 40px);
+	@include rem('padding-right', 40px);
+}
+
+.site-content {
+	@include rem('padding-top', 50px);
+	@include rem('padding-bottom', 50px);
+	position: relative; // makes the header stay behind the content.
+}
+
+body.widgetized-page {
+	.site-content {
+		@include rem('padding-top', 20px);
+	}
+}
+
+.break-to-full-width {
+	margin-left: -9999rem;
+	margin-right: -9999rem;
+	/* add back negative margin value */
+	padding-left: 9999rem;
+	padding-right: 9999rem;
+}
+
+@media (max-width: 700px) {
+	.widgetized-page .site-content .content-widget,
+	.site-boundary,
+	.site-padding {
+		@include rem('padding-left', 20px);
+		@include rem('padding-right', 20px);
+	}
+}

@@ -1,0 +1,53 @@
+#master {
+	ul#affwp-affiliate-dashboard-tabs {
+		width: 100%;
+		margin-bottom: 2em;
+		@include rem('padding-bottom',50px);
+		border-bottom: 2px solid $color__border;
+		text-align: center;
+
+		> li {
+			padding-top: 10px;
+			padding-right: 15px;
+			padding-left: 15px;
+
+			a {
+				text-align: center;
+				text-transform: uppercase;
+				@include rem('font-size',$font__medium-size);
+				letter-spacing: 0.07em;
+
+				&:hover {
+					color: $color__text-dark;
+				}
+			}
+		}
+	}
+
+	.affwp-graphs-date-options {
+		margin-bottom: 1em;
+	}
+
+	.affwp-creative {
+		@include rem('padding-bottom',70px);
+		@include rem('margin-bottom',70px);
+		border-bottom: 2px solid $color__border;
+
+		> *:first-child {
+			margin-top: 0;
+		}
+
+		> *:last-child {
+			margin-bottom: 0;
+		}
+
+		&:last-child {
+			border-bottom-width: 0;
+			padding-bottom: 0;
+		}
+	}
+
+	.affwp-form fieldset {
+		padding: 0;
+	}
+}

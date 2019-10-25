@@ -1,0 +1,86 @@
+// ===================================================
+// --               Variables > Grid
+// ===================================================
+$size               : 35px;
+$desktop            : 1024px;
+$tablet             : 768px;
+$mobile             : 520px;
+// ===================================================
+// --       Variables Social Media > Colors
+// ===================================================
+$colorWhite         : #ffffff;
+$bgAdmin            : #f6fbfd;
+$btnColor           : #2489c5;
+$colorCheckboxOff   : #ea6262;
+$colorCheckboxOn    : #2fb175;
+$colorDarken        : #454545;
+$colorBehance       : #1769ff;
+$colorBuffer        : #323b43;
+$colorEmail         : #0082b3;
+$colorfacebook      : #3b5998;
+$colorfacebookLike  : #4C63A5;
+$colorFlickr        : #ff0084;
+$colorFlipboard     : #e12828;
+$colorFoursquare    : #f94877;
+$colorGitHub        : #333333;
+$colorGmail         : #de5448;
+$colorGooglePlus    : #dd4b39;
+$colorInstagram     : #c13584;
+$colorLinkedin      : #007bb6;
+$colorMessenger     : #0084FF;
+$colorPinterest     : #cb2027;
+$colorPrint         : #61D1D5;
+$colorReddit        : #ff4500;
+$colorRss			: #f26522;
+$colorShare         : #014e6b;
+$colorSkype         : #00aff0;
+$colorSnapchat      : #fffc00;
+$colorTelegram      : #0088cc;
+$colorTumblr        : #32506d;
+$colorTwitter       : #00aced;
+$colorViber         : #8f5db7;
+$colorVimeo         : #1ab7ea;
+$colorVine			: #00bf8f;
+$colorVK			: #45668e;
+$colorWhatsapp      : #4BC557;
+$colorYouTube       : #cd201f;
+$colors             : (
+	behance     : $colorBehance,
+	buffer      : $colorBuffer,
+	email       : $colorEmail,
+	facebook    : $colorfacebook,
+	flickr      : $colorFlickr,
+	flipboard   : $colorFlipboard,
+	foursquare  : $colorFoursquare,
+	github      : $colorGitHub,
+	gmail       : $colorGmail,
+	google-plus : $colorGooglePlus,
+	instagram   : $colorInstagram,
+	like        : $colorfacebookLike,
+	linkedin    : $colorLinkedin,
+	messenger   : $colorMessenger,
+	pinterest   : $colorPinterest,
+	printer     : $colorPrint,
+	reddit      : $colorReddit,
+	rss         : $colorRss,
+	share       : $colorShare,
+	skype       : $colorSkype,
+	snapchat    : $colorSnapchat,
+	telegram    : $colorTelegram,
+	tumblr      : $colorTumblr ,
+	twitter     : $colorTwitter,
+	viber       : $colorViber,
+	vimeo       : $colorVimeo,
+	whatsapp    : $colorWhatsapp,
+	youtube     : $colorYouTube,
+	vk          : $colorVK,
+);
+// ===================================================
+// --              Variables > Prefix
+// ===================================================
+$prefix 	     : "wpusb";
+// ===================================================
+// --              Variables > Font Size
+// ===================================================
+$fontSizeDefault : 14px;
+$fontFamily      : Arial, Sans-serif, Helvetica;

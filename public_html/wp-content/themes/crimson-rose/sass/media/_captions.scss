@@ -1,0 +1,34 @@
+.wp-caption {
+	margin-bottom: 2em;
+	max-width: 100%;
+
+	img[class*="wp-image-"] {
+		@include center-block;
+	}
+}
+
+.wp-block-gallery .blocks-gallery-item figcaption,
+.wp-block-image figcaption,
+.wp-caption-text {
+	text-align: center;
+	@include rem('font-size',$font__small-size);
+	font-weight: bold;
+	margin: 0;
+	color: $color__text-light;
+	line-height: $font__line-height-heading;
+
+	a {
+		display: inline;
+	}
+}
+
+.wp-block-image figcaption,
+.wp-caption-text {
+	padding: 0.8075em 0;
+}
+
+.wp-block-image {
+	img[class*="wp-image-"] {
+		display: block;
+	}
+}

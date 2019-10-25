@@ -1,0 +1,179 @@
+#wrapper .#{$prefix},
+#content .#{$prefix} {
+    .#{$prefix}-item .#{$prefix}-btn,
+    .#{$prefix}-item .#{$prefix}-btn:hover,
+    .#{$prefix}-item .#{$prefix}-btn:focus {
+        border-bottom: none;
+        font-family: $fontFamily;
+        outline: none;
+        text-decoration: none;
+    }
+}
+
+#wrapper .#{$prefix},
+#content .#{$prefix}:not(.#{$prefix}-buttons):not(.#{$prefix}-square-plus) {
+    .#{$prefix}-item .#{$prefix}-btn,
+    .#{$prefix}-item .#{$prefix}-btn:hover,
+    .#{$prefix}-item .#{$prefix}-btn:focus {
+        box-shadow: none;
+    }
+}
+
+.#{$prefix}-item {
+    display: inline-block;
+    font-family: Arial, Sans-serif;
+    margin-bottom: 10px;
+    margin-right: 10px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+    .#{$prefix}-btn {
+        -moz-transition: background 0.3s ease;
+        -webkit-transition: background 0.3s ease;
+        border: none;
+        color: #424242;
+        cursor: pointer;
+        display: inline-block;
+        font-family: $fontFamily;
+        text-decoration: none;
+        transition: background 0.3s ease;
+
+        i,
+        span {
+            display: inline-block;
+            vertical-align: middle;
+            text-align: center;
+        }
+
+        i {
+            font-style: normal;
+            font-size: $size;
+            height: auto;
+            width: auto;
+        }
+
+        span {
+            font-size: 12px;
+            margin-left: 5px;
+
+            &:before {
+                content: attr(data-title);
+            }
+        }
+
+        .#{$prefix}-buttons:not(##{$prefix}-container-fixed) & {
+            border-radius: 3px;
+            min-width: 32px;
+            padding: 2px 0 2px 4px;
+        }
+
+        @media ( max-width: $tablet ) {
+            .#{$prefix}-buttons:not(##{$prefix}-container-fixed) & {
+                border-radius: 0;
+            }
+        }
+
+        .#{$prefix}-buttons & {
+            color: #fff;
+
+            i,
+            i:hover {
+                font-size: 26px;
+                color: inherit;
+                line-height: 1;
+            }
+
+            span {
+                margin-left: 0;
+                padding: 0 5px;
+                position: relative;
+                right: 3px;
+            }
+
+            .#{$prefix}-icon-facebook:before {
+                bottom: 1px;
+                position: relative;
+            }
+        }
+    }
+}
+
+.#{$prefix}-default,
+.#{$prefix}-square,
+.#{$prefix}-rounded {
+    .#{$prefix}-button span {
+        color: #424242;
+    }
+}
+
+
+@each $key, $color in $colors {
+    // Theme > Other
+    @include icon( $key, $color );
+
+    // Theme > Buttons
+    @include icon( $key, $color, buttons );
+
+    // Theme > Square Plus
+    @include icon( $key, $color, 'square-plus' );
+
+    // Theme > items hover
+    @include items-hover( $key, $color );
+}
+
+.#{$prefix}-fixed-left-container,
+.#{$prefix}-fixed-right-container {
+    .#{$prefix}-icon-share-buttons {
+        left: -3px;
+        position: relative;
+        top: 1px;
+    }
+
+    .#{$prefix}-item {
+        .#{$prefix}-btn,
+        .#{$prefix}-btn:active,
+        .#{$prefix}-btn:focus {
+            box-shadow: none;
+            outline: none;
+            top: 0;
+        }
+    }
+}
+
+##{$prefix}-container-buttons {
+    .#{$prefix}-facebook i {
+        position: relative;
+        top: 2px;
+    }
+
+    .#{$prefix}-item {
+        i,
+        i:hover {
+            width: auto;
+            height: auto;
+        }
+    }
+}
+
+##{$prefix}-container-follow {
+
+    .#{$prefix}-item {
+        display: table-cell;
+        margin: 0;
+        padding: 0 3px;
+
+        .#{$prefix}-btn,
+        .#{$prefix}-btn:hover,
+        .#{$prefix}-btn:active,
+        .#{$prefix}-btn:focus {
+            outline: none;
+            box-shadow: none;
+        }
+
+        .#{$prefix}-btn i {
+            font-size: 32px;
+        }
+    }
+}

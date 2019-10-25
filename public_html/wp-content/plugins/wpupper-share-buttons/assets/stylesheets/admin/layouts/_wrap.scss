@@ -1,0 +1,252 @@
+$_itemsAvailable : 'items-available';
+
+.#{$prefix}-fixed-clear {
+    input {
+        background: #bfbfbf;
+        border-radius: 4px;
+        border: 0;
+        box-shadow: 0 2px 0 0 darken( #bfbfbf, 15% );
+        color: #fff;
+        cursor: pointer;
+        font-size: 12px;
+        font-weight: bold;
+        outline: none;
+    }
+
+    input:hover {
+        background: darken( #bfbfbf, 5% );
+    }
+
+    input:active {
+        box-shadow: none;
+        position: relative;
+        top: 2px;
+    }
+
+    span {
+        position: relative;
+        top: 1px;
+    }
+}
+
+.#{$prefix}-settings {
+
+    .#{$prefix}-inline {
+        display: inline-block !important;
+
+        &.button {
+            margin: 0;
+        }
+    }
+}
+
+.#{$prefix}-wrap {
+
+    @extend %noSelect;
+        background: $colorWhite;
+        border-radius: 5px;
+        border: 0;
+        padding: 0 10px;
+        position: relative;
+
+    label { cursor: auto; }
+
+    input[type="number"] {
+        text-align: center;
+    }
+
+    input[type="text"],
+    input[type="number"] {
+        background: #fbf8f8;
+        border-width: 0 0 1px 4px;
+        box-shadow: none;
+        padding: 4px 0;
+        border-color: $btnColor;
+        text-indent: 2px;
+
+        &:focus {
+            border-color: #bbb;
+        }
+    }
+
+    .#{$prefix}-select-item {
+        padding: 2px 5px;
+    }
+}
+
+.#{$prefix}-#{$_itemsAvailable} td,
+.#{$prefix}-social-networks td,
+.#{$prefix}-layout-options td,
+.#{$prefix}-remove-elements td,
+.#{$prefix}-position-fixed td {
+    float: left;
+    padding-right: 0;
+}
+
+.#{$prefix}-title-wrap {
+    color: #5B5959;
+    display: inline-block;
+    font-size: 18px;
+    font-style: italic;
+    padding: 10px 0;
+    text-shadow: 1px 1px 1px #FFF;
+}
+
+// ----------------------------------------------------------------------------
+// -- Advanced selector
+// ----------------------------------------------------------------------------
+@include input-remove( hide-input );
+
+// ----------------------------------------------------------------------------
+// -- Advanced selector > Settings > Social networks available
+// ----------------------------------------------------------------------------
+
+.#{$prefix}-#{$_itemsAvailable},
+.#{$prefix}-social-networks,
+.#{$prefix}-layout-options,
+.#{$prefix}-remove-elements,
+.#{$prefix}-position-fixed,
+.#{$prefix}-position-fixed-top,
+.#{$prefix}-referrer,
+.#{$prefix}-fixed-square,
+.#{$prefix}-fixed-rounded {
+    input + label {
+        @extend %transitionAll;
+        background: $colorWhite;
+        border-radius: 5px;
+        box-shadow: inset 0 0 1px 1px #D2D2D2;
+        color: #4F5558;
+        cursor: pointer;
+        float: left;
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 13px;
+        padding: 5px 10px;
+        position: relative;
+        text-shadow: 1px 1px 1px #FFF;
+        transition:  width .3s;
+        white-space: nowrap;
+    }
+}
+
+.#{$prefix}-#{$_itemsAvailable},
+.#{$prefix}-layout-options,
+.#{$prefix}-position-fixed,
+.#{$prefix}-position-fixed-top,
+.#{$prefix}-referrer,
+.#{$prefix}-fixed-square,
+.#{$prefix}-fixed-rounded {
+    input + label:before {
+        background: $btnColor;
+    }
+}
+
+.#{$prefix}-#{$_itemsAvailable},
+.#{$prefix}-social-networks,
+.#{$prefix}-layout-options,
+.#{$prefix}-remove-elements,
+.#{$prefix}-position-fixed,
+.#{$prefix}-position-fixed-top,
+.#{$prefix}-referrer,
+.#{$prefix}-fixed-square,
+.#{$prefix}-fixed-rounded {
+    input + label:before {
+        border-radius: 5px;
+        bottom: 0;
+        content: "";
+        left: 0;
+        position: absolute;
+        top: 0;
+        transition: width .3s;
+        width: 0;
+    }
+}
+
+// ----------------------------------------------------------------------------
+// -- Social item > Settings > Social networks available
+// ----------------------------------------------------------------------------
+@each $key, $color in $colors {
+    @include social-item( $color, $key );
+}
+
+.#{$prefix}-social-networks {
+    input + label:after {
+        color: #9E9E9E;
+        font-size: 20px;
+        position: relative;
+        text-shadow: initial;
+    }
+
+    input:checked + label:after {
+        color: #fff;
+    }
+}
+
+.#{$prefix}-#{$_itemsAvailable},
+.#{$prefix}-social-networks,
+.#{$prefix}-layout-options,
+.#{$prefix}-remove-elements,
+.#{$prefix}-position-fixed,
+.#{$prefix}-position-fixed-top,
+.#{$prefix}-referrer,
+.#{$prefix}-fixed-square,
+.#{$prefix}-fixed-rounded {
+    input:checked + label:before {
+        width: 100%;
+    }
+
+    input:checked + label span {
+        color: #fff;
+        position: relative;
+        text-shadow: none;
+        z-index: 2;
+    }
+}
+
+.#{$prefix}-remove-elements label {
+    cursor: pointer;
+}
+
+.#{$prefix}-remove-elements input:checked + label {
+    font-weight: bold;
+    line-height: normal;
+    text-shadow: none;
+    z-index: 2;
+}
+
+.#{$prefix}-remove-elements input + label {
+    background: transparent;
+    border-radius: initial;
+    box-shadow: none;
+    font-size: 30px;
+    font-weight: normal;
+    padding: 0;
+    text-shadow: initial;
+}
+
+.#{$prefix}-highlight {
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px dotted #a0a5aa;
+    left: 5px;
+    position: relative;
+    top: 14px;
+    width: 30px;
+}
+
+@media ( min-width: 520px ) {
+    .#{$prefix}-square-plus
+    .#{$prefix}-inside
+    .#{$prefix}-link span {
+        top: 9px;
+    }
+}
+
+.#{$prefix}-custom-css-wrap .updated:nth-of-type(1) {
+    display: none;
+}
+
+@media ( min-width: $tablet ) {
+    ##{$prefix}-container-fixed {
+        top: 50px;
+    }
+}

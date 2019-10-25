@@ -1,0 +1,406 @@
+/*
+WC Shortcodes styling
+*/
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+.wc-shortcodes-content > h1 {
+  margin-top: 1.5625em;
+}
+
+.wc-shortcodes-content > h2 {
+  margin-top: 1.25em;
+}
+
+.wc-shortcodes-content > h3 {
+  margin-top: 1.125em;
+}
+
+.wc-shortcodes-content > h4 {
+  margin-top: 0.9375em;
+}
+
+.wc-shortcodes-content > h5 {
+  margin-top: 0.625em;
+}
+
+.wc-shortcodes-content > h6 {
+  margin-top: 0.625em;
+}
+
+.wc-shortcodes-content > p {
+  margin-top: 1.5em;
+}
+
+/* WC Shortcodes - Social Media Icons */
+.site-menu-bar .wc-shortcodes-social-icons-wrapper {
+  margin: 0;
+}
+
+#master .wc-shortcodes-social-icons-format-icon a i {
+  background-color: transparent;
+  color: #cccccc;
+  width: auto;
+}
+
+/* https://bugzilla.mozilla.org/show_bug.cgi?id=745549 */
+.wc-shortcodes-share-buttons-format-icon a,
+.wc-shortcodes-share-buttons-format-small-image a img,
+.wc-shortcodes-share-buttons-format-medium-image a img,
+.wc-shortcodes-share-buttons-format-image a img,
+.wc-shortcodes-social-icons-format-image a img {
+  box-shadow: #000 0em 0em 0em;
+}
+
+.wc-shortcodes-social-icons-format-icon a:hover,
+.wc-shortcodes-share-buttons-format-small-image a:hover img,
+.wc-shortcodes-share-buttons-format-medium-image a:hover img,
+.wc-shortcodes-share-buttons-format-image a:hover img,
+.wc-shortcodes-social-icons-format-image a:hover img {
+  box-shadow: #000 0em 0em 0em;
+}
+
+.wc-shortcodes-share-buttons-format-small-image a:hover img,
+.wc-shortcodes-share-buttons-format-medium-image a:hover img,
+.wc-shortcodes-share-buttons-format-image a:hover img,
+.wc-shortcodes-social-icons-format-small-image a:hover img,
+.wc-shortcodes-social-icons-format-medium-image a:hover img,
+.wc-shortcodes-social-icons-format-image a:hover img {
+  opacity: 0.8;
+}
+
+#master #page #masthead .wc-shortcodes-social-icons-wrapper {
+  /* margin-top: 5px; */
+  /* margin-bottom: 5px; */
+}
+
+#master .widget_wc_shortcodes_social_icons .wc-shortcodes-social-icons li {
+  padding: 0.1875em;
+}
+
+#master .wc-shortcodes-social-icons.wc-shortcodes-maxheight-10 i {
+  font-size: 10px;
+}
+
+#master .wc-shortcodes-social-icons.wc-shortcodes-maxheight-12 i {
+  font-size: 12px;
+}
+
+#master .wc-shortcodes-social-icons.wc-shortcodes-maxheight-14 i {
+  font-size: 14px;
+}
+
+#master .wc-shortcodes-social-icons.wc-shortcodes-maxheight-16 i {
+  font-size: 16px;
+}
+
+#master .wc-shortcodes-social-icons.wc-shortcodes-maxheight-18 i {
+  font-size: 18px;
+}
+
+#master .wc-shortcodes-social-icons.wc-shortcodes-maxheight-20 i {
+  font-size: 20px;
+}
+
+#master .wc-shortcodes-social-icons.wc-shortcodes-maxheight-22 i {
+  font-size: 22px;
+}
+
+#master .wc-shortcodes-social-icons.wc-shortcodes-maxheight-24 i {
+  font-size: 24px;
+}
+
+#master .wc-shortcodes-social-icons.wc-shortcodes-maxheight-26 i {
+  font-size: 26px;
+}
+
+#master .wc-shortcodes-social-icons.wc-shortcodes-maxheight-28 i {
+  font-size: 28px;
+}
+
+#master .wc-shortcodes-social-icons.wc-shortcodes-maxheight-30 i {
+  font-size: 30px;
+}
+
+#master .wc-shortcodes-social-icons.wc-shortcodes-maxheight-32 i {
+  font-size: 32px;
+}
+
+#master .wc-shortcodes-social-icons.wc-shortcodes-maxheight-34 i {
+  font-size: 34px;
+}
+
+#master .wc-shortcodes-social-icons.wc-shortcodes-maxheight-36 i {
+  font-size: 36px;
+}
+
+#master .wc-shortcodes-social-icons.wc-shortcodes-maxheight-38 i {
+  font-size: 38px;
+}
+
+#master .wc-shortcodes-social-icons.wc-shortcodes-maxheight-40 i {
+  font-size: 40px;
+}
+
+#master .wc-shortcodes-social-icons.wc-shortcodes-maxheight-42 i {
+  font-size: 42px;
+}
+
+#master .wc-shortcodes-social-icons.wc-shortcodes-maxheight-44 i {
+  font-size: 44px;
+}
+
+#master .wc-shortcodes-social-icons.wc-shortcodes-maxheight-46 i {
+  font-size: 46px;
+}
+
+#master .wc-shortcodes-social-icons.wc-shortcodes-maxheight-none i,
+#master .wc-shortcodes-social-icons.wc-shortcodes-maxheight-48 i {
+  font-size: 48px;
+}
+
+#master .wc-shortcodes-social-icons.wc-shortcodes-maxheight-50 i {
+  font-size: 50px;
+}
+
+#master .wc-shortcodes-social-icons.wc-shortcodes-maxheight-52 i {
+  font-size: 52px;
+}
+
+#master .wc-shortcodes-social-icons.wc-shortcodes-maxheight-54 i {
+  font-size: 54px;
+}
+
+#master .wc-shortcodes-social-icons.wc-shortcodes-maxheight-56 i {
+  font-size: 56px;
+}
+
+#master .wc-shortcodes-social-icons.wc-shortcodes-maxheight-58 i {
+  font-size: 58px;
+}
+
+#master .wc-shortcodes-social-icons.wc-shortcodes-maxheight-60 i {
+  font-size: 60px;
+}
+
+#master .wc-shortcodes-social-icons.wc-shortcodes-maxheight-62 i {
+  font-size: 62px;
+}
+
+#master .wc-shortcodes-social-icons.wc-shortcodes-maxheight-64 i {
+  font-size: 64px;
+}
+
+#master .wc-shortcodes-social-icons.wc-shortcodes-maxheight-66 i {
+  font-size: 66px;
+}
+
+#master .wc-shortcodes-social-icons.wc-shortcodes-maxheight-68 i {
+  font-size: 68px;
+}
+
+#master .wc-shortcodes-social-icons.wc-shortcodes-maxheight-70 i {
+  font-size: 70px;
+}
+
+/* WC Shortcodes - Testimonials */
+#master .wc-shortcodes-testimonial-content {
+  border-top: 0px solid #eeeeee;
+}
+
+/* WC Shortcodes - Accordion, Toggle, Tabs */
+#master .wc-shortcodes-toggle .wc-shortcodes-toggle-container,
+#master .wc-shortcodes-toggle .wc-shortcodes-toggle-trigger,
+#master .wc-shortcodes-accordion .wc-shortcodes-accordion-content,
+#master .wc-shortcodes-accordion .wc-shortcodes-accordion-trigger {
+  border-width: 0 0 2px 0;
+  border-color: #ececec;
+}
+
+.wc-shortcodes-tabs ul li a,
+#master .wc-shortcodes-toggle .wc-shortcodes-toggle-trigger a,
+#master .wc-shortcodes-accordion .wc-shortcodes-accordion-trigger a {
+  text-decoration: none;
+}
+
+.wc-shortcodes-tabs ul.wcs-tabs-nav,
+.wc-shortcodes-tabs .tab-content {
+  border-width: 0 0 2px 0;
+  border-color: #ececec;
+}
+
+.wc-shortcodes-tabs ul.wcs-tabs-nav li {
+  margin-bottom: -2px;
+}
+
+.wc-shortcodes-tabs ul.wcs-tabs-nav li a {
+  border-width: 0;
+  border-color: #ececec;
+}
+
+.wc-shortcodes-tabs ul.wcs-tabs-nav .wcs-state-active a {
+  border-width: 2px 2px 0 2px;
+}
+
+/* Shortcodes - Posts */
+.wc-shortcodes-comments-link a:after {
+  border-width: 0;
+  display: none;
+}
+
+.wc-shortcodes-comments-link a {
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+}
+
+.wc-shortcodes-posts-navigation .paginate-text {
+  display: none;
+}
+
+#master .wc-shortcodes-posts-template-borderless .wc-shortcodes-post-border {
+  border-width: 0;
+}
+
+.wc-shortcodes-entry-title {
+  text-align: center;
+}
+
+.wc-shortcodes-entry-meta-inner > span,
+.wc-shortcodes-footer-entry-meta > span {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.wc-shortcodes-entry-meta-inner > span.wc-shortcodes-sep,
+.wc-shortcodes-footer-entry-meta > span.wc-shortcodes-sep {
+  display: none;
+}
+
+.wc-shortcodes-post-border {
+  border-color: #ececec;
+  border-width: 2px;
+}
+
+.wc-shortcodes-post-border:after,
+.wc-shortcodes-post-border:before {
+  content: '';
+  display: table;
+}
+
+.wc-shortcodes-post-border:after {
+  clear: both;
+}
+
+.wc-shortcodes-post-box.wc-shortcodes-posts-template-box .wc-shortcodes-post-border {
+  background-color: #f7f7f7;
+}
+
+.wc-shortcodes-posts a {
+  text-decoration: none;
+}
+
+.wc-shortcodes-posts .wc-shortcodes-entry-title {
+  font-weight: normal;
+}
+
+.wc-shortcodes-entry-thumbnail {
+  overflow: hidden;
+}
+
+.wc-shortcodes-comments-link a:before {
+  content: "\f300";
+  vertical-align: middle;
+  margin-left: 0.5em;
+  font-family: "Genericons-Neue";
+  display: inline-block;
+  vertical-align: top;
+  line-height: 1.8;
+  font-weight: normal;
+  font-style: normal;
+  speak: none;
+  text-decoration: inherit;
+  text-transform: none;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.wc-shortcodes-footer-entry-meta {
+  text-align: center;
+  font-size: 12px;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  font-weight: normal;
+  margin-top: 15px;
+  margin-top: 0.9375rem;
+  color: #959595;
+  letter-spacing: 0.07em;
+}
+
+.wc-shortcodes-footer-entry-meta a, .wc-shortcodes-footer-entry-meta a:visited, .wc-shortcodes-footer-entry-meta a:focus, .wc-shortcodes-footer-entry-meta a:active {
+  color: #959595;
+}
+
+.wc-shortcodes-footer-entry-meta a:hover,
+.wc-shortcodes-footer-entry-meta a:hover time {
+  color: #6d686c;
+}
+
+/* WC Shortcodes - Progress Bars */
+#master .wc-shortcodes-skillbar *,
+#master .wc-shortcodes-skillbar {
+  border-radius: 0;
+}
+
+/* WC Shortcodes - Border */
+.wc-shortcodes-divider.wc-shortcodes-divider-style-solid,
+.wc-shortcodes-divider.wc-shortcodes-divider-style-dotted,
+.wc-shortcodes-divider.wc-shortcodes-divider-style-dashed,
+.wc-shortcodes-divider.wc-shortcodes-divider-line-double.wc-shortcodes-divider-style-solid,
+.wc-shortcodes-divider.wc-shortcodes-divider-line-double.wc-shortcodes-divider-style-dotted,
+.wc-shortcodes-divider.wc-shortcodes-divider-line-double.wc-shortcodes-divider-style-dashed,
+.wc-shortcodes-divider.wc-shortcodes-divider-line-double.wc-shortcodes-divider-style-solid:before,
+.wc-shortcodes-divider.wc-shortcodes-divider-line-double.wc-shortcodes-divider-style-dotted:before,
+.wc-shortcodes-divider.wc-shortcodes-divider-line-double.wc-shortcodes-divider-style-dashed:before {
+  color: #ececec;
+  border-width: 2px;
+}
+
+/* WC Shortcodes - Box */
+#master .wc-shortcodes-box {
+  border-width: 2px;
+}
+
+#master .wc-shortcodes-box-primary {
+  border-width: 0;
+}
+
+#master .wc-shortcodes-box-secondary {
+  background-color: transparent;
+  border-color: #ececec;
+}
+
+#master .wc-shortcodes-box-secondary * {
+  color: inherit;
+}
+
+#master .wc-shortcodes-box-inverse {
+  background-color: transparent;
+}
+
+#master .wc-shortcodes-box-inverse * {
+  color: inherit;
+}
+
+#master .wc-shortcodes-pricing {
+  text-decoration: none;
+}
+
+/* WC Shortcodes - Posts */
+#wrap .wc-shortcodes-post-border {
+  border-color: #ececec;
+}
+
+/*# sourceMappingURL=wc-shortcodes.css.map */

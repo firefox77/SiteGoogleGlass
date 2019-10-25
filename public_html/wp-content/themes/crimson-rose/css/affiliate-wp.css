@@ -1,0 +1,63 @@
+/*
+AffiliateWP styling
+*/
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+#master ul#affwp-affiliate-dashboard-tabs {
+  width: 100%;
+  margin-bottom: 2em;
+  padding-bottom: 50px;
+  padding-bottom: 3.125rem;
+  border-bottom: 2px solid #ececec;
+  text-align: center;
+}
+
+#master ul#affwp-affiliate-dashboard-tabs > li {
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+#master ul#affwp-affiliate-dashboard-tabs > li a {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-size: 1rem;
+  letter-spacing: 0.07em;
+}
+
+#master ul#affwp-affiliate-dashboard-tabs > li a:hover {
+  color: #333333;
+}
+
+#master .affwp-graphs-date-options {
+  margin-bottom: 1em;
+}
+
+#master .affwp-creative {
+  padding-bottom: 70px;
+  padding-bottom: 4.375rem;
+  margin-bottom: 70px;
+  margin-bottom: 4.375rem;
+  border-bottom: 2px solid #ececec;
+}
+
+#master .affwp-creative > *:first-child {
+  margin-top: 0;
+}
+
+#master .affwp-creative > *:last-child {
+  margin-bottom: 0;
+}
+
+#master .affwp-creative:last-child {
+  border-bottom-width: 0;
+  padding-bottom: 0;
+}
+
+#master .affwp-form fieldset {
+  padding: 0;
+}
+
+/*# sourceMappingURL=affiliate-wp.css.map */

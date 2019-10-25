@@ -1,0 +1,164 @@
+#master {
+	.affroy_signup_form {
+		margin-bottom: 0;
+
+		td label {
+			margin: 0;
+		}
+	}
+
+	#wafp-dash-wrapper {
+		color: $color__text;
+
+		.clippy {
+			display: none;
+		}
+	}
+
+	#wafp-stats-graph {
+		margin-bottom: 2em;
+	}
+
+	.wafp-stats-table {
+		border-width: 2px;
+		border-left-width: 0;
+		border-right-width: 0;
+		border-bottom-width: 0;
+		border-color: $color__border;
+
+		th {
+			background-color: $color__lightest-gray;
+			color: $color__text !important;
+			text-align: left !important;
+		}
+
+		thead th {
+			@include rem('font-size',$font__tiny-size);
+		}
+
+		th,
+		td {
+			border-color: $color__border;
+			padding: 20px 5px !important;
+			border-width: 2px;
+			border-left-width: 0;
+			border-right-width: 0;
+		}
+	}
+
+	ul.wafp-nav-bar {
+		display: table;
+		width: 100%;
+		margin-bottom: 2em;
+		border-bottom: 2px solid $color__border;
+
+		> li {
+			display: table-cell;
+			text-align: center;
+
+			&.wafp-nav-active {
+				border: 2px solid $color__border;
+				border-bottom-width: 0;
+				position: relative;
+
+				&:after {
+					content: " ";
+					position: absolute;
+					bottom: -2px;
+					height: 2px;
+					background-color: $color__background-body;
+					left: 0;
+					right: 0;
+				}
+			}
+
+			a {
+				padding: 1em 0.5em;
+				text-align: center;
+				display: inline-block;
+				font-weight: normal;
+			}
+		}
+	}
+
+	ul.wafp-link-list {
+		padding: 0;
+
+		> li {
+			margin-bottom: 3em;
+			padding-bottom: 3em;
+			border-bottom: 2px solid $color__border;
+
+			> div {
+				margin-bottom: 0.7em;
+			}
+
+			> *:last-child {
+				margin-bottom: 0;
+			}
+
+			&:first-child {
+				padding-top: 3em;
+				border-top: 2px solid $color__border;
+			}
+
+			&:last-child {
+				border-bottom-width: 0;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 700px) {
+	#master ul.wafp-nav-bar {
+		display: block;
+		width: 100%;
+
+		li {
+			display: block;
+			text-align: center;
+			border-top: 2px solid $color__border;
+			border-right: 2px solid $color__border;
+
+			&.wafp-nav-active {
+				border-top: 2px solid $color__border;
+				border-right-width: 0;
+				border-left-width: 0;
+				border-bottom-width: 0;
+
+				&:after {
+					content: "";
+					display: none;
+				}
+			}
+
+			a {
+				display: block;
+				text-decoration: none;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#master .wafp-stats-table {
+		tr:nth-child(2n) {
+			background-color: $color__lightest-gray;
+		}
+		th {
+		}
+
+		thead th {
+			@include rem('font-size',$font__medium-size);
+		}
+
+		th,
+		td {
+			display: block;
+			text-align: center !important;
+			width: 100%;
+			min-height: $table__cell-height;
+			border-top-width: 0;
+		}
+	}
+}

@@ -1,0 +1,91 @@
+// Colors
+$color__background-body: #ffffff;
+$color__background-box-body: #f9bebe;
+$color__background-screen: #f1f1f1;
+$color__menu-border: #bab8b9;
+$color__border: #ececec;
+$color__form-border: #ececec;
+$color__background-button: #e6e6e6;
+$color__background-pre: #eee;
+$color__background-ins: #fff9c0;
+
+$color__text: #6d686c;
+$color__text-light: #959595;
+$color__text-screen: #21759b;
+$color__text-input: #666;
+$color__text-input-focus: #111;
+$color__text-title: #5b5a5a;
+$color__text-heading: #666666;
+$color__text-dark: #333333;
+$color__black: #000000;
+$color__darkest-gray: #333333;
+$color__dark-gray: #666666;
+$color__gray: #cccccc;
+$color__light-gray: #ececec;
+$color__lightest-gray: #f7f7f7;
+$color__white: #ffffff;
+
+$color__green: green;
+$color__red: red;
+$color__black: black;
+
+$color__border-abbr: #666;
+
+// Structure
+$size__box-container: 1300px;
+$size__site-container: 1140px;
+$size__site-container-no-padding: $size__site-container - 40 - 40;
+$size__content-container: 660px;
+$size__site-gutter: 100px;
+$size__site-sidebar: 300px;
+$size__site-sidebar-with-padding: $size__site-sidebar + $size__site_gutter;
+$size__menu-collapse-width: 960px;
+$size__site-main-no-sidebar: $size__site-container-no-padding - $size__site-sidebar - $size__site-gutter;
+$size__content-side-spacing: max( (( $size__site-container-no-padding - $size__content-container ) / 2), 80px );
+
+// Typography
+$font__main: 'Lato', sans-serif;
+$font__heading: 'Lato', sans-serif;
+$font__accent: 'Mrs Saint Delafield', cursive;
+$font__code: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+$font__pre: "Courier 10 Pitch", Courier, monospace;
+
+$font__site-title-size: 40px;
+$font__site-description-size: 15px;
+$font__archive-type-size: 20px;
+$font__quote-size: 80px;
+$font__menu-icon-size: 30px;
+$font__super-size: 24px;
+$font__xlarge-size: 22px;
+$font__large-size: 20px;
+$font__main-size: 18px;
+$font__medium-size: 16px;
+$font__small-size: 15px;
+$font__xsmall-size: 14px;
+$font__tiny-size: 12px;
+
+$font__h1-size: 25px;
+$font__entry-title-size: 22px;
+$font__h2-size: 22px;
+$font__h3-size: 20px;
+$font__h4-size: 18px;
+$font__h5-size: 15px;
+$font__h6-size: 13px;
+
+$font__line-height-body: 1.8;
+$font__line-height-pre: 1.6;
+$font__line-height-heading: 1.375;
+
+$font__line-height-top-menu: 36px;
+$font__line-height-menu-bar: 28px; // need to do pixels so cart icon height can be accurately calculated across browsers.
+$font__line-height-sidebar: 22px;
+
+$font__line-height-menu-icon: $font__line-height-menu-bar + (12px + 12px); // base size * top bottom menu padding
+$font__line-height-pagination-icon: floor($font__main-size + 32px); // top and bottom button padding
+
+$button__height: floor($font__main-size + 32px);
+
+// Misc
+$table__cell-height: floor($font__main-size * $font__line-height-body) + 40px;
+$button__radius: 3px;
+$input__radius: 3px;

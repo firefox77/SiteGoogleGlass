@@ -1,0 +1,122 @@
+/*--------------------------------------------------------------
+## Contact Form 7
+--------------------------------------------------------------*/
+#master {
+	.wpcf7-response-output {
+		margin-left: 0;
+		margin-right: 0;
+		@include rem('margin-top',20px);
+		@include rem('margin-bottom',20px);
+	}
+}
+
+/*--------------------------------------------------------------
+## Instagram
+--------------------------------------------------------------*/
+#master {
+	.null-instagram-feed {
+		.instagram-pics {
+			li {
+				a {
+					display: block;
+
+					> *,
+					img {
+						vertical-align: top;
+					}
+				}
+			}
+		}
+	}
+}
+#tertiary,
+#secondary {
+	.null-instagram-feed {
+		.instagram-pics {
+			margin-bottom: -5px;
+			margin-right: -5px;
+
+			&:before,
+			&:after {
+				content: '';
+				display: table;
+			}
+
+			&:after {
+				clear: both;
+			}
+
+
+			li {
+				float: left;
+				padding: 0;
+				width: 33.33333%;
+				padding-right: 5px;
+				padding-bottom: 5px;
+			}
+		}
+
+		> p.clear {
+			@include rem('margin-top',28px);
+			text-align: center;
+		}
+	}
+}
+
+#tertiary {
+	.null-instagram-feed {
+		> p.clear {
+			text-align: left;
+		}
+	}
+}
+
+#master {
+	#footer-gallery {
+		.widget {
+			margin: 0;
+			text-align: center;
+		}
+
+		.widget ul,
+		.widget ol {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}
+
+		.widget li {
+			padding: 0;
+		}
+
+		.widget-title {
+			display: none;
+		}
+
+		.widget > p {
+			display: none;
+		}
+
+		.footer-instagram-area {
+			text-align: center;
+		}
+
+		.instagram-pics {
+			display: table;
+			table-layout: fixed;
+			width: 100%;
+		}
+
+		.instagram-pics li {
+			display: table-cell;
+			width: 2%;
+		}
+
+		@media (max-width: 700px) {
+			.instagram-pics li {
+				display: inline-table;
+				width: 33.33333%;
+			}
+		}
+	}
+}

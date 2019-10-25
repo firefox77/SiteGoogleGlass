@@ -1,0 +1,175 @@
+.wpcfs {
+  color: #2E4372;
+  position: relative; }
+  @media (max-width: 900px) {
+    .wpcfs {
+      font-size: 10px; } }
+  @media (min-width: 900px) {
+    .wpcfs {
+      font-size: auto; } }
+  .wpcfs input, .wpcfs select {
+    max-width: 100%; }
+  .wpcfs .bordered_item, .wpcfs .form_field, .wpcfs .popup, .wpcfs .popup .popup-content, .wpcfs .wpcfs-cta {
+    border: solid black 2px;
+    border-radius: 20px;
+    backGround: white; }
+    @media (min-width: 900px) {
+      .wpcfs .bordered_item, .wpcfs .form_field, .wpcfs .popup, .wpcfs .popup .popup-content, .wpcfs .wpcfs-cta {
+        padding: 10px; } }
+    @media (max-width: 900px) {
+      .wpcfs .bordered_item, .wpcfs .form_field, .wpcfs .popup, .wpcfs .popup .popup-content, .wpcfs .wpcfs-cta {
+        padding: 5px; } }
+  .wpcfs .icon {
+    display: inline-block;
+    width: 0px;
+    height: 32px;
+    overflow: hidden;
+    font-size: 0px;
+    padding-left: 32px;
+    background-repeat: no-repeat; }
+  .wpcfs .icon.delete, .wpcfs .icon.close {
+    background-image: url(icons/close.png); }
+  .wpcfs .icon.edit {
+    background-image: url(icons/cog.png); }
+  .wpcfs .icon.add {
+    background-image: url(icons/plus.png); }
+  .wpcfs .icon.left {
+    position: absolute;
+    left: 8px; }
+  .wpcfs .icon.right {
+    position: absolute;
+    right: 8px; }
+  .wpcfs .icon.top {
+    position: absolute;
+    top: 8px; }
+  .wpcfs .form_field {
+    display: block;
+    position: relative;
+    width: calc( 100% - 30px );
+    min-height: 32px;
+    padding-top: 7px;
+    background: #557ED5; }
+    .wpcfs .form_field .title, .wpcfs .form_field .icon-text {
+      display: block;
+      position: absolute;
+      left: 43px;
+      right: 43px;
+      text-overflow: ellipsis;
+      font-size: 1.5em;
+      line-height: 32px;
+      vertical-align: middle; }
+  .wpcfs .form_field.new_field {
+    background: #868FA3; }
+    .wpcfs .form_field.new_field a {
+      color: #2E4372; }
+  .wpcfs .form_header {
+    display: block;
+    position: relative;
+    min-height: 32px;
+    width: 100%;
+    padding: 10px 0px; }
+    .wpcfs .form_header input {
+      display: block;
+      position: absolute;
+      width: calc( 100% - 90px );
+      left: 43px;
+      right: 43px;
+      border-radius: 5px;
+      top: 3px;
+      bottom: 8px;
+      font-size: 1.5em; }
+  .wpcfs .popup {
+    width: 95%;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    background: white;
+    border: solid black 2px;
+    background: #557ED5;
+    padding: 35px 5px 5px;
+    z-index: 20; }
+    .wpcfs .popup .popup-header {
+      margin-top: -35px; }
+      .wpcfs .popup .popup-header .icon.top {
+        top: 3px; }
+    .wpcfs .popup .popup-content {
+      margin-top: 35px; }
+    .wpcfs .popup .config_row {
+      padding: 10px;
+      margin: 5px; }
+    .wpcfs .popup input, .wpcfs .popup select {
+      font-size: 1.5em; }
+  .wpcfs .wpcfs-key-value-table input {
+    width: calc( 100% - 10px );
+    padding: 5px; }
+  .wpcfs .settings-popup .wpcfs-settings-accordion-header {
+    padding-left: 40px;
+    background-position: left;
+    background-repeat: no-repeat;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle; }
+  .wpcfs .settings-popup .wpcfs-settings-accordion-header.expanded {
+    background-image: url("icons/open-accordion.png"); }
+  .wpcfs .settings-popup .wpcfs-settings-accordion-header.collapsed {
+    background-image: url("icons/closed-accordion.png"); }
+  .wpcfs .settings-popup .wpcfs-settings-accordion-content {
+    padding-left: 20px; }
+  .wpcfs .wpcfs-presets .preset-catalogue-item {
+    border: solid gray 2px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    position: relative; }
+    .wpcfs .wpcfs-presets .preset-catalogue-item .preset-label {
+      margin-top: 32px; }
+    .wpcfs .wpcfs-presets .preset-catalogue-item .preset-label, .wpcfs .wpcfs-presets .preset-catalogue-item .new-preset-button {
+      font-size: 2em; }
+  .wpcfs .wpcfs-presets .form_header input {
+    width: calc( 100% - 150px ); }
+  .wpcfs .wpcfs-presets .preset-field-list {
+    margin-left: 10px;
+    list-style: initial; }
+  .wpcfs .wpcfs-presets .preset-blurb p {
+    font-size: 1em; }
+    @media screEn and (min-width: 1200px) {
+      .wpcfs .wpcfs-presets .preset-blurb p {
+        font-size: 1.4em; } }
+  .wpcfs .wpcfs-floating-prompt {
+    position: relative; }
+  .wpcfs .wpcfs-floating-prompt > *:first-child {
+    background: #ffa;
+    position: absolute;
+    display: block;
+    padding: 5px;
+    top: 5px;
+    right: 20px;
+    width: calc( 100% - 60px );
+    border: dashed black 1px;
+    border-radius: 10px; }
+  .wpcfs .cell, .wpcfs .cell-10, .wpcfs .cell-6, .wpcfs .cell-5, .wpcfs .cell-4, .wpcfs .cell-2, .wpcfs .cell-1 {
+    display: inline-block; }
+    .wpcfs .cell input, .wpcfs .cell-10 input, .wpcfs .cell-6 input, .wpcfs .cell-5 input, .wpcfs .cell-4 input, .wpcfs .cell-2 input, .wpcfs .cell-1 input {
+      width: 80%; }
+  .wpcfs .cell-10 {
+    width: 80%; }
+  .wpcfs .cell-6 {
+    width: 48%; }
+  .wpcfs .cell-5 {
+    width: 40%; }
+  .wpcfs .cell-4 {
+    width: 32%; }
+  .wpcfs .cell-2 {
+    width: 16%; }
+  .wpcfs .cell-1 {
+    width: 8%; }
+  .wpcfs .wpcfs-cta {
+    background: #868FA3;
+    cursor: pointer; }
+  .wpcfs .wpcfs-cta:hover {
+    background: #557ED5; }
+  .wpcfs .wpcfs-cta:active {
+    background: #557ED5;
+    padding: 11px 9px 9px 11px; }
+
+/*# sourceMappingURL=editor.css.map */

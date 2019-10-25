@@ -1,0 +1,1990 @@
+# Copyright (C) 2018 Web Plant Media
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Crimson Rose 2.19\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/crimson-rose\n"
+"POT-Creation-Date: 2018-05-23 16:15:53+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: 404.php:56 inc/template-tags.php:111 inc/widgets/callout.php:231
+#: inc/widgets/collage.php:499 inc/widgets/image-banner.php:162
+#: inc/widgets/jetpack-testimonials.php:306 inc/widgets/static-content.php:224
+#: template-parts/content-full-width.php:64 template-parts/content-page.php:43
+msgid "Edit"
+msgstr ""
+
+#: 404.php:79
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:83
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: 404.php:91
+msgid "Most Used Categories"
+msgstr ""
+
+#. translators: %1$s: smiley
+#: 404.php:110
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#. translators: 1: title.
+#: comments.php:39
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:45
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:71
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:89
+msgid "Site crafted with"
+msgstr ""
+
+#: footer.php:89
+msgid "by"
+msgstr ""
+
+#. #-#-#-#-#  crimson-rose.pot (Crimson Rose 2.19)  #-#-#-#-#
+#. Author of the plugin/theme
+#: footer.php:89 inc/theme-info.php:38 inc/theme-info.php:39
+msgid "Web Plant Media"
+msgstr ""
+
+#: functions.php:61
+msgid "Primary"
+msgstr ""
+
+#: functions.php:62
+msgid "Top Header Left"
+msgstr ""
+
+#: functions.php:63
+msgid "Top Header Right"
+msgstr ""
+
+#: functions.php:64
+msgid "Social Menu"
+msgstr ""
+
+#: functions.php:184
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:186 functions.php:198 functions.php:210 functions.php:222
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:196
+msgid "Footer 1"
+msgstr ""
+
+#: functions.php:208
+msgid "Footer 2"
+msgstr ""
+
+#: functions.php:220
+msgid "Footer 3"
+msgstr ""
+
+#: functions.php:232
+msgid "Footer Bottom"
+msgstr ""
+
+#: functions.php:234
+msgid ""
+"Add a text or HTML widget here with your site credit and copyright "
+"information. Doing so will override the default footer credit at the bottom "
+"of your pages."
+msgstr ""
+
+#: functions.php:244
+msgid "Instagram Gallery"
+msgstr ""
+
+#: functions.php:246
+msgid "Add Instagram widget here."
+msgstr ""
+
+#. #-#-#-#-#  crimson-rose.pot (Crimson Rose 2.19)  #-#-#-#-#
+#. Template Name of the plugin/theme
+#: functions.php:256
+msgid "Widgetized Page"
+msgstr ""
+
+#: functions.php:258
+msgid "Add content widgets here."
+msgstr ""
+
+#: header.php:29
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:90
+msgid "Search Results for:"
+msgstr ""
+
+#: inc/class-widget.php:529
+msgid "Add New Item"
+msgstr ""
+
+#: inc/class-widget.php:567
+msgid "Delete Slide?"
+msgstr ""
+
+#: inc/class-widget.php:568
+msgid "Yes"
+msgstr ""
+
+#: inc/class-widget.php:569
+msgid "No"
+msgstr ""
+
+#: inc/class-widget.php:639
+msgid "Choose Image"
+msgstr ""
+
+#: inc/class-widget.php:646
+msgid "Remove"
+msgstr ""
+
+#: inc/class-widget.php:716
+msgid "No Page"
+msgstr ""
+
+#: inc/class-widget.php:818
+msgid "All Categories"
+msgstr ""
+
+#: inc/class-widget.php:1011
+msgid "Cover"
+msgstr ""
+
+#: inc/class-widget.php:1012
+msgid "Contain"
+msgstr ""
+
+#: inc/class-widget.php:1013
+msgid "Stretch"
+msgstr ""
+
+#: inc/class-widget.php:1014
+msgid "Fit Width"
+msgstr ""
+
+#: inc/class-widget.php:1015
+msgid "Fit Height"
+msgstr ""
+
+#: inc/class-widget.php:1016
+msgid "Auto"
+msgstr ""
+
+#: inc/class-woocommerce.php:436
+msgid "items in your cart"
+msgstr ""
+
+#: inc/class-woocommerce.php:449
+msgid "Payment info"
+msgstr ""
+
+#: inc/customizer.php:71
+msgid "Retina Logo"
+msgstr ""
+
+#: inc/customizer.php:75 inc/customizer.php:78
+msgid "Select Retina Logo"
+msgstr ""
+
+#: inc/customizer.php:76
+msgid "Change Retina Logo"
+msgstr ""
+
+#: inc/customizer.php:77
+msgid "No retina logo selected"
+msgstr ""
+
+#: inc/customizer.php:79
+msgid "Choose Retina Logo"
+msgstr ""
+
+#: inc/customizer.php:81
+msgid ""
+"Select image twice the size as your original logo image for crisp display on "
+"retina screens."
+msgstr ""
+
+#: inc/customizer.php:98
+msgid "Padding Top"
+msgstr ""
+
+#: inc/customizer.php:115
+msgid "Padding Bottom"
+msgstr ""
+
+#. Translators: this string is a link to a self hosted WordPress plugin.
+#: inc/customizer.php:137 inc/customizer.php:260
+msgid "To add more watercolor backgrounds, please download our %s plugin."
+msgstr ""
+
+#: inc/customizer.php:138 inc/customizer.php:261
+msgid "Watercolor Backgrounds"
+msgstr ""
+
+#: inc/customizer.php:141
+msgid "Control the color of the watercolor background image in the header."
+msgstr ""
+
+#: inc/customizer.php:147
+msgid "Header Background Image Color"
+msgstr ""
+
+#: inc/customizer.php:152 inc/customizer.php:275
+msgid "No Image"
+msgstr ""
+
+#: inc/customizer.php:153 inc/customizer.php:276
+msgid "Red"
+msgstr ""
+
+#: inc/customizer.php:171
+msgid "Primary Color"
+msgstr ""
+
+#: inc/customizer.php:189
+msgid "Primary Hover Color"
+msgstr ""
+
+#: inc/customizer.php:207
+msgid "Archive Background Color"
+msgstr ""
+
+#: inc/customizer.php:225
+msgid "Display White Archive Title?"
+msgstr ""
+
+#: inc/customizer.php:242
+msgid "Footer Background Color"
+msgstr ""
+
+#: inc/customizer.php:264
+msgid "Control the color of the watercolor background image in the footer."
+msgstr ""
+
+#: inc/customizer.php:270
+msgid "Footer Background Image Color"
+msgstr ""
+
+#: inc/customizer.php:294
+msgid "Display White Footer Text?"
+msgstr ""
+
+#: inc/customizer.php:311
+msgid "Link Color"
+msgstr ""
+
+#: inc/customizer.php:329
+msgid "Link Hover Color"
+msgstr ""
+
+#: inc/customizer.php:340
+msgid "Theme Options"
+msgstr ""
+
+#: inc/customizer.php:351
+msgid "Site"
+msgstr ""
+
+#: inc/customizer.php:368
+msgid "Top Header Background Offset"
+msgstr ""
+
+#: inc/customizer.php:369
+msgid ""
+"This changes the position of your top header background so you can center it "
+"perfectly with your top header menu."
+msgstr ""
+
+#: inc/customizer.php:392
+msgid "Show Menu Arrows"
+msgstr ""
+
+#: inc/customizer.php:409
+msgid "Default Button Style"
+msgstr ""
+
+#: inc/customizer.php:410
+msgid ""
+"When you insert a link on its own line in the WP Editor, the theme turns it "
+"into a button. Choose the default style of your button to display in your "
+"post and pages."
+msgstr ""
+
+#: inc/customizer.php:413 inc/widgets/blog-posts.php:95
+#: inc/widgets/callout.php:102 inc/widgets/collage.php:166
+msgid "Default Button"
+msgstr ""
+
+#: inc/customizer.php:414
+msgid "Button Style 1"
+msgstr ""
+
+#: inc/customizer.php:415
+msgid "Button Style 2"
+msgstr ""
+
+#: inc/customizer.php:432
+msgid "Disable Body Font"
+msgstr ""
+
+#: inc/customizer.php:433
+msgid ""
+"If you are using a Google Font plugin, then you can disable the load of the "
+"body font."
+msgstr ""
+
+#: inc/customizer.php:451
+msgid "Disable Accent Font"
+msgstr ""
+
+#: inc/customizer.php:452
+msgid ""
+"The accent font is a cursive font used in places such as your archive title. "
+"If you are using a Google Font plugin, then you can disable the load of this "
+"accent font."
+msgstr ""
+
+#: inc/customizer.php:471
+msgid "Page Image Header Height"
+msgstr ""
+
+#: inc/customizer.php:472
+msgid ""
+"This changes the height of your featured image in your page header area."
+msgstr ""
+
+#: inc/customizer.php:489 inc/customizer.php:964
+msgid "Blog"
+msgstr ""
+
+#: inc/customizer.php:506
+msgid "Blog Display"
+msgstr ""
+
+#: inc/customizer.php:509 inc/customizer.php:532 inc/customizer.php:555
+msgid "Lead Excerpt + Grid"
+msgstr ""
+
+#: inc/customizer.php:510 inc/customizer.php:533 inc/customizer.php:556
+msgid "Grid"
+msgstr ""
+
+#: inc/customizer.php:511 inc/customizer.php:534 inc/customizer.php:557
+msgid "Excerpt"
+msgstr ""
+
+#: inc/customizer.php:512 inc/customizer.php:535 inc/customizer.php:558
+msgid "Content"
+msgstr ""
+
+#: inc/customizer.php:529
+msgid "Archive Display"
+msgstr ""
+
+#: inc/customizer.php:552
+msgid "Search Display"
+msgstr ""
+
+#: inc/customizer.php:576
+msgid "Thumb Excerpt Max Height"
+msgstr ""
+
+#: inc/customizer.php:577
+msgid ""
+"If you have long featured images in your excerpts, set a max-height on your "
+"image. Enter 0 for no max-height"
+msgstr ""
+
+#: inc/customizer.php:599
+msgid "Thumb Grid Max Height"
+msgstr ""
+
+#: inc/customizer.php:600
+msgid ""
+"If you have long featured images in your grid, set a max-height on your "
+"image. Enter 0 for no max-height"
+msgstr ""
+
+#: inc/customizer.php:621
+msgid "Hide Post Navigation"
+msgstr ""
+
+#: inc/customizer.php:622
+msgid "Hide the post navigation buttons at the bottom of each post."
+msgstr ""
+
+#: inc/customizer.php:633
+msgid "Jetpack"
+msgstr ""
+
+#: inc/customizer.php:651
+msgid "Hide Share Button Count"
+msgstr ""
+
+#: inc/customizer.php:662 inc/customizer.php:1033
+msgid "Shop"
+msgstr ""
+
+#: inc/customizer.php:680
+msgid "Shop Columns"
+msgstr ""
+
+#: inc/customizer.php:683 inc/customizer.php:705 inc/customizer.php:727
+#: inc/widgets/jetpack-testimonials.php:65
+#: inc/widgets/woocommerce-products.php:54
+msgid "2"
+msgstr ""
+
+#: inc/customizer.php:684 inc/customizer.php:706 inc/customizer.php:728
+#: inc/widgets/woocommerce-products.php:55
+msgid "3"
+msgstr ""
+
+#: inc/customizer.php:685 inc/customizer.php:707 inc/customizer.php:729
+#: inc/widgets/woocommerce-products.php:56
+msgid "4"
+msgstr ""
+
+#: inc/customizer.php:702
+msgid "Shop Archive Columns"
+msgstr ""
+
+#: inc/customizer.php:724
+msgid "Related Products Columns"
+msgstr ""
+
+#: inc/customizer.php:746
+msgid "Display Product Image Backdrop"
+msgstr ""
+
+#: inc/customizer.php:747
+msgid ""
+"Add a light gray backdrop with a dropshadow for your product images. "
+"Visually helpful for images with light colored backgrounds."
+msgstr ""
+
+#: inc/customizer.php:764
+msgid "Hide Shop Title From Main Shop Page"
+msgstr ""
+
+#: inc/customizer.php:781
+msgid "Hide Breadcrumbs From Shop Page"
+msgstr ""
+
+#: inc/customizer.php:798
+msgid "Hide Product Reviews From Shop Page"
+msgstr ""
+
+#: inc/customizer.php:815
+msgid "Hide Result Count String From Shop Page"
+msgstr ""
+
+#: inc/customizer.php:832
+msgid "Hide Ordering Dropdown From Shop Page"
+msgstr ""
+
+#: inc/customizer.php:849
+msgid "Truncate Product Titles"
+msgstr ""
+
+#: inc/customizer.php:850
+msgid "This will cause product titles to appear in one line."
+msgstr ""
+
+#: inc/customizer.php:867
+msgid "Hide Product Reviews From Product Page"
+msgstr ""
+
+#: inc/customizer.php:884
+msgid "Hide Product Meta From Product Page"
+msgstr ""
+
+#: inc/customizer.php:901
+msgid "Disable Gallery Zoom on Product Page"
+msgstr ""
+
+#: inc/customizer.php:918
+msgid "Disable Gallery Lightbox on Product Page"
+msgstr ""
+
+#: inc/customizer.php:935
+msgid "Disable Gallery Slider on Product Page"
+msgstr ""
+
+#: inc/customizer.php:946
+msgid "Display Sidebar"
+msgstr ""
+
+#: inc/customizer.php:948
+msgid "Check the pages where you want the sidebar to display."
+msgstr ""
+
+#: inc/customizer.php:981 inc/template-tags.php:290
+msgid "Post"
+msgstr ""
+
+#: inc/customizer.php:998
+msgid "Archive"
+msgstr ""
+
+#: inc/customizer.php:1015 searchform.php:31
+msgid "Search"
+msgstr ""
+
+#: inc/customizer.php:1051
+msgid "Shop Archive"
+msgstr ""
+
+#: inc/customizer.php:1068
+msgid "Attachment Page"
+msgstr ""
+
+#: inc/customizer.php:1079
+msgid "Labels"
+msgstr ""
+
+#: inc/customizer.php:1096
+msgid "Mobile Menu Label"
+msgstr ""
+
+#: inc/customizer.php:1113
+msgid "Read More Label"
+msgstr ""
+
+#: inc/customizer.php:1124
+msgid "404 Error Page"
+msgstr ""
+
+#: inc/customizer.php:1141
+msgid "Select 404 Page"
+msgstr ""
+
+#: inc/customizer.php:1142
+msgid "Set the page's featured image for the background image to display."
+msgstr ""
+
+#: inc/customizer.php:1161
+msgid "Page Cover Opacity"
+msgstr ""
+
+#: inc/customizer.php:1162
+msgid "Set opacity for 404 Page Cover's featured image."
+msgstr ""
+
+#: inc/customizer.php:1185
+msgid "Page Cover Color"
+msgstr ""
+
+#: inc/customizer.php:1203
+msgid "Display White Text"
+msgstr ""
+
+#: inc/customizer.php:1215
+msgid "Fonts"
+msgstr ""
+
+#: inc/customizer.php:1235
+msgid "Font Customization"
+msgstr ""
+
+#. Translators: this string is a link to a self hosted WordPress plugin.
+#: inc/customizer.php:1238
+msgid ""
+"To easily change the font styles for your theme, please download our %s "
+"plugin."
+msgstr ""
+
+#: inc/customizer.php:1239
+msgid "Designer Fonts"
+msgstr ""
+
+#: inc/dashboard.php:24
+msgid "Documentation"
+msgstr ""
+
+#: inc/dashboard.php:25
+msgid "Theme Documentation"
+msgstr ""
+
+#: inc/dashboard.php:27
+msgid ""
+"Every theme option and theme feature is well documented on our product page. "
+"Find out all the amazing features coded within our theme."
+msgstr ""
+
+#: inc/dashboard.php:30
+msgid "Support"
+msgstr ""
+
+#: inc/dashboard.php:31
+msgid "Extended WordPress Support"
+msgstr ""
+
+#: inc/dashboard.php:33
+msgid ""
+"If you are using one of our themes, and need WordPress support, a little CSS "
+"hack, or some custom debugging support for your WordPress site, then you can "
+"purchase extended WordPress support. We are WordPress experts, and will "
+"quickly and efficiently take care of your site problem or need."
+msgstr ""
+
+#: inc/dashboard.php:36
+msgid "Font Customizer Plugin"
+msgstr ""
+
+#: inc/dashboard.php:37
+msgid "Designer Fonts Plugin"
+msgstr ""
+
+#: inc/dashboard.php:39
+msgid ""
+"Use our Designer Fonts plugin to quickly and easily customize the default "
+"fonts on your theme. Easily change your site title font, heading font, "
+"accent font, and body font, from your Customizer panel using our Designer "
+"Fonts plugin."
+msgstr ""
+
+#: inc/dashboard.php:42
+msgid "Watercolor Backgrounds Plugin"
+msgstr ""
+
+#: inc/dashboard.php:44
+msgid ""
+"To add more watercolor background options in your Customizer for your header "
+"and footer areas of your theme, please download our Watercolor Backgrounds "
+"plugin."
+msgstr ""
+
+#: inc/dashboard.php:61
+msgid "The Best Setup For Your Self Hosted WordPress Shopping Site and Blog"
+msgstr ""
+
+#: inc/dashboard.php:65
+msgid ""
+"How to Transfer and Migrate Your Site Content from WordPress.com to a Self "
+"Hosted WordPress.org Site on Bluehost &#8211; Step By Step Instructions"
+msgstr ""
+
+#: inc/dashboard.php:69
+msgid "WordPress.com vs WordPress.org: What is the Difference?"
+msgstr ""
+
+#: inc/dashboard.php:73
+msgid "The Best Managed WordPress Hosting for Your Small Business Site"
+msgstr ""
+
+#: inc/dashboard.php:99
+msgid "Theme Add-ons"
+msgstr ""
+
+#: inc/default-options.php:98
+msgid "Menu"
+msgstr ""
+
+#: inc/default-options.php:99
+msgid "Continue Reading"
+msgstr ""
+
+#: inc/jetpack.php:178
+msgid "leave a Comment"
+msgstr ""
+
+#: inc/jetpack.php:180
+msgid " Comments"
+msgstr ""
+
+#: inc/jetpack.php:182
+msgid "1 Comment"
+msgstr ""
+
+#: inc/one-click-demo-import.php:213
+msgid ""
+"Importing demo data (post, pages, images, theme settings, ...) is the "
+"easiest way to setup your theme. It will allow you to quickly edit "
+"everything instead of creating content from scratch."
+msgstr ""
+
+#: inc/one-click-demo-import.php:216
+msgid "Before Your Import:"
+msgstr ""
+
+#: inc/one-click-demo-import.php:219
+msgid ""
+"No existing posts, pages, categories, images, or custom post types will be "
+"deleted or modified."
+msgstr ""
+
+#. Translators: this string is a link to the widgets page on the dashboard.
+#: inc/one-click-demo-import.php:221
+msgid ""
+"When doing a \"Full Demo Import\", your %s will be cleared, and replaced "
+"with our demo sidebar widgets."
+msgstr ""
+
+#: inc/one-click-demo-import.php:221
+msgid "sidebar widgets"
+msgstr ""
+
+#: inc/one-click-demo-import.php:222
+msgid ""
+"Please click on the Import button only once and wait, it can take a couple "
+"of minutes."
+msgstr ""
+
+#: inc/one-click-demo-import.php:225
+msgid "After Your Import:"
+msgstr ""
+
+#. Translators: this string is a link to the menu page on the dashboard.
+#: inc/one-click-demo-import.php:229
+msgid ""
+"We try to set your menu, front page, and blog page, automatically. If your "
+"menu is not set, please %s."
+msgstr ""
+
+#: inc/one-click-demo-import.php:229
+msgid "set your menu manually"
+msgstr ""
+
+#: inc/starter-content.php:249 inc/starter-content.php:284
+msgctxt "Theme starter content"
+msgid "Categories"
+msgstr ""
+
+#: inc/starter-content.php:256
+msgctxt "Theme starter content"
+msgid "Search"
+msgstr ""
+
+#: inc/starter-content.php:269
+msgctxt "Theme starter content"
+msgid "Find Us"
+msgstr ""
+
+#: inc/starter-content.php:272
+msgctxt "Theme starter content"
+msgid "Address"
+msgstr ""
+
+#: inc/starter-content.php:273
+msgctxt "Theme starter content"
+msgid "123 Main Street"
+msgstr ""
+
+#: inc/starter-content.php:273
+msgctxt "Theme starter content"
+msgid "New York, NY 10001"
+msgstr ""
+
+#: inc/starter-content.php:274
+msgctxt "Theme starter content"
+msgid "Hours"
+msgstr ""
+
+#: inc/starter-content.php:275
+msgctxt "Theme starter content"
+msgid "Mon&mdash;Fri: 9:00AM&ndash;5:00PM"
+msgstr ""
+
+#: inc/starter-content.php:275
+msgctxt "Theme starter content"
+msgid "Sat &amp; Sun: 11:00AM&ndash;3:00PM"
+msgstr ""
+
+#: inc/starter-content.php:292
+msgctxt "Theme starter content"
+msgid "Connect"
+msgstr ""
+
+#: inc/starter-content.php:300
+msgctxt "Theme starter content"
+msgid "Site crafted with"
+msgstr ""
+
+#: inc/starter-content.php:300
+msgctxt "Theme starter content"
+msgid "by"
+msgstr ""
+
+#: inc/starter-content.php:300
+msgctxt "Theme starter content"
+msgid "Web Plant Media"
+msgstr ""
+
+#: inc/starter-content.php:340
+msgctxt "Theme starter content"
+msgid "About"
+msgstr ""
+
+#: inc/starter-content.php:347
+msgctxt "Theme starter content"
+msgid "Contact"
+msgstr ""
+
+#: inc/starter-content.php:352
+msgctxt "Theme starter content"
+msgid "FAQ"
+msgstr ""
+
+#: inc/starter-content.php:358
+msgctxt "Theme starter content"
+msgid "Our Story"
+msgstr ""
+
+#: inc/starter-content.php:365
+msgctxt "Theme starter content"
+msgid "Demo Image 1"
+msgstr ""
+
+#: inc/starter-content.php:377
+msgctxt "Theme starter content"
+msgid "Primary"
+msgstr ""
+
+#: inc/starter-content.php:397
+msgctxt "Theme starter content"
+msgid "Top Left Menu"
+msgstr ""
+
+#: inc/starter-content.php:411
+msgctxt "Theme starter content"
+msgid "Top Right Menu"
+msgstr ""
+
+#: inc/starter-content.php:418
+msgctxt "Theme starter content"
+msgid "Social Links Menu"
+msgstr ""
+
+#. translators: %s: post author.
+#: inc/template-tags.php:80
+msgctxt "post author"
+msgid "By %s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:86
+msgid ", "
+msgstr ""
+
+#. translators: 1: list of categories.
+#: inc/template-tags.php:89
+msgid "In %1$s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:93
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#. translators: 1: list of tags.
+#: inc/template-tags.php:96
+msgid "Tagged %1$s"
+msgstr ""
+
+#: inc/template-tags.php:103
+msgid "Leave a Comment"
+msgstr ""
+
+#: inc/template-tags.php:242
+msgid "Next"
+msgstr ""
+
+#: inc/template-tags.php:243
+msgid "Next post:"
+msgstr ""
+
+#: inc/template-tags.php:246
+msgid "Previous"
+msgstr ""
+
+#: inc/template-tags.php:247
+msgid "Previous post:"
+msgstr ""
+
+#: inc/template-tags.php:291
+msgid "Parent post:"
+msgstr ""
+
+#: inc/theme-info.php:16
+msgid "Theme Info"
+msgstr ""
+
+#. Translators: this string is the currenty theme version number.
+#: inc/theme-info.php:33
+msgid "Crimson Rose WordPress Theme - Version&nbsp;%s"
+msgstr ""
+
+#. Translators: this string is a link to the theme authors page.
+#: inc/theme-info.php:38
+msgid ""
+"Thank you for using a WordPress theme by %s! We are dedicated to making "
+"premium coded themes with beautiful designs that are open source, easy to "
+"use, and fast to install."
+msgstr ""
+
+#. translators: %s: smiling face with smiling eyes emoji
+#: inc/theme-info.php:47
+msgid "Premium Themes with Support %s"
+msgstr ""
+
+#: inc/theme-info.php:78
+msgid "Help Articles by WordPress Experts"
+msgstr ""
+
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:330
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:332
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:370
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:375
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:380
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:386
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:827
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:2533
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:387
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:388
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:390
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:392
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:394
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:396
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr ""
+
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:934
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:934
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:937
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:937
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:1121
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:1982
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr ""
+
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr ""
+
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr ""
+
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr ""
+
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr ""
+
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr ""
+
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:2342
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:2388
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:2392
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:2396
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:2400
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr ""
+
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr ""
+
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr ""
+
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr ""
+
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr ""
+
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr ""
+
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:2603
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:2608
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:2614
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr ""
+
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr ""
+
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr ""
+
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:3498
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:3501
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:3503
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:3507
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:3509
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:3509
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr ""
+
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:3509
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr ""
+
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:3512
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:3515
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:3517
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/vendors/tgm-plugin-activation/class-tgm-plugin-activation.php:3520
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/widgets/blog-posts.php:32
+msgid "Displays content from blog posts on your widgetized page."
+msgstr ""
+
+#: inc/widgets/blog-posts.php:33
+msgid "Crimson Rose: Blog Posts"
+msgstr ""
+
+#: inc/widgets/blog-posts.php:37
+msgid "BLOG"
+msgstr ""
+
+#: inc/widgets/blog-posts.php:38 inc/widgets/jetpack-testimonials.php:37
+#: inc/widgets/social-menu.php:39 inc/widgets/woocommerce-products.php:37
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets/blog-posts.php:44 inc/widgets/woocommerce-products.php:79
+msgid "Post ID's:"
+msgstr ""
+
+#: inc/widgets/blog-posts.php:50 inc/widgets/woocommerce-products.php:92
+msgid "Category:"
+msgstr ""
+
+#: inc/widgets/blog-posts.php:59
+msgid "Number of Posts:"
+msgstr ""
+
+#: inc/widgets/blog-posts.php:65 inc/widgets/jetpack-testimonials.php:62
+#: inc/widgets/woocommerce-products.php:52
+msgid "Columns:"
+msgstr ""
+
+#: inc/widgets/blog-posts.php:67
+msgid "2 Columns"
+msgstr ""
+
+#: inc/widgets/blog-posts.php:68
+msgid "3 Columns"
+msgstr ""
+
+#: inc/widgets/blog-posts.php:75
+msgid "Random order?"
+msgstr ""
+
+#: inc/widgets/blog-posts.php:80
+msgid "See All Posts"
+msgstr ""
+
+#: inc/widgets/blog-posts.php:81 inc/widgets/callout.php:88
+#: inc/widgets/collage.php:152
+msgid "Button Text:"
+msgstr ""
+
+#: inc/widgets/blog-posts.php:87
+msgid "Button Link:"
+msgstr ""
+
+#: inc/widgets/blog-posts.php:93 inc/widgets/callout.php:100
+#: inc/widgets/collage.php:164
+msgid "Button Style:"
+msgstr ""
+
+#: inc/widgets/blog-posts.php:96 inc/widgets/callout.php:103
+#: inc/widgets/collage.php:167
+msgid "Image Button 1"
+msgstr ""
+
+#: inc/widgets/blog-posts.php:97 inc/widgets/callout.php:104
+#: inc/widgets/collage.php:168
+msgid "Image Button 2"
+msgstr ""
+
+#: inc/widgets/blog-posts.php:107 inc/widgets/callout.php:142
+#: inc/widgets/collage.php:88 inc/widgets/jetpack-testimonials.php:143
+#: inc/widgets/static-content.php:89 inc/widgets/woocommerce-products.php:158
+msgid "Bottom margin of widget:"
+msgstr ""
+
+#: inc/widgets/blog-posts.php:161 inc/widgets/static-content.php:154
+msgid "Read more"
+msgstr ""
+
+#: inc/widgets/blog-posts.php:215
+msgid "No blog posts found."
+msgstr ""
+
+#: inc/widgets/callout.php:31
+msgid "Displays a callout on your widgetized page."
+msgstr ""
+
+#: inc/widgets/callout.php:32
+msgid "Crimson Rose: Callout"
+msgstr ""
+
+#: inc/widgets/callout.php:37 inc/widgets/collage.php:100
+#: inc/widgets/image-banner.php:39 inc/widgets/static-content.php:34
+msgid "Select Page:"
+msgstr ""
+
+#: inc/widgets/callout.php:38
+msgid ""
+"The post content and featured image will be grabbed from the selected post. "
+"If no featured image is set, then the text will display in full width."
+msgstr ""
+
+#: inc/widgets/callout.php:47 inc/widgets/image-banner.php:49
+msgid "Image Width (in pixels)"
+msgstr ""
+
+#: inc/widgets/callout.php:48 inc/widgets/image-banner.php:50
+msgid ""
+"Set custom size for featured image. Leave blank to use large image display."
+msgstr ""
+
+#: inc/widgets/callout.php:54
+msgid "Text Position:"
+msgstr ""
+
+#: inc/widgets/callout.php:56 inc/widgets/social-menu.php:47
+msgid "Left"
+msgstr ""
+
+#: inc/widgets/callout.php:57 inc/widgets/social-menu.php:49
+msgid "Right"
+msgstr ""
+
+#: inc/widgets/callout.php:64
+msgid "Vertical Alignment:"
+msgstr ""
+
+#: inc/widgets/callout.php:66
+msgid "Top"
+msgstr ""
+
+#: inc/widgets/callout.php:67 inc/widgets/image-banner.php:69
+msgid "Middle"
+msgstr ""
+
+#: inc/widgets/callout.php:68
+msgid "Bottom"
+msgstr ""
+
+#: inc/widgets/callout.php:75 inc/widgets/collage.php:107
+#: inc/widgets/static-content.php:41
+msgid "Background Color:"
+msgstr ""
+
+#: inc/widgets/callout.php:81 inc/widgets/collage.php:120
+#: inc/widgets/social-menu.php:56 inc/widgets/static-content.php:56
+msgid "Text Color:"
+msgstr ""
+
+#: inc/widgets/callout.php:82 inc/widgets/collage.php:121
+#: inc/widgets/collage.php:128
+msgid "Leave blank to use default theme color."
+msgstr ""
+
+#: inc/widgets/callout.php:94 inc/widgets/collage.php:158
+msgid "Button URL:"
+msgstr ""
+
+#: inc/widgets/callout.php:111 inc/widgets/jetpack-testimonials.php:103
+msgid "Box Style:"
+msgstr ""
+
+#: inc/widgets/callout.php:113 inc/widgets/jetpack-testimonials.php:105
+msgid "Plain"
+msgstr ""
+
+#: inc/widgets/callout.php:114 inc/widgets/jetpack-testimonials.php:106
+msgid "Border"
+msgstr ""
+
+#: inc/widgets/callout.php:124 inc/widgets/jetpack-testimonials.php:125
+#: inc/widgets/static-content.php:71 inc/widgets/woocommerce-products.php:140
+msgid "Top padding of widget:"
+msgstr ""
+
+#: inc/widgets/callout.php:133 inc/widgets/jetpack-testimonials.php:134
+#: inc/widgets/static-content.php:80 inc/widgets/woocommerce-products.php:149
+msgid "Bottom padding of widget:"
+msgstr ""
+
+#: inc/widgets/callout.php:301 inc/widgets/static-content.php:241
+msgid "Select a page in your widget settings for content to display."
+msgstr ""
+
+#: inc/widgets/collage.php:32
+msgid "Displays a collage on your widgetized page."
+msgstr ""
+
+#: inc/widgets/collage.php:33
+msgid "Crimson Rose: Collage"
+msgstr ""
+
+#: inc/widgets/collage.php:37 inc/widgets/jetpack-testimonials.php:148
+msgid "Slider Settings"
+msgstr ""
+
+#: inc/widgets/collage.php:42 inc/widgets/jetpack-testimonials.php:153
+msgid "Transition Effect:"
+msgstr ""
+
+#: inc/widgets/collage.php:44 inc/widgets/collage.php:95
+#: inc/widgets/jetpack-testimonials.php:155
+msgid "Slide"
+msgstr ""
+
+#: inc/widgets/collage.php:45 inc/widgets/jetpack-testimonials.php:156
+msgid "Fade"
+msgstr ""
+
+#: inc/widgets/collage.php:55 inc/widgets/jetpack-testimonials.php:166
+msgid "Speed of the slideshow change in seconds:"
+msgstr ""
+
+#: inc/widgets/collage.php:61 inc/widgets/jetpack-testimonials.php:172
+msgid "Auto start slider transitions?"
+msgstr ""
+
+#: inc/widgets/collage.php:67 inc/widgets/jetpack-testimonials.php:178
+msgid "Pause slideshow when hovering?"
+msgstr ""
+
+#: inc/widgets/collage.php:73 inc/widgets/jetpack-testimonials.php:184
+msgid "Show slide control?"
+msgstr ""
+
+#: inc/widgets/collage.php:79 inc/widgets/jetpack-testimonials.php:190
+msgid "Show slide pagination?"
+msgstr ""
+
+#: inc/widgets/collage.php:101
+msgid ""
+"The post content and featured image will be grabbed from the selected post. "
+"If no featured image is set, then the collage panel will display only the "
+"background color selected."
+msgstr ""
+
+#: inc/widgets/collage.php:113
+msgid "Background Size:"
+msgstr ""
+
+#: inc/widgets/collage.php:127
+msgid "Text Background Color:"
+msgstr ""
+
+#: inc/widgets/collage.php:137
+msgid "Text Background Color Opacity:"
+msgstr ""
+
+#: inc/widgets/collage.php:145
+msgid "Max Width of Content Box:"
+msgstr ""
+
+#: inc/widgets/collage.php:146
+msgid "Leave blank to set max width to none."
+msgstr ""
+
+#: inc/widgets/collage.php:182
+msgctxt "Theme starter content"
+msgid "Order Now"
+msgstr ""
+
+#: inc/widgets/collage.php:193
+msgctxt "Theme starter content"
+msgid "Shop Now"
+msgstr ""
+
+#: inc/widgets/collage.php:203
+msgctxt "Theme starter content"
+msgid "Join Now"
+msgstr ""
+
+#: inc/widgets/collage.php:459
+msgid "Select a page"
+msgstr ""
+
+#: inc/widgets/image-banner.php:33
+msgid "Display an image banner in your footer or sidebar."
+msgstr ""
+
+#: inc/widgets/image-banner.php:34
+msgid "Crimson Rose: Image Banner"
+msgstr ""
+
+#: inc/widgets/image-banner.php:40 inc/widgets/static-content.php:35
+msgid ""
+"The post content and featured image will be grabbed from the selected post."
+msgstr ""
+
+#: inc/widgets/image-banner.php:56
+msgid "Image Style:"
+msgstr ""
+
+#: inc/widgets/image-banner.php:58 inc/widgets/jetpack-testimonials.php:55
+msgid "None"
+msgstr ""
+
+#: inc/widgets/image-banner.php:59
+msgid "Round"
+msgstr ""
+
+#: inc/widgets/image-banner.php:66
+msgid "Title Position:"
+msgstr ""
+
+#: inc/widgets/image-banner.php:68
+msgid "Above"
+msgstr ""
+
+#: inc/widgets/image-banner.php:70
+msgid "Below"
+msgstr ""
+
+#: inc/widgets/image-banner.php:77
+msgid "Link:"
+msgstr ""
+
+#: inc/widgets/image-banner.php:153
+msgid "Select a page."
+msgstr ""
+
+#: inc/widgets/jetpack-testimonials.php:31
+msgid "Displays Jetpack testimonials on your widgetized page."
+msgstr ""
+
+#: inc/widgets/jetpack-testimonials.php:32
+msgid "Crimson Rose: Jetpack Testimonials"
+msgstr ""
+
+#: inc/widgets/jetpack-testimonials.php:36
+msgid "THOUSANDS OF HAPPY CUSTOMERS AND COUNTING"
+msgstr ""
+
+#: inc/widgets/jetpack-testimonials.php:43
+msgid "Display Signature:"
+msgstr ""
+
+#: inc/widgets/jetpack-testimonials.php:49
+msgid "Icon to display before signature:"
+msgstr ""
+
+#: inc/widgets/jetpack-testimonials.php:51
+msgid "Short Dash"
+msgstr ""
+
+#: inc/widgets/jetpack-testimonials.php:52
+msgid "Medium Dash"
+msgstr ""
+
+#: inc/widgets/jetpack-testimonials.php:53
+msgid "Long Dash"
+msgstr ""
+
+#: inc/widgets/jetpack-testimonials.php:54
+msgid "Heart"
+msgstr ""
+
+#: inc/widgets/jetpack-testimonials.php:64
+msgid "1"
+msgstr ""
+
+#: inc/widgets/jetpack-testimonials.php:74
+msgid "Number of testimonials to display:"
+msgstr ""
+
+#: inc/widgets/jetpack-testimonials.php:75
+msgid "Set to zero to display all."
+msgstr ""
+
+#: inc/widgets/jetpack-testimonials.php:81
+#: inc/widgets/woocommerce-products.php:99
+msgid "Order:"
+msgstr ""
+
+#: inc/widgets/jetpack-testimonials.php:83
+#: inc/widgets/woocommerce-products.php:101
+msgid "ASC"
+msgstr ""
+
+#: inc/widgets/jetpack-testimonials.php:84
+#: inc/widgets/woocommerce-products.php:102
+msgid "DESC"
+msgstr ""
+
+#: inc/widgets/jetpack-testimonials.php:91
+#: inc/widgets/woocommerce-products.php:63
+msgid "Order By:"
+msgstr ""
+
+#: inc/widgets/jetpack-testimonials.php:93
+#: inc/widgets/woocommerce-products.php:66
+msgid "Date"
+msgstr ""
+
+#: inc/widgets/jetpack-testimonials.php:94
+#: inc/widgets/woocommerce-products.php:65
+msgid "Title"
+msgstr ""
+
+#: inc/widgets/jetpack-testimonials.php:95
+msgid "Author"
+msgstr ""
+
+#: inc/widgets/jetpack-testimonials.php:96
+#: inc/widgets/woocommerce-products.php:70
+msgid "Random"
+msgstr ""
+
+#: inc/widgets/jetpack-testimonials.php:116
+msgid "Height of testimonials:"
+msgstr ""
+
+#: inc/widgets/jetpack-testimonials.php:410
+msgid "Activate Jetpack and enable testimonials."
+msgstr ""
+
+#: inc/widgets/jetpack-testimonials.php:412
+msgid ""
+"Your Testimonial Archive currently has no entries. You can start creating "
+"them on your dashboard."
+msgstr ""
+
+#: inc/widgets/social-menu.php:33
+msgid "Displays your social menu icons in your footer or sidebar."
+msgstr ""
+
+#: inc/widgets/social-menu.php:34
+msgid "Crimson Rose: Social Menu"
+msgstr ""
+
+#: inc/widgets/social-menu.php:45
+msgid "Align:"
+msgstr ""
+
+#: inc/widgets/social-menu.php:48
+msgid "Center"
+msgstr ""
+
+#: inc/widgets/social-menu.php:57
+msgid "Leave blank to use default text color."
+msgstr ""
+
+#: inc/widgets/social-menu.php:63 inc/widgets/static-content.php:62
+msgid "Link Color:"
+msgstr ""
+
+#: inc/widgets/social-menu.php:64
+msgid "Leave blank to use default hover color."
+msgstr ""
+
+#: inc/widgets/social-menu.php:115 template-parts/menu-mobile.php:57
+#: template-parts/menu-top.php:43
+msgid "Footer Social Links Menu"
+msgstr ""
+
+#: inc/widgets/static-content.php:28
+msgid "Displays content from a specified page on your widgetized page."
+msgstr ""
+
+#: inc/widgets/static-content.php:29
+msgid "Crimson Rose: Static Content"
+msgstr ""
+
+#: inc/widgets/static-content.php:50
+msgid "Background Color Opacity:"
+msgstr ""
+
+#: inc/widgets/static-content.php:239
+msgid "Static Content Widget"
+msgstr ""
+
+#: inc/widgets/woocommerce-products.php:31
+msgid "Displays WooCommerce products on your widgetized page."
+msgstr ""
+
+#: inc/widgets/woocommerce-products.php:32
+msgid "Crimson Rose: WooCommerce Products"
+msgstr ""
+
+#: inc/widgets/woocommerce-products.php:36
+msgid "NEW PRODUCTS"
+msgstr ""
+
+#: inc/widgets/woocommerce-products.php:45
+msgid "Limit:"
+msgstr ""
+
+#: inc/widgets/woocommerce-products.php:46
+msgid "The number of products to display. Defaults to display all (-1)"
+msgstr ""
+
+#: inc/widgets/woocommerce-products.php:67
+msgid "ID"
+msgstr ""
+
+#: inc/widgets/woocommerce-products.php:68
+msgid "Menu Order"
+msgstr ""
+
+#: inc/widgets/woocommerce-products.php:69
+msgid "Popularity"
+msgstr ""
+
+#: inc/widgets/woocommerce-products.php:71
+msgid "Rating"
+msgstr ""
+
+#: inc/widgets/woocommerce-products.php:85
+msgid "Skus:"
+msgstr ""
+
+#: inc/widgets/woocommerce-products.php:86
+msgid "Comma separated list of product SKUs."
+msgstr ""
+
+#: inc/widgets/woocommerce-products.php:93
+msgid "Comma separated list of category slugs."
+msgstr ""
+
+#: inc/widgets/woocommerce-products.php:109
+msgid "On Sale:"
+msgstr ""
+
+#: inc/widgets/woocommerce-products.php:110
+msgid ""
+"Retrieve on sale products. Not to be used in conjunction with best_selling "
+"or top_rated."
+msgstr ""
+
+#: inc/widgets/woocommerce-products.php:116
+msgid "Best Selling:"
+msgstr ""
+
+#: inc/widgets/woocommerce-products.php:117
+msgid ""
+"Retrieve best selling products. Not to be used in conjunction with on_sale "
+"or top_rated."
+msgstr ""
+
+#: inc/widgets/woocommerce-products.php:123
+msgid "Top Rated:"
+msgstr ""
+
+#: inc/widgets/woocommerce-products.php:124
+msgid ""
+"Retrieve top rated products. Not to be used in conjunction with on_sale or "
+"best_selling."
+msgstr ""
+
+#: inc/widgets/woocommerce-products.php:130
+msgid "Featured:"
+msgstr ""
+
+#: inc/widgets/woocommerce-products.php:131
+msgid "Products that are marked as Featured Products."
+msgstr ""
+
+#: inc/widgets/woocommerce-products.php:243
+msgid "Activate WooCommerce and begin adding products."
+msgstr ""
+
+#. Translators: this string is a label for a search input that is only visible
+#. to screen readers.
+#: searchform.php:22
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:26
+msgid "Type keyword"
+msgstr ""
+
+#: searchform.php:26
+msgid "Press Enter to submit your search"
+msgstr ""
+
+#: template-parts/content-full-width.php:32
+#: template-parts/content-full-width.php:50 template-parts/content-page.php:30
+#: template-parts/content.php:61
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-none.php:18
+msgid "Nothing Found"
+msgstr ""
+
+#. translators: link to WP admin new post page.
+#: template-parts/content-none.php:30
+msgid "Ready to publish your first post? %s."
+msgstr ""
+
+#: template-parts/content-none.php:31
+msgid "Get started here"
+msgstr ""
+
+#: template-parts/content-none.php:38
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:45
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content.php:53
+msgid ""
+"%1$s<i class=\"genericons-neue genericons-neue-next\"></i><span class="
+"\"screen-reader-text\">\"%2$s\"</span>"
+msgstr ""
+
+#: template-parts/menu-mobile-cart.php:20
+msgid "View Cart"
+msgstr ""
+
+#: template-parts/menu-mobile-cart.php:22
+msgid "Checkout"
+msgstr ""
+
+#: woocommerce/single-product/tabs/description.php:25
+msgid "Description"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Crimson Rose"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://webplantmedia.com/product/crimson-rose-wordpress-theme/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Easy To Use, Fast To Install, Small Business Feminine WordPress Theme"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://webplantmedia.com/"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Full Width Page"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "No Featured Image Page"
+msgstr ""

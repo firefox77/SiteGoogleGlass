@@ -1,0 +1,76 @@
+// Rem output with px fallback
+@mixin rem($selector: '', $sizeValue: 1) {
+	@if $selector == '' {
+		// @return '';
+	} @else {
+		$sizeValueRem: (($sizeValue/1px)/16);
+		#{$selector}: $sizeValue;
+		#{$selector}: #{$sizeValueRem}rem;
+	}
+}
+
+// Rem output with px fallback
+@mixin font-size($sizeValue: 1) {
+	font-size: ($sizeValue * 16) * 1px;
+	font-size: $sizeValue * 1rem;
+}
+
+// Center block
+@mixin center-block {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+// Clearfix
+@mixin clearfix() {
+	content: "";
+	display: table;
+	table-layout: fixed;
+}
+
+// Clear after (not all clearfix need this also)
+@mixin clearfix-after() {
+	clear: both;
+}
+
+@mixin crossBrowser($property, $val){
+  -webkit-#{$property}: $val;
+  -moz-#{$property}: $val;
+  -ms-#{$property}: $val;
+  #{$property}: $val;
+}
+
+@mixin background-2x($path, $ext: "png") {
+  $at1x_path: "#{$path}.#{$ext}";
+  $at2x_path: "#{$path}-2x.#{$ext}";
+ 
+  background-image: url("#{$at1x_path}");
+ 
+  @media all and (-webkit-min-device-pixel-ratio : 1.5),
+  all and (-o-min-device-pixel-ratio: 3/2),
+  all and (min--moz-device-pixel-ratio: 1.5),
+  all and (min-device-pixel-ratio: 1.5) {
+    background-image: url("#{$at2x_path}"); 
+  }
+}
+
+@mixin variable-icon-font($icon-code) {
+  content: #{"\"\\"}#{$icon-code + "\""};
+}
+
+@mixin genericons-neue() {
+	font-family:"Genericons-Neue";
+	
+	display:inline-block;
+	vertical-align:top;
+	line-height:inherit;
+	font-weight:normal;
+	font-style:normal;
+	speak:none;
+	text-decoration:inherit;
+	text-transform:none;
+	text-rendering:auto;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale;
+}

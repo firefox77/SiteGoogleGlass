@@ -1,0 +1,434 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Responsive Pricing Table\n"
+"POT-Creation-Date: 2017-11-23 10:17+0000\n"
+"PO-Revision-Date: 2017-11-23 10:16+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: rpt.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: inc/rpt-admin-scripts.php:24
+msgid "Untitled"
+msgstr ""
+
+#: inc/rpt-admin-scripts.php:25
+msgid "copy"
+msgstr ""
+
+#: inc/rpt-metaboxes-help.php:8
+msgid "Shortcode"
+msgstr ""
+
+#. translators: Leave HTML tags
+#: inc/rpt-metaboxes-help.php:28
+msgid ""
+"<strong>Publish</strong> your pricing table before you can see you shortcode."
+msgstr ""
+
+#. translators: Leave HTML tags
+#: inc/rpt-metaboxes-help.php:33
+msgid ""
+"To display your Pricing Table on your site, copy-paste the "
+"<strong>[Shortcode]</strong> above in your post/page."
+msgstr ""
+
+#: inc/rpt-metaboxes-plans.php:5
+msgid "Disabled"
+msgstr ""
+
+#: inc/rpt-metaboxes-plans.php:5
+msgid "Enabled"
+msgstr ""
+
+#: inc/rpt-metaboxes-plans.php:11
+msgid "Show"
+msgstr ""
+
+#: inc/rpt-metaboxes-plans.php:11
+msgid "Hide"
+msgstr ""
+
+#: inc/rpt-metaboxes-plans.php:20
+msgid "Pricing table"
+msgstr ""
+
+#: inc/rpt-metaboxes-plans.php:62
+msgid "Close preview"
+msgstr ""
+
+#: inc/rpt-metaboxes-plans.php:69
+msgid "Expand all"
+msgstr ""
+
+#: inc/rpt-metaboxes-plans.php:70
+msgid "Collapse all"
+msgstr ""
+
+#: inc/rpt-metaboxes-plans.php:71
+msgid "Instant preview"
+msgstr ""
+
+#: inc/rpt-metaboxes-plans.php:112 inc/rpt-metaboxes-plans.php:296
+msgid "Clone"
+msgstr ""
+
+#: inc/rpt-metaboxes-plans.php:121 inc/rpt-metaboxes-plans.php:305
+msgid "Header"
+msgstr ""
+
+#: inc/rpt-metaboxes-plans.php:126 inc/rpt-metaboxes-plans.php:310
+#: inc/rpt-metaboxes-settings.php:236
+msgid "Title"
+msgstr ""
+
+#: inc/rpt-metaboxes-plans.php:128 inc/rpt-metaboxes-plans.php:312
+msgid "e.g. Platinum"
+msgstr ""
+
+#: inc/rpt-metaboxes-plans.php:133 inc/rpt-metaboxes-plans.php:317
+#: inc/rpt-metaboxes-settings.php:248
+msgid "Subtitle"
+msgstr ""
+
+#: inc/rpt-metaboxes-plans.php:135 inc/rpt-metaboxes-plans.php:319
+msgid "e.g. Our best deal"
+msgstr ""
+
+#: inc/rpt-metaboxes-plans.php:140
+msgid "Short description"
+msgstr ""
+
+#: inc/rpt-metaboxes-plans.php:142
+msgid "e.g. This plan is suitable for small companies"
+msgstr ""
+
+#: inc/rpt-metaboxes-plans.php:147 inc/rpt-metaboxes-plans.php:331
+#: inc/rpt-metaboxes-settings.php:272
+msgid "Price"
+msgstr ""
+
+#: inc/rpt-metaboxes-plans.php:149 inc/rpt-metaboxes-plans.php:333
+msgid "e.g. 9"
+msgstr ""
+
+#: inc/rpt-metaboxes-plans.php:154 inc/rpt-metaboxes-plans.php:338
+#: inc/rpt-metaboxes-settings.php:284
+msgid "Frequency"
+msgstr ""
+
+#: inc/rpt-metaboxes-plans.php:156 inc/rpt-metaboxes-plans.php:340
+msgid "e.g. monthly"
+msgstr ""
+
+#: inc/rpt-metaboxes-plans.php:163 inc/rpt-metaboxes-plans.php:346
+#: inc/rpt-metaboxes-settings.php:308
+msgid "Features"
+msgstr ""
+
+#. translators: 1: image tooltip 2: link tooltip 3: bold text tooltip (leave at the end)
+#: inc/rpt-metaboxes-plans.php:176 inc/rpt-metaboxes-plans.php:358
+#, php-format
+msgid ""
+"Images %1$s, links %2$s and bold text %3$s are allowed in the feature fields."
+msgstr ""
+
+#: inc/rpt-metaboxes-plans.php:183 inc/rpt-metaboxes-plans.php:365
+msgid ""
+"Show some features as unavailable by adding '-n' before, e.g. '-nMy feature'."
+msgstr ""
+
+#: inc/rpt-metaboxes-plans.php:189 inc/rpt-metaboxes-plans.php:371
+msgid "Add feature"
+msgstr ""
+
+#: inc/rpt-metaboxes-plans.php:197 inc/rpt-metaboxes-plans.php:379
+msgid "Standard button"
+msgstr ""
+
+#: inc/rpt-metaboxes-plans.php:200 inc/rpt-metaboxes-plans.php:382
+#: inc/rpt-metaboxes-settings.php:296
+msgid "Button text"
+msgstr ""
+
+#: inc/rpt-metaboxes-plans.php:202 inc/rpt-metaboxes-plans.php:384
+msgid "e.g. Subscribe"
+msgstr ""
+
+#: inc/rpt-metaboxes-plans.php:204 inc/rpt-metaboxes-plans.php:386
+msgid "Button URL"
+msgstr ""
+
+#: inc/rpt-metaboxes-plans.php:206 inc/rpt-metaboxes-plans.php:388
+msgid "e.g. http://site.com/product"
+msgstr ""
+
+#: inc/rpt-metaboxes-plans.php:211 inc/rpt-metaboxes-plans.php:393
+msgid "Custom button"
+msgstr ""
+
+#: inc/rpt-metaboxes-plans.php:214 inc/rpt-metaboxes-plans.php:396
+msgid "Add custom code here"
+msgstr ""
+
+#: inc/rpt-metaboxes-plans.php:215
+msgid ""
+"Use the custom button field when you have code snippets/shortcodes from "
+"third party services/plugins that generate buttons. You could also use any "
+"HTML here such as an anchor tag. Custom buttons overwrite standard buttons."
+msgstr ""
+
+#: inc/rpt-metaboxes-plans.php:217 inc/rpt-metaboxes-plans.php:399
+msgid ""
+"Insert any code here to replace the standard button (e.g. Paypal/Stripe "
+"snippet, custom HTML...)."
+msgstr ""
+
+#: inc/rpt-metaboxes-plans.php:223 inc/rpt-metaboxes-plans.php:405
+msgid "Styling"
+msgstr ""
+
+#: inc/rpt-metaboxes-plans.php:227 inc/rpt-metaboxes-plans.php:409
+msgid "Highlight plan"
+msgstr ""
+
+#: inc/rpt-metaboxes-plans.php:228 inc/rpt-metaboxes-plans.php:410
+msgid "Highlight a plan to make it stand out from the rest."
+msgstr ""
+
+#: inc/rpt-metaboxes-plans.php:239 inc/rpt-metaboxes-plans.php:421
+msgid "Show/hide currency"
+msgstr ""
+
+#: inc/rpt-metaboxes-plans.php:250 inc/rpt-metaboxes-plans.php:432
+msgid "CSS classes"
+msgstr ""
+
+#: inc/rpt-metaboxes-plans.php:251 inc/rpt-metaboxes-plans.php:433
+msgid "Add your CSS classes, separated by spaces."
+msgstr ""
+
+#: inc/rpt-metaboxes-plans.php:253 inc/rpt-metaboxes-plans.php:435
+msgid "e.g. class more-class"
+msgstr ""
+
+#: inc/rpt-metaboxes-plans.php:258 inc/rpt-metaboxes-plans.php:440
+msgid "Color"
+msgstr ""
+
+#: inc/rpt-metaboxes-plans.php:270 inc/rpt-metaboxes-plans.php:451
+msgid "Upload icon"
+msgstr ""
+
+#: inc/rpt-metaboxes-plans.php:324 inc/rpt-metaboxes-settings.php:260
+msgid "Description"
+msgstr ""
+
+#: inc/rpt-metaboxes-plans.php:326
+msgid "e.g. This plan is suitable for small companies."
+msgstr ""
+
+#: inc/rpt-metaboxes-plans.php:397
+msgid ""
+"Use the custom button field when you have code snippets/shortcodes from "
+"third party services/plugins that generate buttons. You could also use any "
+"HTML here such as an anchor tag. Custom buttons overwrite standard buttons"
+msgstr ""
+
+#. translators: Leave HTML tags
+#: inc/rpt-metaboxes-plans.php:478
+msgid ""
+"Create your pricing table by <strong>adding plans</strong> to it.<br/>Click "
+"the button below to get started."
+msgstr ""
+
+#: inc/rpt-metaboxes-plans.php:484
+msgid "Add a pricing plan"
+msgstr ""
+
+#: inc/rpt-metaboxes-settings.php:6
+msgid "New window"
+msgstr ""
+
+#: inc/rpt-metaboxes-settings.php:7
+msgid "Same window"
+msgstr ""
+
+#: inc/rpt-metaboxes-settings.php:15
+msgid "Use my theme's font"
+msgstr ""
+
+#: inc/rpt-metaboxes-settings.php:16
+msgid "Use default font"
+msgstr ""
+
+#: inc/rpt-metaboxes-settings.php:24
+msgid "Left"
+msgstr ""
+
+#: inc/rpt-metaboxes-settings.php:25
+msgid "Center"
+msgstr ""
+
+#: inc/rpt-metaboxes-settings.php:33 inc/rpt-metaboxes-settings.php:43
+#: inc/rpt-metaboxes-settings.php:62
+msgid "Tiny"
+msgstr ""
+
+#: inc/rpt-metaboxes-settings.php:34 inc/rpt-metaboxes-settings.php:44
+#: inc/rpt-metaboxes-settings.php:53 inc/rpt-metaboxes-settings.php:63
+#: inc/rpt-metaboxes-settings.php:73 inc/rpt-metaboxes-settings.php:82
+#: inc/rpt-metaboxes-settings.php:91
+msgid "Small"
+msgstr ""
+
+#: inc/rpt-metaboxes-settings.php:35 inc/rpt-metaboxes-settings.php:45
+#: inc/rpt-metaboxes-settings.php:54 inc/rpt-metaboxes-settings.php:64
+#: inc/rpt-metaboxes-settings.php:74 inc/rpt-metaboxes-settings.php:83
+#: inc/rpt-metaboxes-settings.php:92
+msgid "Normal"
+msgstr ""
+
+#: inc/rpt-metaboxes-settings.php:65
+msgid "Big"
+msgstr ""
+
+#: inc/rpt-metaboxes-settings.php:102
+msgid "Settings"
+msgstr ""
+
+#. translators: General settings
+#: inc/rpt-metaboxes-settings.php:166
+msgid "General"
+msgstr ""
+
+#: inc/rpt-metaboxes-settings.php:172
+msgid "Button behavior"
+msgstr ""
+
+#: inc/rpt-metaboxes-settings.php:184
+msgid "Currency"
+msgstr ""
+
+#: inc/rpt-metaboxes-settings.php:186
+msgid "e.g. $"
+msgstr ""
+
+#: inc/rpt-metaboxes-settings.php:194
+msgid "Show/hide text settings"
+msgstr ""
+
+#: inc/rpt-metaboxes-settings.php:200
+msgid "Text settings"
+msgstr ""
+
+#: inc/rpt-metaboxes-settings.php:206
+msgid "Font to use"
+msgstr ""
+
+#: inc/rpt-metaboxes-settings.php:218
+msgid "Title alignment"
+msgstr ""
+
+#: inc/rpt-metaboxes-settings.php:230
+msgid "Font sizes"
+msgstr ""
+
+#: inc/rpt-post-type.php:11 inc/rpt-post-type.php:13
+msgid "Pricing Tables"
+msgstr ""
+
+#: inc/rpt-post-type.php:12 inc/rpt-post-type.php:14
+msgid "Pricing Table"
+msgstr ""
+
+#: inc/rpt-post-type.php:15
+msgid "Add New"
+msgstr ""
+
+#: inc/rpt-post-type.php:16
+msgid "Add New Pricing Table"
+msgstr ""
+
+#: inc/rpt-post-type.php:17
+msgid "New Pricing Table"
+msgstr ""
+
+#: inc/rpt-post-type.php:18
+msgid "Edit Pricing Table"
+msgstr ""
+
+#: inc/rpt-post-type.php:19
+msgid "View Pricing Table"
+msgstr ""
+
+#: inc/rpt-post-type.php:20
+msgid "All Pricing Tables"
+msgstr ""
+
+#: inc/rpt-post-type.php:21
+msgid "Search Pricing Tables"
+msgstr ""
+
+#: inc/rpt-post-type.php:22
+msgid "No Pricing Tables found."
+msgstr ""
+
+#: inc/rpt-post-type.php:23
+msgid "No Pricing Tables found in Trash."
+msgstr ""
+
+#: inc/rpt-post-type.php:58 inc/rpt-post-type.php:59
+msgid "Pricing Table updated."
+msgstr ""
+
+#: inc/rpt-post-type.php:60
+msgid "Pricing Table published."
+msgstr ""
+
+#: inc/rpt-post-type.php:61
+msgid "Pricing Table saved."
+msgstr ""
+
+#: inc/rpt-post-type.php:62
+msgid "Pricing Table draft updated."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Responsive Pricing Table"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wpdarko.com/items/responsive-pricing-table-pro/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A responsive, easy and elegant way to present your offer to your visitors. "
+"Just create a new pricing table (custom type) and copy-paste the shortcode "
+"into your posts/pages. Find help and information on our <a href=\"http://"
+"wpdarko.com/support/\">support site</a>. This free version is NOT limited "
+"and does not contain any ad. Check out the <a href='http://wpdarko.com/items/"
+"responsive-pricing-table-pro/'>PRO version</a> for more great features."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WP Darko"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://wpdarko.com"
+msgstr ""

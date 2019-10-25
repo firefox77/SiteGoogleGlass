@@ -1,0 +1,144 @@
+.site-header {
+	position: relative;
+}
+
+.site-header-inner {
+	background-size: 400px auto;
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+
+.header-background-image-color-red .site-header-inner {
+	@include background-2x('img/top-right-header-bg-red','png');
+}
+
+.custom-header-media {
+	overflow: hidden;
+	width: 100%;
+	bottom: 0;
+	height: auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	right: 0;
+
+	img {
+		height: 100%;
+		left: 0;
+		-o-object-fit: cover;
+		object-fit: cover;
+		top: 0;
+		-ms-transform: none;
+		-moz-transform: none;
+		-webkit-transform: none;
+		transform: none;
+		width: 100%;
+	}
+}
+
+.site-branding {
+	@include rem('padding-top',40px);
+	@include rem('padding-bottom',40px);
+	line-height: $font__line-height-heading;
+	position: relative; // causes logo to show over header image
+
+	.site-logo {
+		text-align: center;
+		display: block;
+	}
+
+	.site-title {
+		text-align: center;
+		margin: 0;
+		// @include rem('margin-bottom',10px);
+		@include rem('font-size',$font__site-title-size);
+		text-transform: uppercase;
+		letter-spacing: 0.07em;
+
+		a {
+			display: inline-block;
+			text-decoration: none;
+		}
+	}
+
+	.site-description {
+		text-align: center;
+		margin: 0;
+		text-transform: lowercase;
+		@include rem('font-size',($font__site-description-size + 15));
+	}
+}
+
+.wpm-fonts {
+	.site-branding {
+		.site-description {
+			@include rem('font-size',$font__site-description-size);
+		}
+	}
+	&.wpm-fonts-accent-medium-small-font {
+		.site-branding {
+			.site-description {
+				@include rem('font-size',($font__site-description-size + 7));
+			}
+		}
+	}
+	&.wpm-fonts-accent-small-font {
+		.site-branding {
+			.site-description {
+				@include rem('font-size',($font__site-description-size + 15));
+			}
+		}
+	}
+}
+
+#master .site-branding {
+	.site-title a {
+		&,
+		&:hover {
+			color: $color__text-heading;
+		}
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#master {
+		.site-branding {
+			.site-title {
+				@include rem('font-size',($font__site-title-size - 15));
+			}
+
+			.site-description {
+				@include rem('font-size',($font__site-description-size + 8));
+			}
+		}
+
+		.wpm-fonts {
+			.site-branding {
+				.site-description {
+					@include rem('font-size',($font__site-description-size - 3));
+				}
+			}
+			&.wpm-fonts-accent-medium-small-font {
+				.site-branding {
+					.site-description {
+						@include rem('font-size',($font__site-description-size + 2));
+					}
+				}
+			}
+			&.wpm-fonts-accent-small-font {
+				.site-branding {
+					.site-description {
+						@include rem('font-size',($font__site-description-size + 8));
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: $size__menu-collapse-width) {
+	#master .site-header-inner {
+		background-image: none;
+	}
+}

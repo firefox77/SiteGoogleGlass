@@ -1,0 +1,37 @@
+{{#each this}}
+
+	{{#if first}}
+	<div id="{{prefix}}-container-fixed"
+	     data-preview-layout="{{layout}}"
+		 class="{{prefix}} {{prefix}}-layout-{{currentLayout}}-content {{prefix}}-{{fixedLayout}} {{prefix}}-{{layout}} {{prefix}}-fixed {{prefix}}-fixed-{{fixedLayout}} social-share">
+
+		 <div data-element="buttons" class="{{prefix}}-{{layout}}-container {{square2Class}}">
+
+			<div class="{{prefix}}-item {{prefix}}-total-share">
+				<div class="{{prefix}}-counts">
+					<span data-element="total-share" data-item="text">
+						{{counter}}
+					</span>
+
+					{{#if isFixed2}}
+						<span data-element="fixed-label-text"
+							  data-item="text">{{shareCountLabel}}</span>
+					{{/if}}
+
+				</div>
+			</div>
+	{{/if}}
+
+			<div class="{{prefix}}-item {{prefix}}-{{itemClass}}">
+				<a title="Tweet" class="{{prefix}}-{{btnClass}} {{prefix}}-btn {{prefix}}-layout-{{currentLayout}}" data-item="bg-color">
+					<i class="{{prefix}}-icon-{{itemClass}}-{{fixedLayout}}" data-item="icons-color"></i>
+				</a>
+			</div>
+
+	{{#if last}}
+			<span class="{{prefix}}-toggle"></span>
+		</div>
+	</div>
+	{{/if}}
+
+{{/each}}

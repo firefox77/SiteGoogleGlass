@@ -1,0 +1,154 @@
+.#{$prefix}-settings-wrap {
+	position: relative;
+
+	.search-box {
+		margin-bottom: 6px;
+	}
+
+	.#{$prefix}-label {
+		font-size: 14px;
+		margin-left: 5px;
+	}
+
+	.#{$prefix}-datepicker {
+		height: 28px;
+		width: 130px;
+	}
+
+	.#{$prefix}-filter-date-content {
+		display: inline-block;
+
+		label {
+			display: block;
+		}
+	}
+
+	.#{$prefix}-filter-btn {
+		display: inline-block;
+
+		.button {
+			vertical-align: initial;
+		}
+	}
+}
+
+.#{$prefix}-datepicker-container .ui-datepicker {
+	.ui-datepicker-prev,
+	.ui-datepicker-next {
+		display: none;
+	}
+
+	.ui-datepicker-title select {
+		background: #2f2e2c;
+		color: #9d9d9d;
+		outline: none;
+		border: 1px solid #4c4c4c;
+		height: 40px;
+		width: 50%;
+		margin: 0;
+
+		&:active,
+		&:focus,
+		&:visited,
+		&:hover {
+			box-shadow: none;
+		}
+	}
+}
+
+#top-providers {
+
+	table {
+		border-spacing: 1px;
+		width: 15%;
+	}
+
+    caption {
+		@extend %noSelect;
+		-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+		background: #fff;
+		border: 1px solid #e5e5e5;
+		box-shadow: 0 2px 1px rgba(0, 0, 0, 0.04);
+		color: #777;
+		cursor: pointer;
+		font-size: 14px;
+		font-weight: bold;
+		line-height: 1.4;
+		margin: 0;
+		padding: 8px 12px;
+		position: relative;
+
+		&:hover {
+			color: #00a0d2;
+		}
+
+		i {
+			float: right;
+		}
+
+		i:before {
+			content: '\25B2';
+		}
+
+		i.active:before {
+			content: '\25BC';
+		}
+    }
+
+	.providers-content {
+		display: none;
+	}
+
+    .providers-content.active {
+    	display: block;
+    }
+
+    thead {
+        background: #585858;
+        color: #fff;
+    }
+
+    th,
+    td {
+      padding: 5px 10px;
+    }
+
+    tbody {
+
+	    tr {
+	      color: #fff;
+
+		    td {
+		    	font-weight: bold;
+		    }
+
+		    td:first-child {
+		    	text-align: center;
+		    }
+
+		    td:nth-child(2) {
+		      text-align:center;
+		    }
+
+		    td:nth-child(3),
+		    td:nth-child(4) {
+		      font-family: monospace;
+		      text-align: right;
+		    }
+	    }
+    }
+
+    tfoot {
+      background: #585858;
+      color: #fff;
+      text-align: right;
+
+	    tr th:last-child {
+	      font-family: monospace;
+	    }
+    }
+
+	@each $key, $color in $colors {
+	    @include socialBgColor( $color, $key );
+	}
+}

@@ -1,0 +1,74 @@
+.gallery-columns-1 {
+	.gallery-item {
+		margin-bottom: 1.5em;
+	}
+}
+
+.gallery-columns-4,
+.gallery-columns-3,
+.gallery-columns-2 {
+	margin-right: -4px;
+	margin-top: -4px;
+
+	.gallery-item {
+		margin-top: 4px;
+		padding-right: 4px;
+	}
+}
+
+.gallery-columns-9,
+.gallery-columns-8,
+.gallery-columns-7,
+.gallery-columns-6,
+.gallery-columns-5 {
+	margin-right: -4px;
+	margin-top: -4px;
+
+	.gallery-item {
+		margin-top: 4px;
+		padding-right: 4px;
+	}
+}
+
+.gallery-item {
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	width: 100%;
+	margin: 0;
+	
+	a {
+		display: block;
+		
+		img {
+			vertical-align: top;
+		}
+	}
+
+	.wp-caption-text a {
+		display: inline;
+	}
+
+	// Loops to enumerate the classes for gallery columns.
+	@for $i from 2 through 9 {
+		.gallery-columns-#{$i} & {
+			max-width: ( 100% / $i );
+		}
+	}
+}
+
+.gallery-caption {
+	display: block;
+}
+
+// Gutenberg
+.wp-block-gallery {
+	padding: 0;
+	margin: -8px;
+
+	@media only screen and (max-width: 599px) {
+		.blocks-gallery-item {
+			width: 100%;
+		}
+	}
+}

@@ -1,0 +1,44 @@
+body,
+button,
+input,
+select,
+optgroup,
+textarea {
+	font-family: $font__main;
+	@include rem('font-size',$font__main-size);
+	line-height: $font__line-height-body;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-smoothing: antialiased;
+	color: $color__text;
+}
+
+.site-title,
+#master .h1,
+#master .h2,
+#master .h3,
+#master .h4,
+#master .h5,
+#master .h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: $font__heading;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-smoothing: antialiased;
+}
+
+#master .sd-social-text .sd-content ul li a,
+#master .sd-social-icon-text .sd-content ul li a {
+	font-family: $font__main;
+}
+
+.search .archive-page-header .page-title .archive-type,
+.archive .archive-page-header .page-title .archive-type,
+.site-branding .site-description {
+	font-family: $font__accent;
+}

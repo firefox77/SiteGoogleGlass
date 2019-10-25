@@ -1,0 +1,130 @@
+@mixin icon($icon, $iconColor, $theme : other, $amount : 12) {
+    @if $theme == buttons or $theme == 'square-plus' {
+        .#{$prefix}-#{$theme} .#{$prefix}-#{$icon} a {
+            background-color: $iconColor;
+            -moz-box-shadow:  0 2px darken( $iconColor, $amount );
+            -webkit-box-shadow:  0 2px darken( $iconColor, $amount );
+                    box-shadow: 0 2px darken( $iconColor, $amount );
+
+           &:hover,
+           &:focus {
+                -moz-box-shadow:  0 2px darken( $iconColor, $amount );
+                -webkit-box-shadow:  0 2px darken( $iconColor, $amount );
+                        box-shadow: 0 2px darken( $iconColor, $amount );
+                background-color: $iconColor;
+           }
+
+           &:active {
+                -moz-box-shadow: none;
+                -webkit-box-shadow: none;
+                        box-shadow: none;
+                position: relative;
+                top: 2px;
+           }
+        }
+    } @else {
+        .#{$prefix} .#{$prefix}-#{$icon} i,
+        .#{$prefix} .#{$prefix}-#{$icon} i:hover,
+        ##{$prefix}-container-follow .#{$prefix}-#{$icon} i,
+        ##{$prefix}-container-follow .#{$prefix}-#{$icon} i:hover {
+            color: $iconColor;
+        }
+    }
+}
+
+@mixin items-hover($element, $color) {
+    .#{$prefix}-buttons,
+    .#{$prefix}-square-plus,
+    .#{$prefix}-fixed-left,
+    .#{$prefix}-fixed-right {
+        .#{$prefix}-#{$element} a:hover {
+            background: darken( $color, 6 );
+        }
+    }
+
+    .#{$prefix}-default,
+    .#{$prefix}-rounded,
+    .#{$prefix}-square {
+        .#{$prefix}-#{$element} a:hover,
+        .#{$prefix}-#{$element} a:hover i {
+            color: darken( $color, 6 );
+        }
+    }
+
+    ##{$prefix}-container-follow .#{$prefix}-#{$element} {
+        .#{$prefix}-btn:hover,
+        .#{$prefix}-btn:hover i {
+            color: darken( $color, 6 );
+        }
+    }
+}
+
+@mixin input-remove($selector) {
+    ##{$prefix}-#{$selector},
+    .#{$selector},
+    [id*="-#{$selector}"] {
+        cursor: pointer !important;
+        display: none !important;
+        left: -100%;
+        position: absolute;
+        top: -100%;
+    }
+}
+
+@mixin social-item($color, $element) {
+    .#{$prefix}-social-networks {
+
+        @if pinterest == $element {
+            input + label[for="#{$prefix}-#{$element}"],
+            input + label[for*="-#{$element}"] {
+                padding: 5px 11px;
+            }
+        }
+
+        input + label[for*="-#{$element}"]:before {
+            background: $color;
+        }
+
+        input + .#{$prefix}-#{$element}-icon:after {
+            @extend .#{$prefix}-icon-#{$element}:before;
+        }
+    }
+}
+
+@mixin featured-referrer($element, $color) {
+    .#{$prefix}:not(.#{$prefix}-fixed-top) .#{$prefix}-referrer-#{$element} {
+        .#{$prefix}-button {
+            background: $color;
+            border-radius: 3px;
+            color: $colorWhite;
+
+            i {
+                color: $colorWhite;
+            }
+
+            &:hover i {
+                color: $colorWhite;
+            }
+
+            &:hover {
+                color: $colorWhite;
+                background: darken( $color, 10% );
+            }
+        }
+    }
+}
+
+@mixin add-animate($class, $name) {
+    .#{$prefix}-#{$class} {
+        -webkit-animation-name: $name;
+        -webkit-animation-duration: 0.4s;
+        animation-name: $name;
+        animation-duration: 0.4s
+    }
+}
+
+@mixin socialBgColor($color, $element) {
+    .#{$prefix}-#{$element} {
+        background: $color;
+    }
+}
