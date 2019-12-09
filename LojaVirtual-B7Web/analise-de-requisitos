@@ -1,0 +1,26 @@
+Um loja virtual tem:
+
+estrutura minima
+
+CATEGORIAS DE PRODUTOS
+- titulo
+
+PRODUTOS
+- nome
+- imagem
+- preço
+- quantidade disponivel
+- descrição
+
+VENDAS
+- identificção do comprador
+- identificação do produto
+- quantidade comprada
+- endereço de entrega
+- valor total da venda
+- forma de pagamento
+
+USUÁRIOS
+- nome
+- email
+- senha
