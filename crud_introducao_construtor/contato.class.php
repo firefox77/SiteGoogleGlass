@@ -4,7 +4,7 @@ class contato {
 	private $pdo;
 
 	public function __construct(){
-		$this->pdo = new PDO("mysql:dbname=crudoo;host=localhost", "root", "senha");		
+		$this->pdo = new PDO("mysql:dbname=crudoo;host=localhost", "wvtodoz", "senha");		
 	}
 			
 	//Create
@@ -25,20 +25,19 @@ class contato {
 		} 
 	}	
 	//Read
-	public function getNome($email){
-		$sql = "SELECT nome FROM contatos WHERE email = :email";
+	public function getInfo($id){
+		$sql = "SELECT * FROM contatos WHERE id = :id";
 		$sql = $this->pdo->prepare($sql);
-		$sql->bindValue(':email', $email);
+		$sql->bindValue(':id', $id);
 		$sql->execute();
 
 		if($sql->rowCount() > 0){
-			$info = $sql->fetch();
-
-			return $info['nome'];
-		} else{
-			return '';  
+			return $sql->fetch();
+		} else {
+			return array();
 		}
 	}
+	
 	public function getAll(){
 		$sql = "SELECT * FROM contatos";
 		$sql = $this->pdo->query($sql);
@@ -50,32 +49,27 @@ class contato {
 		}
 	}
 	//UPDATE
-	public function editar($nome, $email){
-		if($this->existeEmail($email) == true){
-			$sql = "UPDATE contatos SET nome = :nome WHERE email = :email";
-			$sql = $this->pdo->prepare($sql);
-			$sql->bindValue(':nome', $nome);
-			$sql->bindValue(':email', $email);
-			$sql->execute();
-
-			return true;
-		} else {
-			return false;
-		}
+	public function editar($nome, $id){
+		$sql = "UPDATE contatos SET nome = :nome WHERE id = :id";
+		$sql = $this->pdo->prepare($sql);
+		$sql->bindValue(':nome', $nome);
+		$sql->bindValue(':id', $id);
+		$sql->execute();
 	}
 	//DELETE
-	public function excluirPeloEmail($email){
-		$sql = "DELETE FROM contatos WHERE email = :email";
-		$sql = $this->pdo->prepare($sql);
-		$sql->bindValue(':email', $email);
-		$sql->execute();		
-	}
 	public function excluirPeloId($id){
 		$sql = "DELETE FROM contatos WHERE id = :id";
 		$sql = $this->pdo->prepare($sql);
 		$sql->bindValue(':id', $id);
 		$sql->execute();		
 	}
+
+	public function excluirPeloEmail($email){
+		$sql = "DELETE FROM contatos WHERE email = :email";
+		$sql = $this->pdo->prepare($sql);
+		$sql->bindValue(':email', $email);
+		$sql->execute();		
+	}	
 
 	private function existeEmail($email){
 		$sql = "SELECT * FROM contatos WHERE email = :email";

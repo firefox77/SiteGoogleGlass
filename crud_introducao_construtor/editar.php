@@ -1,13 +1,20 @@
-<?php 
-	include 'contato.class.php';
-	$contato = new Contato();
+<?php
+include 'contato.class.php';
+$contato = new Contato();
 
-	if(!empty($_GET['id'])){
-		$id = $_GET['id'];
-	} else {
+if(!empty($_GET['id'])){
+	$id = $_GET['id'];
+
+	$info = $contato->getInfo($id);
+
+	if(empty($info['email'])){
 		header("Location: index.php");
 		exit;
 	}
+}else{
+	header("Location: index.php");
+	exit;
+}
 ?>
 
 <!DOCTYPE html>
@@ -29,15 +36,16 @@
 	</head>
 	<body>
 		<div class="container">
-			<h1>Adicionar</h1>
-			<form method="POST" action="editar_submit.php">
+			<h1>Editar</h1>
+			<form method="POST" action="editar_submit.php">				
 			  <div class="form-group">
+			  	<input type="hidden" name="id" value="<?php echo $info['id']; ?>" />
 			    <label>Nome</label>
-			    <input type="text" name="nome" required="nome" class="form-control" placeholder="Digite seu nome">
+			    <input type="text" name="nome" value="<?php echo $info['nome']; ?>" required="nome" class="form-control" placeholder="Digite seu nome">
 			  </div>
 			  <div class="form-group">
 			    <label>E-mail</label>
-			    <input type="email" name="email" required="email" class="form-control" placeholder="Digite seu email">	    
+			    <?php echo $info['email']; ?><br/><br/>
 			  </div>	  			  
 			  <input type="submit" value="Salvar" class="btn btn-primary"/>
 			  <a href="index.php" value="Voltar" class="btn btn-warning"/>Voltar</a>

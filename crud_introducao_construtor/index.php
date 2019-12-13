@@ -34,7 +34,7 @@
 ?>
 
 <div class="container">
-	<h1>Contato</h1>
+	<h1>Contatos</h1>
 
 	<a href="adicionar.php">[ Adicionar ]</a>
 	<table border="1" width="600">
@@ -53,7 +53,7 @@
 				<td><?php echo $item['nome']; ?></td>
 				<td><?php echo $item['email']; ?></td>
 				<td class="botoes">
-					<a href="editar.php" class="btn btn-primary">[ EDITAR ]</a>
+					<a href="editar.php?id=<?php echo $item['id']; ?>">[ EDITAR ]</a>
 					<a href="excluir.php?id=<?php echo $item['id']; ?>" class="btn btn-danger">[ EXCLUIR ]</a>
 				</td>
 			</tr>
