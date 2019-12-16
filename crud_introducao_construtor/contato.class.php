@@ -49,12 +49,19 @@ class contato {
 		}
 	}
 	//UPDATE
-	public function editar($nome, $id){
-		$sql = "UPDATE contatos SET nome = :nome WHERE id = :id";
-		$sql = $this->pdo->prepare($sql);
-		$sql->bindValue(':nome', $nome);
-		$sql->bindValue(':id', $id);
-		$sql->execute();
+	public function editar($nome, $email, $id){
+		if($this->existeEmail($email) == false){
+			$sql = "UPDATE contatos SET nome = :nome, email = :email WHERE id = :id";
+			$sql = $this->pdo->prepare($sql);
+			$sql->bindValue(':nome', $nome);
+			$sql->bindValue(':email',$email);
+			$sql->bindValue(':id', $id);
+			$sql->execute();
+
+			return true;
+		} else{
+			return false;
+		}
 	}
 	//DELETE
 	public function excluirPeloId($id){

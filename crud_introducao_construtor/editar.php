@@ -41,16 +41,15 @@ if(!empty($_GET['id'])){
 			  <div class="form-group">
 			  	<input type="hidden" name="id" value="<?php echo $info['id']; ?>" />
 			    <label>Nome</label>
-			    <input type="text" name="nome" value="<?php echo $info['nome']; ?>" required="nome" class="form-control" placeholder="Digite seu nome">
+			    <input type="text" name="nome" value="<?php echo $info['nome']; ?>" class="form-control" placeholder="Digite seu nome">
 			  </div>
 			  <div class="form-group">
 			    <label>E-mail</label>
-			    <?php echo $info['email']; ?><br/><br/>
+			    <input type="email" name="email" value="<?php echo $info['email']; ?>" />
 			  </div>	  			  
 			  <input type="submit" value="Salvar" class="btn btn-primary"/>
 			  <a href="index.php" value="Voltar" class="btn btn-warning"/>Voltar</a>
 			</form>
-
 		</div>
 	</body>
 </html>
