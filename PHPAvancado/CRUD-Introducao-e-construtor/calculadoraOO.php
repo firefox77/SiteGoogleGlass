@@ -28,7 +28,7 @@ class Calculadora{
 	}
 }
 $calc = new Calculadora(10);
-$calc->somar(10)->somar(10)->somar(100)->subtrair(2);
+$calc->somar(2)->subtrair(3)->multiplicar(5)->dividir(2);
 $resultado = $calc->resultado(); //22.5
 
 
