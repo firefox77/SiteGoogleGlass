@@ -28,7 +28,7 @@ class Usuarios{
 
 		$sql = $pdo->prepare("SELECT id FROM usuarios WHERE email = :email AND senha = :senha");
 		$sql->bindValue(":email", $email);
-		$sql->bindValue(":senha", md5($senha);
+		$sql->bindValue(":senha", md5($senha));
 		$sql->execute();
 
 		if($sql->rowCount() > 0){
@@ -40,7 +40,6 @@ class Usuarios{
 			return false;
 		}
 
-	}
+	}	
 
 }
-?>

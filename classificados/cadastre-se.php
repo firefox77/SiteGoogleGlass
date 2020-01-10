@@ -13,8 +13,8 @@
 		if(!empty($nome) && !empty($email) && !empty($senha)){
 			if($u->cadastrar($nome, $email, $senha, $telefone)){
 				?>
-				<div class="alert alert-sucess">
-					<strong>Parabéns Cadastrado com sucesso. <a href="login.php" class="alert-link">Clique aqui para fazer Login</a> </strong>	
+				<div class="alert alert-success">
+					<strong>Parabéns</strong>Cadastrado com sucesso. <a href="login.php" class="alert-link">Clique aqui para fazer Login</a> 
 				</div>
 				<?php
 			}else{
@@ -23,7 +23,6 @@
 					Esse usuario já existe! <a href="login.php" class="alert-link">Clique aqui para fazer Login</a>
 				</div>
 				<?php
-
 			}
 		} else{
 			?>
