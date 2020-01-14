@@ -1,0 +1,21 @@
+1 - Nesse sistema não estamos utilizando estrutura MVC, mas estamos utilizando orientação a objeto.
+2 - Para o front irá utilizar o Bootstrap
+
+
+PRIMEIRO PASSO PARA CRIAR UM SISTEMA:
+	- SEMPRE CRIAR O BANCO DE DADOS PRIMEIRO.
+	- E A LOGICA DO SISTEMA COMO UM TODO DEPOIS.
+	- É A PARTIR DO BANCO QUE TEREMOS TODA A ESTRUTURA DE DADOS. E PARTINDO DAÍ CONSEGUIMOS CRIAR O SISTEMA DE VERDADE.
+
+
+		Banco criado com o nome de classificados
+			Tabelas:
+				- categorias
+				- usuarios
+				- anuncios
+				- anuncios_imagens
+
+-------------------------------------------------------------------------------				
+SEGUNDO PASSO É CRIAR OS ARQUIVOS HTML, CSS E JS
+ utilizando o bootstrap
+-------------------------------------------------------------------------------
