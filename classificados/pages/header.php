@@ -18,7 +18,7 @@
 				<ul class="nav navbar-nav navbar-right"><!--navbar-nav deixa os elementos um do lado do outro-->
 					<!--Leitura da linha abaixo: Se login existir e não estiver vazio-->
 					<?php if(isset($_SESSION['cLogin']) && !empty($_SESSION['cLogin'])): ?> <!--Verificando se a pessoa esta logada através da sessão-->
-						<li><a><?php echo $_SESSION['cLogin']['nome']; ?></a></li>						
+						<li><a href="./">Olá <?php echo $_SESSION['cLogin']['nome']; ?></a></li>						
 						<li><a href="meus-anuncios.php">Meus Anúncios</a></li>
 						<li><a href="sair.php">Sair</a></li>
 					<?php else: ?><!--Leitura: caso contrario, manter essa informação em exibição.-->
