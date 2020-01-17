@@ -7,12 +7,9 @@ if(empty($_SESSION['cLogin'])){
 	 exit;
 }
 ?>
-
 <div class="container">
 	<h1>Meus Anúncios</h1>
-
-	<a href="" class="btn btn-default">Adicionar Anúncio</a>
-
+	<a href="add-anuncio.php" class="btn btn-default">Adicionar Anúncio</a>
 	<table class="table table-striped">
 		<thead>
 			<tr>
@@ -30,12 +27,13 @@ if(empty($_SESSION['cLogin'])){
 		foreach($anuncios as $anuncio):			
 		?>
 		<tr>
-			<td><img src="assets/images/anuncios/<?php echo $anuncio['url']; ?>" border="0"></td>
+			<td>
+				<img src="assets/images/anuncios/<?php echo $anuncio['url']; ?>" border="0">
+			</td>
 			<td><?php echo $anuncio['titulo']; ?></td>
 			<td>R$ <?php echo number_format($anuncio['valor'], 2); ?></td>
 			<td></td>
 		</tr>
-
 		<?php endforeach; ?>
 	</table>
 </div>
