@@ -16,6 +16,22 @@ class Anuncios {
 		return $array;
 	}
 
+	public function getAnuncio($id){
+		$array = array();
+		global $pdo;
+
+		$sql = $pdo->prepare("SELECT * FROM anuncios WHERE id = :id");
+		$sql->bindValue(":id", $id);
+		$sql->execute();
+
+		if($sql->rowCount() > 0){
+			$array = $sql->fetch();
+		}
+
+		return $array;
+
+	}
+
 	public function addAnuncio($titulo, $categoria, $valor, $descricao, $estado){
 		global $pdo;
 
@@ -27,5 +43,18 @@ class Anuncios {
 		$sql->bindValue(":valor", $valor);
 		$sql->bindValue(":estado", $estado);
 		$sql->execute();
+	}
+
+	public function excluirAnuncio($id){
+		global $pdo;
+
+		$sql = $pdo->prepare("DELETE FROM anuncios_imagens WHERE id_anuncio = :id_anuncio");
+		$sql->bindValue(":id_anuncio", $id);
+		$sql->execute();
+
+		$sql = $pdo->prepare("DELETE FROM anuncios WHERE id = :id");
+		$sql->bindValue(":id", $id);
+		$sql->execute();
+
 	}
 }
