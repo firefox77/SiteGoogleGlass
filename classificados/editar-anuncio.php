@@ -15,11 +15,17 @@ if(isset($_POST['titulo']) && !empty($_POST['titulo'])){
 	$valor = addslashes($_POST['valor']);
 	$descricao = addslashes($_POST['descricao']);
 	$estado = addslashes($_POST['estado']);
+	if(isset($_FILE['fotos'])){
+		$fotos = $_FILES['fotos'];
+	} else {
+		$fotos = array();
+	}
+	$fotos = $_FILES['fotos'];
 
-	$a->addAnuncio($titulo, $categoria, $valor, $descricao, $estado);
+	$a->editAnuncio($titulo, $categoria, $valor, $descricao, $estado, $fotos, $_GET['id']);
 	?>
 	<div class="alert alert-success">
-		Produto adicionado com sucesso!		
+		Produto Editado com sucesso! <a href='meus-anuncios.php' class="btn btn-default">Voltar</a>
 	</div>
 
 	<?php
@@ -72,8 +78,20 @@ if(isset($_GET['id']) && !empty($_GET['id'])){
 				<option value="1" <?php echo ($info['estado'] == '1')?'
 				selected="selected"':''; ?>>Bom</option>				
 				<option value="2" <?php echo ($info['estado'] == '2')?'
-				selected="selected"':''; ?>>Ótimo</option>					
+				selected="selected"':''; ?>>Ótimo</option>				
 			</select>			
+		</div>
+		<div class="form-group">
+			<label for="add_foto">Fotos do Anúncio:</label>
+			<input type="file" name="fotos[]" multiple><br>
+
+			<div class="panel panel-default">
+				<div class="panel-heading">Fotos do Anúncio</div>
+				<div class="panel-body">
+					
+				</div>				
+			</div>
+
 		</div>
 		<input type="submit" value="Salvar" class="btn btn-default"> 
 	</form>
