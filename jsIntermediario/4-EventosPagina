@@ -1,6 +1,0 @@
-Eventos de Página:
-
-Quando o cara esta fechando a pagina vc nao pode mais manipular elementos.
-
-onload="carregou()
-onunload="fechoupagina()"(esse é pouco utilizado)

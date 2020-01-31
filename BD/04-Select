@@ -1,7 +1,0 @@
-Para Selecionar os campos ou colunas do banco de dados essa é a sintaxe:
-
-SELECT nome
-SELECT nome,email FROM usuarios
-SELECT * FROM usuarios
-
-(Exemplo acima)

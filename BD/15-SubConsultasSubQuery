@@ -1,7 +1,0 @@
-Sintaxe:
-
-SELECT usuarios.nome, (select faixas.titulo from faixas where faixas.id = usuarios.faixa_salarial) as faixa FROM usuarios;
-
-Buscando pelo titulo mesmo:
-
-SELECT usuarios.nome FROM  usuarios WHERE (select faixas.titulo from faixas where faixas.id = usuarios.faixa_salarial) = '0 - 1000';

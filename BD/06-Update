@@ -1,9 +1,0 @@
-Para atualizar informações:
-
-sintaxe:
-
-UPDATE usuarios SET senha = '999' WHERE id = '1';
-
-UPDATE usuarios SET nome = 'Tiaguinho' WHERE email = 'tiago@wvtodoz.com.br';
-
-Eu digo para o Banco de dados o que eu quero mudar e onde eu quero mudar.
